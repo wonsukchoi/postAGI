@@ -130,10 +130,15 @@ The site is built with [Next.js](https://nextjs.org), TypeScript, Tailwind CSS a
 
 The live site runs on [Cloudflare Workers](https://developers.cloudflare.com/workers/static-assets/) as static assets. The setup is in `wrangler.jsonc`.
 
-```bash
-npm run build
-npx wrangler deploy      # needs `npx wrangler login`
-```
+To deploy, run `npm run deploy` from a clean `main`. It builds the site, deploys it, purges Cloudflare's cache so no edge location keeps serving the old version, and then checks that every page and file on the live site loads. It needs `npx wrangler login` and three environment variables:
+
+| Variable | What it is |
+|---|---|
+| `CLOUDFLARE_ACCOUNT_ID` | Only needed if your login can see more than one Cloudflare account |
+| `CLOUDFLARE_API_TOKEN` | A token with the **Zone, Cache Purge, Purge** permission |
+| `CLOUDFLARE_ZONE_ID` | The zone ID of your domain, shown on its Cloudflare Overview page |
+
+`npm run purge-cache` and `npm run verify:live` run the last two steps on their own.
 
 To host your own copy, change the `routes` entry in `wrangler.jsonc` to your domain, or remove it to use a `workers.dev` address.
 

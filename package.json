@@ -9,7 +9,10 @@
     "lint": "eslint",
     "validate": "tsx scripts/validate.ts",
     "prebuild": "npm run validate",
-    "typecheck": "next typegen && tsc --noEmit"
+    "typecheck": "next typegen && tsc --noEmit",
+    "deploy": "bash scripts/deploy.sh",
+    "verify:live": "tsx scripts/verify-live.ts",
+    "purge-cache": "tsx scripts/purge-cache.ts"
   },
   "dependencies": {
     "next": "16.4.5",
