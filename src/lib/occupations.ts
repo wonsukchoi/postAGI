@@ -11,7 +11,8 @@ let cache: Occupation[] | null = null;
  * Throws with a readable message on the first bad file, which fails `next build`.
  */
 export function getOccupations(): Occupation[] {
-  if (cache) return cache;
+  // Cache only in production builds. In dev, re-read so edits to JSON show up.
+  if (cache && process.env.NODE_ENV === "production") return cache;
 
   const files = fs.readdirSync(DIR).filter((f) => f.endsWith(".json")).sort();
   const seen = new Set<string>();

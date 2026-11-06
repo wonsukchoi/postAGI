@@ -3,23 +3,61 @@
   "title": "Customer support agent",
   "sector": "Service",
   "status": "partial",
-  "summary": "[Placeholder: one sentence on what AI does for this job today.]",
+  "summary": "BLS projects a 5% decline in customer service jobs to 2035. Early-career jobs in AI-exposed fields are falling, but Klarna rehired humans and few firms have cut staff.",
   "tasksAutomatedPct": null,
   "yearReplaced": null,
   "confidence": "low",
   "updatedAt": "2026-11-06",
-  "draft": true,
+  "draft": false,
   "aiTools": [
     {
-      "name": "[Example AI tool]",
-      "description": "[Placeholder: what it does, in one line.]",
-      "url": "https://example.com/TODO"
+      "name": "Fin (Intercom)",
+      "description": "AI agent that answers customer queries and takes actions in connected systems. The vendor reports a 76% average resolution rate and does not define \"resolution\"; this is a vendor claim, not independent evidence.",
+      "url": "https://fin.ai/"
     }
   ],
   "tasks": [
-    { "task": "[Placeholder task 1]", "status": "partial" },
-    { "task": "[Placeholder task 2]", "status": "not-yet" }
+    {
+      "task": "Answering routine customer questions (first-line chat)",
+      "status": "partial",
+      "sourceUrl": "https://www.storyboard18.com/brand-marketing/salesforce-cuts-4000-jobs-as-ai-takes-over-half-of-customer-service-tasks-80022.htm"
+    },
+    {
+      "task": "Suggesting replies and guiding agents live during conversations",
+      "status": "augmented",
+      "sourceUrl": "https://ideas.repec.org/p/nbr/nberwo/31161.html"
+    },
+    {
+      "task": "Complex cases and customers who ask for a person",
+      "status": "not-yet",
+      "sourceUrl": "https://www.maginative.com/article/klarna-dials-back-its-ai-customer-service-strategy-now-its-hiring-humans-again/"
+    }
   ],
-  "evidence": "[Placeholder evidence. Replace with a short plain-prose write-up of what changed, when, and what remains human.]",
-  "sources": [{ "title": "[Example source, replace me]", "url": "https://example.com/TODO" }]
+  "evidence": "The US Bureau of Labor Statistics counts about 2,666,000 customer service representatives in 2025 and projects a 5 percent decline from 2025 to 2035, partly because their tasks continue to be automated (page last modified October 29, 2026). The page does not mention AI or chatbots, and a projection is not measured job loss. Brynjolfsson, Chandar and Chen (Stanford, August 2026, ADP payroll data through June 2026) find no widespread economy-wide job displacement. They do find that employment of 22-25 year olds in AI-exposed occupations stands 19% below where it would be had it kept pace with less-exposed peers, mainly through reduced hiring. Their abstract names customer support among the affected occupations. The authors call these results descriptive, not causal. Their sample covers millions of workers but is not specific to customer service, and national survey benchmarks show a weaker pattern.\n\nCompany claims point both ways. In September 2025, Storyboard18 reported that Salesforce's CEO said its support workforce fell from 9,000 to 5,000, and described AI agents as handling around half of customer conversations. That is the company's own account and the share figure is the outlet's description. In May 2025, Klarna's CEO said its AI push had \"gone too far\" and Klarna began recruiting human agents again, after saying in 2024 that its assistant could do the work of 700 agents. Klarna still expects its workforce to shrink through attrition. A February 2026 write-up of a Gartner report says only a fifth of customer service leaders have reduced agent staffing because of AI, and Gartner predicts half of the companies that attributed headcount cuts to AI will rehire for similar functions by 2027. Those are survey findings and a forecast, not measured outcomes.\n\nOn productivity, an NBER study of 5,179 support agents at one firm found an AI assistant raised issues resolved per hour by 14% on average and 34% for novice workers. That is augmentation, and it measured productivity, not headcount. Resolution-rate figures from AI vendors are self-reported. The status is partial with low confidence because measured declines are narrow (early-career workers), the aggregate evidence is mixed, and the strongest claims come from the companies themselves.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Customer Service Representatives",
+      "url": "https://www.bls.gov/ooh/office-and-administrative-support/customer-service-representatives.htm"
+    },
+    {
+      "title": "Brynjolfsson, Chandar, Chen: Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of AI (August 2026)",
+      "url": "https://digitaleconomy.stanford.edu/app/uploads/2025/11/CanariesintheCoalMine_Nov25.pdf"
+    },
+    {
+      "title": "NBER Working Paper 31161: Generative AI at Work (Brynjolfsson, Li, Raymond, 2023)",
+      "url": "https://ideas.repec.org/p/nbr/nberwo/31161.html"
+    },
+    {
+      "title": "Storyboard18: Salesforce cuts 4,000 jobs as AI takes over half of customer service tasks (September 2025)",
+      "url": "https://www.storyboard18.com/brand-marketing/salesforce-cuts-4000-jobs-as-ai-takes-over-half-of-customer-service-tasks-80022.htm"
+    },
+    {
+      "title": "Maginative: Klarna dials back its AI customer service strategy and is hiring humans again (May 2025)",
+      "url": "https://www.maginative.com/article/klarna-dials-back-its-ai-customer-service-strategy-now-its-hiring-humans-again/"
+    },
+    {
+      "title": "ITNews Asia: Half of firms that cut customer service staff due to AI will rehire by 2027 (Gartner, February 2026)",
+      "url": "https://www.itnews.asia/news/half-of-firms-that-cut-customer-service-staff-due-to-ai-will-rehire-by-2027-623867"
+    }
+  ]
 }

@@ -3,17 +3,49 @@
   "title": "Electrician",
   "sector": "Trades",
   "status": "not-yet",
-  "summary": "[Placeholder: one sentence on what AI does for this job today.]",
+  "summary": "BLS projects electrician jobs to grow 9% from 2025 to 2035. AI takeoff software speeds estimating, but no fetched source shows AI or robots doing installation or repair work.",
   "tasksAutomatedPct": null,
   "yearReplaced": null,
-  "confidence": "low",
+  "confidence": "medium",
   "updatedAt": "2026-11-06",
-  "draft": true,
-  "aiTools": [],
-  "tasks": [
-    { "task": "[Placeholder task 1]", "status": "not-yet" },
-    { "task": "[Placeholder task 2]", "status": "augmented" }
+  "draft": false,
+  "aiTools": [
+    {
+      "name": "Takeoff Boost (On Center Software)",
+      "description": "AI-assisted counting and measuring of plans for electrical contractors. An estimator reviews the output. The vendor claims it cuts takeoff time by up to 95%; that is a vendor claim, not independent evidence.",
+      "url": "https://www.oncenter.com/sub-contractor/electrical-estimating-software/"
+    }
   ],
-  "evidence": "[Placeholder evidence. Replace with a short plain-prose write-up of what changed, when, and what remains human.]",
-  "sources": [{ "title": "[Example source, replace me]", "url": "https://example.com/TODO" }]
+  "tasks": [
+    {
+      "task": "Estimating and quantity takeoff from plans",
+      "status": "augmented",
+      "tool": "Takeoff Boost",
+      "sourceUrl": "https://www.oncenter.com/sub-contractor/electrical-estimating-software/"
+    },
+    {
+      "task": "Installing, maintaining and repairing power, lighting, communications and control systems on site",
+      "status": "not-yet",
+      "sourceUrl": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm"
+    }
+  ],
+  "evidence": "The US Bureau of Labor Statistics Occupational Outlook Handbook describes the job as installing, maintaining and repairing electrical power, communications, lighting and control systems. It reports about 821,000 electricians in 2025 and projects 9 percent growth from 2025 to 2035, with about 72,700 openings a year. It does not describe automation as a threat. It names the increasing use of AI, and the data centers that support it, as a driver of rising electricity demand.\n\nBLS also publishes four relative AI exposure categories for occupations (Low, Moderate, High, Very high); the page was last modified on August 27, 2026. BLS states that a category is not a worker replacement estimate and does not distinguish automation from augmentation. In October 2026 the National Association of Home Builders analysed the same data and found 45 of 47 selected construction-related occupations have low or moderate exposure. That article does not name electricians, so it is context only.\n\nOn the office side, vendors sell AI takeoff tools to electrical contractors. One example is On Center's Takeoff Boost, whose maker claims it cuts takeoff time by up to 95% and says estimators keep control of final quantities. No independent source reviewed here shows these tools reducing electrician headcount, and none shows AI or a robot doing electrical installation, wiring or repair. The status rests on that absence of contrary evidence. Several vendor and trade-press pages could not be loaded during research, so the search was not exhaustive.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Electricians",
+      "url": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm"
+    },
+    {
+      "title": "BLS: AI exposure categories (method and caveats)",
+      "url": "https://www.bls.gov/emp/publications/ai-exposure-categories.htm"
+    },
+    {
+      "title": "NAHB Eye on Housing: AI exposure remains relatively low across most construction occupations (October 2026)",
+      "url": "https://eyeonhousing.org/2026/10/ai-exposure-remains-relatively-low-across-most-construction-occupations/"
+    },
+    {
+      "title": "On Center Software: AI-powered takeoff for electrical contractors (vendor page)",
+      "url": "https://www.oncenter.com/sub-contractor/electrical-estimating-software/"
+    }
+  ]
 }

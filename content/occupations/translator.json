@@ -3,23 +3,82 @@
   "title": "Translator",
   "sector": "Language",
   "status": "partial",
-  "summary": "[Placeholder: one sentence on what AI does for this job today.]",
+  "summary": "AI drafts much translation work. Studies show slower job growth, falling platform earnings and staff cuts at European firms, but BLS still projects 2% growth and humans post-edit.",
   "tasksAutomatedPct": null,
   "yearReplaced": null,
-  "confidence": "low",
+  "confidence": "medium",
   "updatedAt": "2026-11-06",
-  "draft": true,
+  "draft": false,
   "aiTools": [
     {
-      "name": "[Example AI tool]",
-      "description": "[Placeholder: what it does, in one line.]",
-      "url": "https://example.com/TODO"
+      "name": "Google Translate",
+      "description": "Free machine translation app. Local adoption across US labor markets was linked to slower growth in translator employment (Frey and Llanos-Paredes, 2025).",
+      "url": "https://oms-www.files.svdcdn.com/production/downloads/academic/Frey_LlanosParedes_2025_LostInTranslation.pdf"
+    },
+    {
+      "name": "ChatGPT",
+      "description": "General-purpose LLM. After its release, translation freelancers on one online platform saw fewer accepted jobs and lower earnings (Qiao, Rui and Xiong).",
+      "url": "https://arxiv.org/pdf/2312.04180"
+    },
+    {
+      "name": "DeepL",
+      "description": "Translation and editing LLM. The vendor says it is built specifically for translation and editing; this is a vendor press release, not independent evidence.",
+      "url": "https://www.deepl.com/en/press-release/deepl-launches-next-generation-llm-that-outperforms-gpt-4-google-and-microsoft-for-translation-quality"
+    },
+    {
+      "name": "eTranslation (European Commission)",
+      "description": "The Commission's machine translation service. It processed more than 890 million pages in 2025.",
+      "url": "https://translation.ec.europa.eu/dg-translation-figures_en"
     }
   ],
   "tasks": [
-    { "task": "[Placeholder task 1]", "status": "replaced" },
-    { "task": "[Placeholder task 2]", "status": "augmented" }
+    {
+      "task": "Drafting translations of general business and web content",
+      "status": "partial",
+      "sourceUrl": "https://elis-survey.org/wp-content/uploads/2026/03/ELIS-2026-Report.pdf"
+    },
+    {
+      "task": "Post-editing and reviewing machine-generated translations",
+      "status": "augmented",
+      "sourceUrl": "https://elis-survey.org/wp-content/uploads/2026/03/ELIS-2026-Report.pdf"
+    },
+    {
+      "task": "Short freelance translation and localization jobs on online platforms",
+      "status": "partial",
+      "tool": "ChatGPT",
+      "sourceUrl": "https://arxiv.org/pdf/2312.04180"
+    },
+    {
+      "task": "Whole-job automation of professional translation",
+      "status": "not-yet",
+      "sourceUrl": "https://www.bls.gov/ooh/media-and-communication/interpreters-and-translators.htm"
+    }
   ],
-  "evidence": "[Placeholder evidence. Replace with a short plain-prose write-up of what changed, when, and what remains human.]",
-  "sources": [{ "title": "[Example source, replace me]", "url": "https://example.com/TODO" }]
+  "evidence": "Frey and Llanos-Paredes (Oxford working paper, March 2025) used 695 US local labor markets and local use of Google Translate as a measure of machine translation adoption. They estimate that a 1 percentage point increase in use reduced translator employment growth by 0.71 percentage points, which implies about 28,000 fewer translator positions were created than otherwise. US employment overall grew around 13 percent between 2010 and 2023, while translator and interpreter employment grew by 3 percent. They find no statistically significant effect on wages over the full period, and describe the effects as moderate thus far but likely to intensify. Limits: Google Translate predates today's LLMs, the data exclude the roughly 21 percent of translators and interpreters who are self-employed, and interpreters are counted in the same occupation.\n\nQiao, Rui and Xiong (arXiv working paper, not peer reviewed) studied one unnamed freelance platform from May 2022 to October 2023. Relative to a construction-design control group, translation freelancers' transaction volume fell 9.0% and their earnings fell 29.7% after ChatGPT's release. This is one platform, not the whole profession. The 2026 European Language Industry Survey (1,058 respondents, mostly European small language companies and freelancers, and opinion-based by its own description) found that 47% of language companies reported lower staffing levels in 2025 and 7% an increase. It also reports 63% total usage of automated translation among independent translators, and that professionals are increasingly asked to review machine-generated content rather than translate from scratch.\n\nOn the other side, the US Bureau of Labor Statistics projects 2% growth for interpreters and translators from 2025 to 2035, from about 73,900 jobs in 2025. It says AI is making translators' work more efficient and that many of these jobs cannot be entirely automated. The European Commission's translation service reports that its eTranslation tool processed more than 890 million pages in 2025, and separately that DG Translation produced about 2.5 million pages; these are different kinds of work and should not be compared as a replacement ratio. The evidence for reduced demand is a growth slowdown, a single-platform study and a self-reported survey. No source reviewed here shows an absolute national decline in translator employment, which is why confidence is medium.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Interpreters and Translators",
+      "url": "https://www.bls.gov/ooh/media-and-communication/interpreters-and-translators.htm"
+    },
+    {
+      "title": "Frey and Llanos-Paredes: Lost in Translation, AI and the Demand for Foreign Language Skills (Oxford Martin working paper, March 2025)",
+      "url": "https://oms-www.files.svdcdn.com/production/downloads/academic/Frey_LlanosParedes_2025_LostInTranslation.pdf"
+    },
+    {
+      "title": "Qiao, Rui and Xiong: AI and Jobs, Has the Inflection Point Arrived? Evidence from an Online Labor Platform (arXiv)",
+      "url": "https://arxiv.org/pdf/2312.04180"
+    },
+    {
+      "title": "European Language Industry Survey 2026 report (ELIS)",
+      "url": "https://elis-survey.org/wp-content/uploads/2026/03/ELIS-2026-Report.pdf"
+    },
+    {
+      "title": "European Commission DG Translation: key figures 2025",
+      "url": "https://translation.ec.europa.eu/dg-translation-figures_en"
+    },
+    {
+      "title": "DeepL press release: next-generation LLM for translation (17 July 2024, vendor)",
+      "url": "https://www.deepl.com/en/press-release/deepl-launches-next-generation-llm-that-outperforms-gpt-4-google-and-microsoft-for-translation-quality"
+    }
+  ]
 }
