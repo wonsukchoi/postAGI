@@ -1,0 +1,59 @@
+{
+  "slug": "telemarketer",
+  "title": "Telemarketer",
+  "sector": "Sales",
+  "status": "not-yet",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "About 61,000 US telemarketers in 2025 vs 168,000 in 2018 (BLS bases). BLS blames web ads, caller ID and Do Not Call, not AI. AI outbound calling appears only in a vendor pilot.",
+  "aiTools": [
+    {
+      "name": "Convoso Voice AI Agent",
+      "description": "Vendor capability claim reported by Unite.AI on November 3, 2026, in an article that says it is AI-generated and reviewed by editors. It says the agent engages and qualifies leads before transferring sales-ready prospects to human agents. The one outbound customer named, Tort Intake Professionals, made more than 150 contacts in an initial 36-hour test, with roughly 10 to 12% warm-transferred, per Convoso. A short company-reported pilot, not evidence of everyday use.",
+      "url": "https://www.unite.ai/convoso-makes-no-code-voice-ai-agent-generally-available/"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Initial outbound lead-qualification calls",
+      "status": "not-yet",
+      "tool": "Convoso Voice AI Agent",
+      "sourceUrl": "https://www.unite.ai/convoso-makes-no-code-voice-ai-agent-generally-available/"
+    },
+    {
+      "task": "Outbound calls with AI-generated voices to people who have not consented",
+      "status": "not-yet",
+      "sourceUrl": "https://docs.fcc.gov/public/attachments/FCC-24-17A1.pdf"
+    }
+  ],
+  "evidence": "Demand for telemarketers has fallen a long way, but the BLS sources I could read blame causes that predate generative AI. A BLS Beyond the Numbers article (May 2020) says technological change is expected to keep reducing demand for telemarketers, and gives the causes: web and social media advertising, caller ID, and the National Do Not Call Registry. It projected telemarketers to lose 27,800 jobs from 2018 to 2028, a 16.6 percent fall from 167.7 thousand, the largest percentage decline of any sales occupation. The BLS 2021 to 2031 overview (Monthly Labor Review, April 2023) lists telemarketers at 115.7 thousand in 2021, projects 94.7 thousand for 2031, and says web advertisements, emails and text messages have emerged as substitutes for telemarketing. BLS's 2025 to 2035 projections, as reproduced by O*NET, show 60,900 telemarketers in 2025 falling to 47,800 by 2035, a 21% decline, with about 5,800 openings a year. These come from different editions with different bases, so they are not one clean series.\n\nThe August 27, 2026 BLS projections release does mention AI in sales: it says further e-commerce growth and the incorporation of AI tools into the sales process are expected to keep contributing to job loss in the sales group (down 1.4 percent). That covers the whole group, is a projection, and does not name telemarketers. For AI actually doing telemarketer work, the only evidence I found is the vendor pilot above. The Federal Communications Commission ruled in February 2024 (FCC 24-17) that AI-generated voices count as an artificial or prerecorded voice under the Telephone Consumer Protection Act, so calls using them require the prior express consent of the called party, which limits AI cold calling to numbers that have not consented.\n\nLimits: I could not read the BLS Occupational Outlook Handbook page for telemarketers (it returned an access error), so its outlook text and last-modified date are not included. I found no independent survey or audit of AI outbound calling at scale and no employer announcing it replaced callers with AI. Outbound telemarketing is different from inbound customer service, which this page does not cover. The status is not yet because AI does the core work only in a short vendor pilot, and confidence is low because the evidence is thin and mostly company-sourced.",
+  "sources": [
+    {
+      "title": "BLS Beyond the Numbers: Inside the decline of sales occupations (May 2020)",
+      "url": "https://www.bls.gov/opub/btn/volume-9/pdf/inside-the-decline-of-sales-occupations.pdf"
+    },
+    {
+      "title": "BLS Monthly Labor Review: Occupational projections overview, 2021-31 (April 12, 2023)",
+      "url": "https://www.bls.gov/opub/mlr/2023/article/occupational-projections-overview-2021-31.htm"
+    },
+    {
+      "title": "BLS news release: Employment Projections, 2025-2035 (August 27, 2026)",
+      "url": "https://www.bls.gov/news.release/ecopro.nr0.htm"
+    },
+    {
+      "title": "O*NET OnLine: Telemarketers, local trends (BLS 2025-2035 employment projections)",
+      "url": "https://www.onetonline.org/link/localtrends/41-9041.00"
+    },
+    {
+      "title": "FCC Declaratory Ruling 24-17: AI technologies and the Telephone Consumer Protection Act (released February 8, 2024)",
+      "url": "https://docs.fcc.gov/public/attachments/FCC-24-17A1.pdf"
+    },
+    {
+      "title": "Unite.AI: Convoso makes no-code Voice AI Agent generally available (November 3, 2026, AI-generated article about a vendor announcement)",
+      "url": "https://www.unite.ai/convoso-makes-no-code-voice-ai-agent-generally-available/"
+    }
+  ]
+}

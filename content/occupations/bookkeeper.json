@@ -1,0 +1,71 @@
+{
+  "slug": "bookkeeper",
+  "title": "Bookkeeper",
+  "sector": "Finance",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "BLS has projected a 6% decline in bookkeeping clerks since 2020 and blames software, not AI. AI bookkeeping tools exist, but no source shows AI-driven job loss. AI mostly speeds work up.",
+  "aiTools": [
+    {
+      "name": "QuickBooks Accounting Agent (Intuit)",
+      "description": "Accounting Today (June 26, 2025) reports that Intuit's agent automates bookkeeping and transaction categorization and helps with reconciliation, rolling out from July 1 to US QuickBooks Online customers, and that the agents work alongside human experts at Intuit. A launch article: a capability claim with no adoption or accuracy data.",
+      "url": "https://www.accountingtoday.com/news/intuit-debuts-ai-agents-for-quickbooks"
+    },
+    {
+      "name": "Digits Accounting Agents",
+      "description": "Accounting Today (June 25, 2025) reports Digits' CEO saying its agents can automate 95% of the entire bookkeeping workflow. The article attributes this to tests the company ran, reports no independent verification or adoption data, and says advanced accruals and project-based accounting still need a person. Capability claim only.",
+      "url": "https://www.accountingtoday.com/news/digits-says-its-new-ai-agents-can-automate-95-of-bookkeeping-tasks"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Routine data entry (accountants at small and mid-sized firms using AI software)",
+      "status": "augmented",
+      "sourceUrl": "https://marginalrevolution.com/marginalrevolution/2025/05/early-evidence-on-human-ai-in-accounting.html"
+    },
+    {
+      "task": "Advanced accruals and project-based accounting",
+      "status": "not-yet",
+      "sourceUrl": "https://www.accountingtoday.com/news/digits-says-its-new-ai-agents-can-automate-95-of-bookkeeping-tasks"
+    }
+  ],
+  "evidence": "BLS has projected a decline for bookkeeping, accounting and auditing clerks for years and attributes it to software. An edition last modified September 1, 2020, before generative AI, projected a 6% decline for 2019 to 2029 and said software innovations such as cloud computing had automated many of the tasks bookkeepers perform, so the same amount of work could be done with fewer employees. The current edition (last modified August 27, 2026) projects a 6% decline, from 1,532,400 jobs in 2025 to 1,446,800 in 2035, and says technological change is expected to reduce demand, software innovations have automated many of the tasks, and clerks are expected to take on a more analytical and advisory role. It does not mention AI by name, and neither do the 2020 or 2023 editions I read. BLS still expects about 144,100 openings a year, all from workers who leave.\n\nThe AI evidence is mostly vendor claims plus one field study. Choi and Xie (May 2025; reproduced in part in a post by Tyler Cowen, so this is an excerpt of the abstract, not the paper) studied 79 small and mid-sized firms and 277 accountants using AI-based accounting software. They report a 55% increase in weekly client support, about 8.5% of accountant time shifted from routine data entry toward higher-value work, and a 7.5-day shorter monthly close. That is productivity and task change for accountants, not clerk headcount. The Intuit and Digits items above are vendor statements. Stanford's \"Canaries in the Coal Mine\" (ADP payroll data, August 2026 version) finds employment of 22 to 25 year olds in AI-exposed occupations 19% below trend, and lists bookkeeping and auditing clerks among the non-teleworkable jobs with relatively high AI exposure, but gives no clerk-specific estimate and says some of the patterns predate generative AI.\n\nClosures should not be read as AI replacing bookkeepers. Botkeeper, an AI bookkeeping company, announced it was closing in February 2026; its CEO cited macroeconomic shifts, client consolidation and failed efforts to find a buyer or funding, and the article does not blame AI. Limits: I found no independent data on AI adoption among bookkeepers, no occupation-level study linking AI to clerk employment, and could not retrieve recent OEWS counts. The status is augmented with low confidence: AI is in use, but no source shows clerk demand falling because of it.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks (current edition, last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks (archived edition last modified September 1, 2020)",
+      "url": "https://web.archive.org/web/20201230025447/https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks (archived January 2023 edition)",
+      "url": "https://web.archive.org/web/20230123192936/https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm"
+    },
+    {
+      "title": "Marginal Revolution: Early evidence on human + AI in accounting (May 15, 2025; excerpt of the Choi and Xie abstract, secondary report)",
+      "url": "https://marginalrevolution.com/marginalrevolution/2025/05/early-evidence-on-human-ai-in-accounting.html"
+    },
+    {
+      "title": "Brynjolfsson, Chandar and Chen: Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of AI (Stanford Digital Economy Lab, August 2026)",
+      "url": "https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf"
+    },
+    {
+      "title": "Accounting Today: Intuit debuts AI agents for QuickBooks (June 26, 2025, vendor launch)",
+      "url": "https://www.accountingtoday.com/news/intuit-debuts-ai-agents-for-quickbooks"
+    },
+    {
+      "title": "Accounting Today: Digits says its new AI agents can automate 95% of bookkeeping tasks (June 25, 2025, vendor claim)",
+      "url": "https://www.accountingtoday.com/news/digits-says-its-new-ai-agents-can-automate-95-of-bookkeeping-tasks"
+    },
+    {
+      "title": "CPA Practice Advisor: Botkeeper is closing its doors (February 9, 2026)",
+      "url": "https://www.cpapracticeadvisor.com/2026/02/09/botkeeper-is-closing-its-doors/177677/"
+    }
+  ]
+}

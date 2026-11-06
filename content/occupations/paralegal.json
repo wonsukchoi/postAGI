@@ -1,0 +1,64 @@
+{
+  "slug": "paralegal",
+  "title": "Paralegal",
+  "sector": "Legal",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "BLS projects flat paralegal jobs to 2035 and says AI may limit demand. AI speeds legal tasks in studies, and one UK firm cut about 20 paralegals. No measured AI-driven fall found.",
+  "aiTools": [
+    {
+      "name": "CoCounsel Legal (Thomson Reuters)",
+      "description": "A Thomson Reuters press release dated August 5, 2025 describes guided workflows that apply agentic AI to legal work, including drafting discovery requests and responses and reviewing deposition transcripts. This is a vendor capability claim, not proof of use by paralegals. The release says the workflows provide human oversight by design and does not mention paralegals.",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2025/august/thomson-reuters-launches-cocounsel-legal-transforming-legal-work-with-agentic-ai-and-deep-research"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Legal research and drafting memos and letters (law-student trial)",
+      "status": "augmented",
+      "tool": "Vincent AI and OpenAI o1-preview",
+      "sourceUrl": "https://repository.law.umich.edu/pub_law_archive/772"
+    },
+    {
+      "task": "Drafting discovery requests and responses and reviewing deposition transcripts",
+      "status": "augmented",
+      "tool": "CoCounsel Legal",
+      "sourceUrl": "https://www.thomsonreuters.com/en/press-releases/2025/august/thomson-reuters-launches-cocounsel-legal-transforming-legal-work-with-agentic-ai-and-deep-research"
+    }
+  ],
+  "evidence": "The BLS Occupational Outlook Handbook (page last modified August 27, 2026) counts about 404,900 paralegal and legal assistant jobs in 2025 and projects little or no change to 2035, a fall of 1,100 jobs. It says demand for these workers is expected to be limited by advances in technology, including artificial intelligence, and that these technologies are expected to make paralegals more efficient at tasks such as conducting research and preparing documents, which may reduce demand. That is a forward projection for the whole occupation, not a measured fall. BLS still expects about 40,800 openings a year, most from workers who leave.\n\nStudies show speed and quality gains, with errors, and none measures paralegal headcount. A randomized trial by Schwarcz and co-authors (2025) gave upper-level law students legal tasks with a retrieval-based legal AI tool (Vincent AI), an AI reasoning model (OpenAI's o1-preview) or no AI. It found both AI tools significantly enhanced the quality of legal work, and that Vincent AI did not add hallucinations. Stanford RegLab and HAI (May 2024) tested legal research tools on more than 200 open-ended legal questions and found Lexis+ AI and Ask Practical Law AI gave incorrect information more than 17% of the time, and Westlaw AI-Assisted Research more than 34%. The Thomson Reuters Institute's July 21, 2026 report, drawing on 736 law firm professionals and 203 corporate legal professionals, says AI may reduce demand for some junior roles and increase the need for others, especially hybrid tech-legal roles. It gives no paralegal figures.\n\nThe only named headcount evidence is one firm. City AM (September 12, 2025) reported that Freshfields planned to cut about half of its junior paralegals in Manchester, understood to be fewer than 20 people. A Freshfields spokesperson cited a fast-changing legal market and investing in technology but did not name AI; the link to AI came from the reporter. Legal Business (April 24, 2026, paywalled) reported about 20 paralegal roles cut and no further paralegal cutbacks planned there. That is one large UK firm, not US paralegals. I found no paralegal hiring series showing a fall attributable to AI, and nothing showing AI doing the core paralegal job end to end. The status is augmented with low confidence because AI is in wide use for research and drafting, but no source shows demand falling because of it. Partial is close.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Paralegals and Legal Assistants (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm"
+    },
+    {
+      "title": "Schwarcz and co-authors: AI-Powered Lawyering, AI Reasoning Models, Retrieval Augmented Generation, and the Future of Legal Practice (University of Michigan Law, 2025)",
+      "url": "https://repository.law.umich.edu/pub_law_archive/772"
+    },
+    {
+      "title": "Stanford HAI: AI on Trial, Legal Models Hallucinate in 1 out of 6 (or More) Benchmarking Queries (May 23, 2024, updated May 30, 2024)",
+      "url": "https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries"
+    },
+    {
+      "title": "Thomson Reuters: Launches CoCounsel Legal with agentic AI and Deep Research (press release, August 5, 2025, vendor)",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2025/august/thomson-reuters-launches-cocounsel-legal-transforming-legal-work-with-agentic-ai-and-deep-research"
+    },
+    {
+      "title": "Thomson Reuters Institute: Future of Professionals, law firms paper 2026 (July 21, 2026)",
+      "url": "https://www.thomsonreuters.com/en/institute/reports/future-of-professionals-law-firms-paper-2026"
+    },
+    {
+      "title": "City AM: Law firm Freshfields kicks off paralegal redundancies (September 12, 2025)",
+      "url": "https://www.cityam.com/?p=2361810"
+    },
+    {
+      "title": "Legal Business: Freshfields concludes redundancies in Manchester, with around 20 paralegals axed (April 24, 2026, paywalled)",
+      "url": "https://www.legalbusiness.co.uk/law-firms/freshfields-concludes-redundancies-in-manchester-with-around-20-paralegals-axed/"
+    }
+  ]
+}

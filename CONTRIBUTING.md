@@ -33,6 +33,8 @@ Logos are trademarks of their owners. They are shown only to identify the tool.
 
 `replaced` needs the strongest evidence. A claim with no source will not be merged.
 
+**What counts as AI.** postAGI counts AI broadly, including machine-learning tools that predate ChatGPT, such as speech recognition. If a decline began before generative AI, say so in the evidence and show when, so a long-running fall is not credited to recent tools.
+
 ## Confidence levels
 
 `confidence` says how well your sources support the status. It is separate from the status.

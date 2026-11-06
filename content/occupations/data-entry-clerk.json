@@ -1,0 +1,52 @@
+{
+  "slug": "data-entry-clerk",
+  "title": "Data entry clerk",
+  "sector": "Administration",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "Keyer jobs fell 66% from 1999 to 2018, before generative AI. BLS projects another 25.5% drop by 2035 and ties AI automation to office support as a group, not to this job by name.",
+  "aiTools": [],
+  "tasks": [
+    {
+      "task": "Data entry and processing work posted by employers who want ChatGPT used (Freelancer.com)",
+      "status": "augmented",
+      "tool": "ChatGPT",
+      "sourceUrl": "https://arxiv.org/html/2512.02509v1"
+    }
+  ],
+  "evidence": "BLS Employment Projections (Table 1.5, last modified August 27, 2026) list data entry keyers at 131.8 thousand jobs in 2025, falling to 98.2 thousand in 2035, a 25.5% drop that places them among the fastest-declining occupations. That is a projection, not a measured loss. BLS's August 27, 2026 release says that the continued integration of automation tools, including those powered by AI, into workflows is likely to reduce demand for several office and administrative support occupations, a group projected to fall 4.0 percent and shed 752,100 jobs, the most of any major group. It does not name data entry keyers, so the AI link is made for the group, not for this job. I could not read the BLS Occupational Outlook Handbook page for data entry keyers (it returned an access error).\n\nThe decline long predates generative AI. A BLS Monthly Labor Review article by Michael Handel (July 13, 2022) lists data entry keyers at 520,220 in 1999 and 174,930 in 2018, a 66.4% fall, and says the large decline in word processors and data entry keyers reflects the ongoing effects of the microcomputer revolution beginning in the early 1980s and the subsequent growth of digital data capture. The BLS 2021 to 2031 projection was already a 24.7% fall (155.9 to 117.4 thousand), close to the 25.5% now projected, though the two come from different editions and may use different bases. OEWS counts were 157,380 in May 2022 and 154,230 in May 2023, roughly flat across ChatGPT's launch.\n\nStudies of AI and labor do not show generative AI cutting this work. In Demirci, Hannane and Zhu (CESifo working paper, August 2024; 1,388,711 freelance job posts from July 2021 to July 2023), data and office management was part of the manual-intensive comparison group, and data entry keyers had the lowest AI-exposure score of its six clusters (0.172). Writing posts fell 30.37% relative to that group. The authors note that ChatGPT may improve at data entry tasks over their period. A New York Fed analysis (May 14, 2026) found the divergence between high and low AI-exposure occupations in job postings began before 2022. A Freelancer.com study (Zhu, Tyson and Hui) finds data entry or processing among the uses employers name for ChatGPT, at 4.69% of GPT-related posts from non-outlier topics, but reports no trend for data entry demand. I found no independent evidence that any employer stopped hiring keyers because of AI. The status is augmented with low confidence: demand is falling and AI is used for this work, but no source shows AI as the cause, and the long fall came from earlier computing.",
+  "sources": [
+    {
+      "title": "BLS Employment Projections: Table 1.5, Fastest declining occupations, 2025 and projected 2035 (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/emp/tables/fastest-declining-occupations.htm"
+    },
+    {
+      "title": "BLS news release: Employment Projections, 2025-2035 (August 27, 2026)",
+      "url": "https://www.bls.gov/news.release/ecopro.nr0.htm"
+    },
+    {
+      "title": "Handel: Growth trends for selected occupations considered at risk from automation (BLS Monthly Labor Review, July 13, 2022)",
+      "url": "https://www.bls.gov/opub/mlr/2022/article/growth-trends-for-selected-occupations-considered-at-risk-from-automation.htm"
+    },
+    {
+      "title": "BLS Monthly Labor Review: Occupational projections overview, 2021-31 (April 12, 2023)",
+      "url": "https://www.bls.gov/opub/mlr/2023/article/occupational-projections-overview-2021-31.htm"
+    },
+    {
+      "title": "Demirci, Hannane and Zhu: Who Is AI Replacing? (CESifo Working Paper 11276, August 2024)",
+      "url": "https://www.ifo.de/DocDL/cesifo1_wp11276.pdf"
+    },
+    {
+      "title": "Audoly, Guerin and Topa: Do Job Postings Show Early Labor-Market Effects of AI? (New York Fed, Liberty Street Economics, May 14, 2026)",
+      "url": "https://libertystreeteconomics.newyorkfed.org/?p=42257"
+    },
+    {
+      "title": "Zhu, Tyson and Hui: The Invisible Hand, Characterizing Generative AI Adoption and its Effects on an Online Freelancing Market (arXiv, Freelancer.com data to April 2024)",
+      "url": "https://arxiv.org/html/2512.02509v1"
+    }
+  ]
+}

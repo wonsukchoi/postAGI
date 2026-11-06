@@ -41,6 +41,14 @@ export default function MethodologyPage() {
         ))}
       </dl>
 
+      <h2 className="mt-4 text-[22px] font-semibold">What counts as AI</h2>
+      <p className="text-[17px] leading-normal text-neutral-800">
+        postAGI counts AI broadly, including machine-learning tools that
+        predate ChatGPT, such as speech recognition. When a decline began
+        before generative AI, the occupation page says so and shows when, so a
+        long-running fall is not credited to recent tools.
+      </p>
+
       <h2 className="mt-4 text-[22px] font-semibold">Confidence</h2>
       <p className="text-[17px] leading-normal text-neutral-800">
         Confidence says how well the cited sources support the status. It is
