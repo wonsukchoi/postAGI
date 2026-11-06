@@ -12,6 +12,7 @@ import { TableOfContents, type TocItem } from "@/components/TableOfContents";
 import { breadcrumbJsonLd, occupationJsonLd } from "@/lib/jsonld";
 import { REPO_URL } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
+import { taskSourceName } from "@/lib/sources";
 
 export const dynamicParams = false;
 
@@ -187,7 +188,8 @@ export default async function OccupationPage(
                   <td className="border-b border-neutral-100 px-4 py-3">
                     {t.sourceUrl ? (
                       <a href={t.sourceUrl} className="underline">
-                        link
+                        {taskSourceName(occ, t.sourceUrl)}
+                        <span aria-hidden="true"> ↗</span>
                       </a>
                     ) : (
                       "-"
