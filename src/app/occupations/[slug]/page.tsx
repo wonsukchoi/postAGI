@@ -3,8 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getOccupation, getOccupations } from "@/lib/occupations";
-import { STATUS_LABEL, type Occupation } from "@/lib/schema";
+import type { Occupation } from "@/lib/schema";
+import { ConfidenceDots } from "@/components/ConfidenceDots";
 import { StatusBadge } from "@/components/StatusBadge";
+import { StatusSpectrum } from "@/components/StatusSpectrum";
+import { TableOfContents, type TocItem } from "@/components/TableOfContents";
 import { REPO_URL } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -21,18 +24,33 @@ export async function generateMetadata(
   return occ ? { title: occ.title, description: occ.summary } : {};
 }
 
-function Stat({ label, value }: { label: string; value: string }) {
+function Stat({ label, value }: { label: string; value: React.ReactNode }) {
   return (
-    <div className="border-r border-neutral-200 px-5 py-4 last:border-r-0">
+    <div className="min-w-0 border-r border-neutral-200 px-3 py-4 last:border-r-0 sm:px-5">
       <dt className="text-xs text-neutral-600">{label}</dt>
-      <dd className="mt-1.5 text-[26px] leading-tight">{value}</dd>
+      <dd className="mt-1.5 text-xl leading-tight sm:text-[26px]">{value}</dd>
     </div>
   );
 }
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+const TOC: TocItem[] = [
+  { id: "tools", label: "AI tools" },
+  { id: "tasks", label: "Task breakdown" },
+  { id: "evidence", label: "Evidence" },
+  { id: "references", label: "References" },
+];
+
+function Section({
+  id,
+  title,
+  children,
+}: {
+  id: string;
+  title: string;
+  children: React.ReactNode;
+}) {
   return (
-    <section className="flex flex-col gap-3">
+    <section id={id} className="flex scroll-mt-8 flex-col gap-3">
       <h2 className="text-base font-semibold">{title}</h2>
       {children}
     </section>
@@ -49,7 +67,8 @@ export default async function OccupationPage(
   const paragraphs = occ.evidence.split(/\n\s*\n/);
 
   return (
-    <main className="mx-auto flex w-full max-w-[700px] flex-col gap-8 px-6 pt-8 pb-16">
+    <main className="relative mx-auto flex w-full max-w-[700px] flex-col gap-8 px-6 pt-8 pb-16">
+      <TableOfContents items={TOC} />
       <div className="flex flex-col gap-3">
         <Link href="/occupations" className="text-sm text-neutral-600 hover:text-neutral-900">
           ← All occupations
@@ -74,6 +93,8 @@ export default async function OccupationPage(
         )}
       </div>
 
+      <StatusSpectrum status={occ.status} />
+
       <dl className="grid grid-cols-3 rounded-xl border border-neutral-200">
         <Stat
           label="Tasks automated"
@@ -83,13 +104,10 @@ export default async function OccupationPage(
           label="Year replaced"
           value={occ.yearReplaced === null ? "Unknown" : String(occ.yearReplaced)}
         />
-        <Stat
-          label="Confidence"
-          value={occ.confidence[0].toUpperCase() + occ.confidence.slice(1)}
-        />
+        <Stat label="Confidence" value={<ConfidenceDots level={occ.confidence} />} />
       </dl>
 
-      <Section title="AI tools doing this job">
+      <Section id="tools" title="AI tools doing this job">
         {occ.aiTools.length === 0 ? (
           <p className="text-sm text-neutral-600">None listed yet.</p>
         ) : (
@@ -129,7 +147,7 @@ export default async function OccupationPage(
         )}
       </Section>
 
-      <Section title="Task breakdown">
+      <Section id="tasks" title="Task breakdown">
         <div className="overflow-x-auto rounded-xl border border-neutral-200">
           <table className="w-full min-w-[420px] border-collapse text-sm">
             <thead>
@@ -144,7 +162,9 @@ export default async function OccupationPage(
               {occ.tasks.map((t) => (
                 <tr key={t.task}>
                   <td className="border-b border-neutral-100 px-4 py-3">{t.task}</td>
-                  <td className="border-b border-neutral-100 px-4 py-3">{STATUS_LABEL[t.status]}</td>
+                  <td className="border-b border-neutral-100 px-4 py-3">
+                    <StatusBadge status={t.status} />
+                  </td>
                   <td className="border-b border-neutral-100 px-4 py-3">{t.tool ?? "-"}</td>
                   <td className="border-b border-neutral-100 px-4 py-3">
                     {t.sourceUrl ? (
@@ -165,7 +185,7 @@ export default async function OccupationPage(
         </Link>
       </Section>
 
-      <Section title="Evidence">
+      <Section id="evidence" title="Evidence">
         {paragraphs.map((p, i) => (
           <p key={i} className="text-[15px] leading-relaxed text-neutral-800">
             {p}
@@ -173,7 +193,7 @@ export default async function OccupationPage(
         ))}
       </Section>
 
-      <Section title="References">
+      <Section id="references" title="References">
         <ul className="flex flex-col gap-2.5">
           {occ.sources.map((s) => (
             <li key={s.url + s.title}>

@@ -23,6 +23,21 @@ export const STATUS_DEFINITION: Record<Status, string> = {
 };
 
 export const CONFIDENCE = ["low", "medium", "high"] as const;
+export type Confidence = (typeof CONFIDENCE)[number];
+
+export const CONFIDENCE_LABEL: Record<Confidence, string> = {
+  low: "Low",
+  medium: "Medium",
+  high: "High",
+};
+
+/** How well the cited sources support the status. Shown on /methodology. */
+export const CONFIDENCE_DEFINITION: Record<Confidence, string> = {
+  low: "The evidence is thin, mixed, or comes mostly from the companies involved. The status could reasonably be argued the other way.",
+  medium:
+    "Several independent sources point the same way, but each covers only a slice of the occupation, or a gap remains.",
+  high: "Strong, consistent evidence from independent sources that cover the occupation as a whole.",
+};
 
 const slug = z
   .string()

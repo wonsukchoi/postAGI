@@ -33,6 +33,16 @@ Logos are trademarks of their owners. They are shown only to identify the tool.
 
 `replaced` needs the strongest evidence. A claim with no source will not be merged.
 
+## Confidence levels
+
+`confidence` says how well your sources support the status. It is separate from the status.
+
+| Confidence | Meaning |
+|---|---|
+| `low` | Thin or mixed evidence, or mostly from the companies involved. The status could reasonably be argued the other way. |
+| `medium` | Several independent sources point the same way, but each covers only a slice, or a gap remains. |
+| `high` | Strong, consistent evidence from independent sources that cover the occupation as a whole. |
+
 ## Code changes
 
 Open an issue first for anything bigger than a small fix.

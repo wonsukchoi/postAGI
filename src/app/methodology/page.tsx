@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { STATUSES, STATUS_DEFINITION } from "@/lib/schema";
+import { CONFIDENCE, CONFIDENCE_DEFINITION, STATUSES, STATUS_DEFINITION } from "@/lib/schema";
+import { ConfidenceDots } from "@/components/ConfidenceDots";
 import { StatusBadge } from "@/components/StatusBadge";
 
 export const metadata: Metadata = { title: "Methodology" };
@@ -20,6 +21,24 @@ export default function MethodologyPage() {
             </dt>
             <dd className="text-[15px] leading-relaxed text-neutral-800">
               {STATUS_DEFINITION[s]}
+            </dd>
+          </div>
+        ))}
+      </dl>
+
+      <h2 className="mt-4 text-[22px] font-semibold">Confidence</h2>
+      <p className="text-[17px] leading-normal text-neutral-800">
+        Confidence says how well the cited sources support the status. It is
+        separate from the status itself.
+      </p>
+      <dl className="flex flex-col gap-6">
+        {CONFIDENCE.map((c) => (
+          <div key={c} className="flex flex-col gap-2">
+            <dt>
+              <ConfidenceDots level={c} />
+            </dt>
+            <dd className="text-[15px] leading-relaxed text-neutral-800">
+              {CONFIDENCE_DEFINITION[c]}
             </dd>
           </div>
         ))}
