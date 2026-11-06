@@ -29,7 +29,7 @@ Logos are trademarks of their owners. They are shown only to identify the tool.
 | `replaced` | AI performs the core work end to end, and employers have stopped hiring humans for it at meaningful scale. |
 | `partial` | AI performs a large share of the tasks and demand for human workers has measurably fallen, but humans still do part of the job. |
 | `augmented` | AI is in common use but mainly makes workers faster. Headcount has not fallen because of it. |
-| `not-yet` | No credible evidence of AI doing the core work today. |
+| `not-yet` | AI does none of the core work in everyday practice, or does it only in small pilots. |
 
 `replaced` needs the strongest evidence. A claim with no source will not be merged.
 

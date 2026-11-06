@@ -1,0 +1,64 @@
+{
+  "slug": "copywriter",
+  "title": "Copywriter",
+  "sector": "Media",
+  "status": "partial",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "Freelance writing jobs fell after ChatGPT on two platforms, and BLS says AI will dampen demand, but BLS projects flat employment and a Danish study found no earnings drop. Mixed evidence.",
+  "aiTools": [
+    {
+      "name": "ChatGPT",
+      "description": "General-purpose chatbot. A Management Science study of a leading global freelancing platform found job posts for automation-prone writing and coding work fell 21% relative to manual-intensive jobs within eight months of its release.",
+      "url": "https://doi.org/10.1287/mnsc.2024.05420"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Short-term freelance web and content writing gigs",
+      "status": "partial",
+      "tool": "ChatGPT",
+      "sourceUrl": "https://doi.org/10.1287/mnsc.2024.05420"
+    },
+    {
+      "task": "Strategic and brand copywriting for clients (UK commercial writers, 2026 survey)",
+      "status": "augmented",
+      "sourceUrl": "https://www.procopywriters.co.uk/survey-2026/"
+    },
+    {
+      "task": "Marketing and journalism work overall (Danish workers, surveys from 2023 and 2024)",
+      "status": "augmented",
+      "sourceUrl": "https://bfi.uchicago.edu/wp-content/uploads/2025/04/BFI_WP_2025-56-3.pdf"
+    }
+  ],
+  "evidence": "Studies of freelance platforms show lower demand for writing after ChatGPT launched in November 2022. Hui, Reshef and Zhou studied Upwork; a summary from Washington University's Olin Business School (August 2023) says writing-related freelancers saw monthly jobs fall 2% and monthly earnings fall 5.2%. Demirci, Hannane and Zhu (Management Science, October 2025) used a leading global freelancing platform that the abstract does not name, and found a 21% decrease in job posts for automation-prone writing and coding work compared with manual-intensive jobs within eight months of ChatGPT's release. These are relative, short-run effects on freelance platforms, not employment counts for copywriters. Indeed's Hiring Lab reported that copywriter postings fell 53% between August 2022 and August 2023 (as reported by Fortune, September 2023); Fortune says it is unclear how much of that decline came from economic constraints and hiring corrections in some industries.\n\nThe broader evidence is weaker. BLS (writers and authors page, last modified October 29, 2026) says increasing use of AI for writing is projected to dampen demand for these workers, yet it projects 0% change in employment from 2025 to 2035, from 140,300 to 139,900 jobs. That is a projection for all writers and authors, of which copywriters are one subtype. A Danish study of 11 occupations that included marketing professionals and journalists (Humlum and Vestergaard, NBER working paper, May 2025, using surveys from late 2023 and 2024) found precise zeros: no significant impact of AI chatbots on earnings or recorded hours in any occupation, ruling out effects larger than 1%. The 2026 ProCopywriters survey of 573 UK commercial writers found 74% use generative AI, up from 69% in 2025, and a median freelance day rate of 440 pounds against 430 the year before. Its page says clients are paying more for strategy, not less, and does not report work lost to AI.\n\nLimits: each freelance study covers one platform and only the months right after ChatGPT's release. I found no copywriter-specific hiring series for 2025 or 2026, and the surveys are self-reported. The status is partial with low confidence because measured demand losses are real but narrow, and the wider evidence is mixed. A stricter reading would call it augmented.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Writers and Authors",
+      "url": "https://www.bls.gov/ooh/media-and-communication/writers-and-authors.htm"
+    },
+    {
+      "title": "Demirci, Hannane and Zhu: Who Is AI Replacing? The Impact of Generative AI on Online Freelancing Platforms (Management Science, October 2025)",
+      "url": "https://doi.org/10.1287/mnsc.2024.05420"
+    },
+    {
+      "title": "Olin Business School: Study finds AI tools cause a decline in freelance work and income, at least in the short run (Hui, Reshef and Zhou on Upwork, August 2023)",
+      "url": "https://olin.washu.edu/about/news-and-media/news/2023/08/study-ai-tools-cause-a-decline-in-freelance-work-and-incomeat-least-in-the-short-run.php"
+    },
+    {
+      "title": "Fortune: ChatGPT and AI disruption of jobs and skills, with Indeed Hiring Lab copywriter data (September 2023)",
+      "url": "https://fortune.com/2023/09/22/chatgpt-ai-disruption-jobs-skills/"
+    },
+    {
+      "title": "Humlum and Vestergaard: Large Language Models, Small Labor Market Effects (NBER Working Paper 33777, May 2025)",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2025/04/BFI_WP_2025-56-3.pdf"
+    },
+    {
+      "title": "ProCopywriters: Copywriter Survey 2026 (573 UK commercial writers)",
+      "url": "https://www.procopywriters.co.uk/survey-2026/"
+    }
+  ]
+}

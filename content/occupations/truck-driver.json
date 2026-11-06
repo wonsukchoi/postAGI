@@ -1,0 +1,70 @@
+{
+  "slug": "truck-driver",
+  "title": "Truck driver",
+  "sector": "Transportation",
+  "status": "not-yet",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "Driverless trucks run in small numbers (Aurora, Kodiak: tens of trucks) against 2.2M US driver jobs. Reported driver job losses are tied to the freight recession and regulation, not AI.",
+  "aiTools": [
+    {
+      "name": "Aurora Driver",
+      "description": "Self-driving system for freight trucks. Aurora's Q3 2026 shareholder letter, filed with the SEC, reports 500,000+ commercial driverless miles and 20+ driverless trucks built and coming into the fleet, with no count in service. This is a company document, not independent evidence.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001828108/000182810826000092/aurora26q3shareholderlet.htm"
+    },
+    {
+      "name": "Kodiak Driver",
+      "description": "Self-driving system for trucks. Kodiak's Q3 2026 results, filed with the SEC, report 37 customer-owned unsupervised trucks in Atlas's fleet and 58,000+ paid driverless hours. This is a company document, not independent evidence.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001853138/000162828026071058/exhibit991_financialresults.htm"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Highway freight hauling on pilot lanes (Aurora, starting with Dallas to Houston)",
+      "status": "not-yet",
+      "tool": "Aurora Driver",
+      "sourceUrl": "https://www.truckinginfo.com/news/aurora-rolls-out-next-generation-of-driverless-trucks-for-commercial-freight"
+    },
+    {
+      "task": "Hauling for one customer with unsupervised trucks (Kodiak and Atlas)",
+      "status": "not-yet",
+      "tool": "Kodiak Driver",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0001853138/000162828026071058/exhibit991_financialresults.htm"
+    },
+    {
+      "task": "Overall driver employment and demand (BLS projection)",
+      "status": "not-yet",
+      "sourceUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm"
+    }
+  ],
+  "evidence": "The Bureau of Labor Statistics counts about 2.2 million heavy and tractor-trailer truck driver jobs in 2025, projects 4 percent growth from 2025 to 2035 with about 214,500 openings a year, and reports a May 2025 median wage of $58,640 (page last modified August 27, 2026). The page does not mention driverless trucks.\n\nDriverless operations exist but are small, and the figures come from the companies. Aurora's Q3 2026 shareholder letter reports 500,000+ commercial driverless miles since launch, 20+ driverless trucks built and coming into the fleet, $3 million of third-quarter revenue across driverless and operator-supervised loads, and a production ramp about six weeks behind plan. It does not say how many driverless trucks are in service, and its target of more than 1,000 driverless trucks by the end of 2027 is a goal, not a deployment. Trade press (Heavy Duty Trucking, July 22, 2026) reports that Aurora's second-generation trucks operate with no driver and no safety operator behind the wheel, starting on Dallas to Houston, that a roadside assistance person may ride in the rear seat on some trips, and that Paccar-built trucks have carried an observer at Paccar's request. Kodiak's November 5, 2026 results report that the fleet of customer-owned unsupervised trucks at Atlas reached 37, with 58,000+ paid driverless hours, and that its unsupervised long-haul launch with IKEA Supply is still a year-end target. FreightWaves (July 31, 2026) reports 28 driverless trucks across 15 routes for Atlas as of March 31, 2026, with public-road operation expected in early 2027 and a plan to reach 100 trucks by mid-2027.\n\nDriver headcount has fallen, but the sources do not tie that to AI. Land Line (February 12, 2026) reported that revised data show 28,000 truck drivers were eliminated in 2025 and that there are about 122,000 fewer than at the October 2022 peak. It cites the freight recession, the collapse of Yellow, and non-domiciled CDL rules and English proficiency enforcement, and does not mention AI or driverless trucks. Limits: I found no independent or regulator count of driverless trucks in service, and I cannot tell whether every Aurora run is unattended. The status is not yet because AI drives freight without a driver only at pilot scale, tens of trucks against 2.2 million jobs.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers",
+      "url": "https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm"
+    },
+    {
+      "title": "Aurora Innovation: Q3 2026 shareholder letter (SEC filing, company document)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001828108/000182810826000092/aurora26q3shareholderlet.htm"
+    },
+    {
+      "title": "Kodiak AI: Q3 2026 financial results (SEC filing, company document)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001853138/000162828026071058/exhibit991_financialresults.htm"
+    },
+    {
+      "title": "Heavy Duty Trucking: Aurora rolls out next generation of driverless trucks (July 22, 2026)",
+      "url": "https://www.truckinginfo.com/news/aurora-rolls-out-next-generation-of-driverless-trucks-for-commercial-freight"
+    },
+    {
+      "title": "FreightWaves: Atlas grows Kodiak driverless truck fleet (July 31, 2026)",
+      "url": "https://www.freightwaves.com/news/atlas-kodiak-driverless-truck-fleet"
+    },
+    {
+      "title": "Land Line: New data shows a purge of truck drivers on the road (February 12, 2026)",
+      "url": "https://landline.media/new-data-shows-a-purge-of-truck-drivers-on-the-road/"
+    }
+  ]
+}

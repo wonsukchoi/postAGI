@@ -43,7 +43,7 @@ Not yet ──── Augmented ──── Partially replaced ──── Repl
 
 | Status | Meaning |
 |---|---|
-| `not-yet` | No credible evidence of AI doing the core work today. |
+| `not-yet` | AI does none of the core work in everyday practice, or does it only in small pilots. |
 | `augmented` | AI is in common use but mainly makes workers faster. Headcount has not fallen because of it. |
 | `partial` | AI does a large share of the tasks and demand for human workers has measurably fallen, but humans still do part of the job. |
 | `replaced` | AI does the core work end to end, and employers have stopped hiring humans for it at meaningful scale. |

@@ -1,0 +1,74 @@
+{
+  "slug": "junior-software-developer",
+  "title": "Junior software developer",
+  "sector": "Software",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "Young developers' employment was about 20% below its late-2022 peak by July 2025, but the cause is disputed. BLS projects 10% growth for developers. No source shows AI replacing juniors.",
+  "aiTools": [
+    {
+      "name": "Claude Code (Anthropic)",
+      "description": "Anthropic's own analysis of 500,000 coding conversations (April 2025) found 79% of Claude Code conversations were classed as automation, where the AI directly performs the task. This is vendor data from early adopters, mostly startups, and it measures conversations, not jobs.",
+      "url": "https://www.anthropic.com/research/impact-software-development"
+    },
+    {
+      "name": "GitHub Copilot",
+      "description": "GitHub's documentation says Copilot can research a repository, plan changes and implement them in the background. This is vendor documentation of a capability, not evidence of replaced jobs.",
+      "url": "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Writing code from plain-language instructions",
+      "status": "augmented",
+      "tool": "Claude Code",
+      "sourceUrl": "https://www.anthropic.com/research/impact-software-development"
+    },
+    {
+      "task": "Implementing a scoped change in the background and proposing it for review",
+      "status": "augmented",
+      "tool": "GitHub Copilot",
+      "sourceUrl": "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent"
+    },
+    {
+      "task": "Working in large, mature codebases (measured on experienced open-source developers, not juniors)",
+      "status": "augmented",
+      "sourceUrl": "https://metr.org/blog/2026-02-24-uplift-update/"
+    }
+  ],
+  "evidence": "The strongest signal is about young workers in general, and only partly about software developers. Brynjolfsson, Chandar and Chen (Stanford, August 2026 version, ADP payroll data through June 2026) find that employment of workers aged 22 to 25 in AI-exposed occupations is 19% below where it would be had it kept pace with less-exposed peers, with no comparable gap for experienced workers. They say the gap works mainly through reduced hiring, not more separations, and is concentrated where AI use substitutes for human tasks. They call these early, descriptive indicators and not causal estimates, and note the patterns weaken when controlling for education and show some divergent trends before generative AI. The paper shows software developers only in appendix charts. ADP Research's summary of an earlier version (August 2025) reported that employment for the youngest software developers was 20 percent below its late-fall-2022 peak in July 2025; it does not define \"youngest\".\n\nHiring data fits a weak junior market but does not isolate AI. Indeed Hiring Lab (July 2026) reports that entry-level roles were 4.5% of software development postings in Q1 2026 and senior roles 69.3%, and that entry-level postings across all sectors fell 7.5% year over year as of May 2026. Indeed notes a growing belief that AI is reducing demand for junior workers, while New York Fed researchers link recent graduates' struggles more closely to remote work. BLS covers all software developers, not juniors: it counts about 1.7 million software developer jobs in 2025, projects 10% growth for software developers, quality assurance analysts and testers from 2025 to 2035 (page last modified August 27, 2026), and names the expansion of software development for AI as a driver of demand. It does not mention AI coding assistants.\n\nThe AI-capability evidence measures augmentation, not headcount. METR's February 2026 update, covering 57 experienced open-source developers, says developers are likely more sped up by AI tools than in early 2025, but calls its data only very weak evidence for the size of the gain because of selection effects. Anthropic's analysis shows heavy delegation to Claude Code, but it is the vendor's own data, from April 2025, and skews to startups. No source reviewed shows employers replacing junior developers with AI at scale. The fall in young developers' employment is documented but its cause is not settled, which is why the status is augmented with low confidence.",
+  "sources": [
+    {
+      "title": "Brynjolfsson, Chandar and Chen: Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of AI (Stanford Digital Economy Lab, August 2026)",
+      "url": "https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf"
+    },
+    {
+      "title": "ADP Research: Yes, AI is affecting employment. Here's the data (August 2025)",
+      "url": "https://www.adpresearch.com/yes-ai-is-affecting-employment-heres-the-data"
+    },
+    {
+      "title": "Indeed Hiring Lab: The Labor Market Is Tilting Toward Seniority (July 2026)",
+      "url": "https://hiringlab.indeed.com/2026/07/23/the-labor-market-is-tilting-toward-seniority/"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
+    },
+    {
+      "title": "METR: Late-2025 update on AI uplift for experienced open-source developers (February 2026)",
+      "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+    },
+    {
+      "title": "Anthropic: Impact of AI on software development (Claude Code usage analysis, April 2025, vendor data)",
+      "url": "https://www.anthropic.com/research/impact-software-development"
+    },
+    {
+      "title": "GitHub Docs: About GitHub Copilot cloud agent (vendor documentation)",
+      "url": "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent"
+    }
+  ]
+}

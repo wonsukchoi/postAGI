@@ -1,0 +1,48 @@
+{
+  "slug": "radiologist",
+  "title": "Radiologist",
+  "sector": "Health",
+  "status": "augmented",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "BLS projects radiologist jobs to grow 3% by 2035, and 98.4% of diagnostic radiology residency spots filled in 2026. AI aids screening, but no source ties AI to fewer radiologists.",
+  "aiTools": [],
+  "tasks": [
+    {
+      "task": "Mammography screening: flagging higher-risk exams and highlighting suspicious findings for radiologists",
+      "status": "augmented",
+      "sourceUrl": "https://www.eurekalert.org/news-releases/1072522"
+    },
+    {
+      "task": "Reducing radiologists' task load and improving practice efficiency",
+      "status": "augmented",
+      "sourceUrl": "https://www.acr.org/Clinical-Resources/Publications-and-Research/ACR-Bulletin/2026/radiologist-shortage-work-force-update"
+    }
+  ],
+  "evidence": "In 2016 Geoffrey Hinton said AI would soon kill radiology as a profession. A Fortune article (originally published May 4, 2026) reports the opposite has happened. It cites an average radiologist salary of $571,000 in 2025, up 9% according to Medscape; a University of Virginia economist saying the number of active US radiologists grew about 10% over the last decade; and radiology case loads up 25% between 2018 and early 2025, according to the Journal of the American College of Radiology. An American College of Radiology Bulletin piece (February 2026, by Elizabeth Rula) says radiologist attrition more than doubled from 2014 to 2022 and that the shortage is going to remain fairly static if nothing is done. It adds that practices are implementing AI to reduce task-load and improve efficiency.\n\nBLS lists radiologists on their own row within its physicians and surgeons page (page last modified August 27, 2026): 28,700 jobs in 2025 and 29,600 projected for 2035, a 3% rise, with a May 2025 median wage of $420,860. The page does not mention AI. The 2026 National Resident Matching Program results show 1,083 diagnostic radiology second-year positions with 17 unfilled (98.4% filled) and 156 first-year positions with 8 unfilled (94.9% filled).\n\nThe best trial evidence measures workload and detection, not headcount. The MASAI trial (The Lancet Digital Health, February 2025; figures here are from the Lund University press release) found that AI-supported mammography screening reduced breast radiologists' workload by 44% and found more cancers (338 compared with 262) without raising false positives. The AI picked out higher-risk mammograms for review by two breast radiologists, other exams were read by one radiologist assisted by AI, and the release calls breast radiologist expertise a skill currently in short supply. Limits: I found no source tying AI to reduced radiologist employment, hiring or pay, and none showing AI issuing final reports at scale. I did not read the Lancet paper, and job-posting counts differ between sources, so I use none. The status is augmented with medium confidence because several independent sources agree, but none measures headcount effects directly.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Physicians and Surgeons (radiologists listed separately)",
+      "url": "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm"
+    },
+    {
+      "title": "NRMP: Results and Data, 2026 Main Residency Match (May 2026)",
+      "url": "https://www.nrmp.org/wp-content/uploads/2026/05/Main_Match_Results_and_Data-2026.pdf"
+    },
+    {
+      "title": "ACR Bulletin: The Radiologist Shortage, a Workforce Update (February 2026)",
+      "url": "https://www.acr.org/Clinical-Resources/Publications-and-Research/ACR-Bulletin/2026/radiologist-shortage-work-force-update"
+    },
+    {
+      "title": "Lund University press release on the MASAI mammography screening trial (February 2025)",
+      "url": "https://www.eurekalert.org/news-releases/1072522"
+    },
+    {
+      "title": "Fortune: A decade after Hinton said radiologists were obsolete, salaries and demand are up (May 2026)",
+      "url": "https://fortune.com/article/ai-godfather-radiologists-obsolete-salaries-up-to-571k-demand-growing/"
+    }
+  ]
+}

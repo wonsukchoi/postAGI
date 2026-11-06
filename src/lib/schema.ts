@@ -19,7 +19,7 @@ export const STATUS_DEFINITION: Record<Status, string> = {
   augmented:
     "AI is in common use, but it mainly makes human workers faster. Headcount has not fallen because of it.",
   "not-yet":
-    "No credible evidence of AI doing the core work of this occupation today.",
+    "AI does none of the core work in everyday practice, or does it only in small pilots.",
 };
 
 export const CONFIDENCE = ["low", "medium", "high"] as const;
