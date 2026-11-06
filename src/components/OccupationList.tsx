@@ -20,6 +20,24 @@ const SORT_LABEL: Record<Sort, string> = {
   name: "Name",
 };
 
+/** Our own dropdown arrow, so the spacing from the edge is under our control. */
+function Chevron({ className }: { className: string }) {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 16 16"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.75}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={`pointer-events-none absolute top-1/2 -translate-y-1/2 ${className}`}
+    >
+      <path d="M4 6l4 4 4-4" />
+    </svg>
+  );
+}
+
 export function OccupationList({ occupations }: { occupations: Occupation[] }) {
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState<Status | "any">("any");
@@ -77,18 +95,21 @@ export function OccupationList({ occupations }: { occupations: Occupation[] }) {
           <label htmlFor="sort" className="sr-only">
             Sort by
           </label>
-          <select
-            id="sort"
-            value={sort}
-            onChange={(e) => setSort(e.target.value as Sort)}
-            className="bg-transparent text-sm text-neutral-700"
-          >
-            {(Object.keys(SORT_LABEL) as Sort[]).map((s) => (
-              <option key={s} value={s}>
-                {SORT_LABEL[s]}
-              </option>
-            ))}
-          </select>
+          <div className="relative">
+            <select
+              id="sort"
+              value={sort}
+              onChange={(e) => setSort(e.target.value as Sort)}
+              className="cursor-pointer appearance-none bg-transparent py-1 pr-6 text-sm text-neutral-700"
+            >
+              {(Object.keys(SORT_LABEL) as Sort[]).map((s) => (
+                <option key={s} value={s}>
+                  {SORT_LABEL[s]}
+                </option>
+              ))}
+            </select>
+            <Chevron className="right-0 size-4 text-neutral-500" />
+          </div>
         </div>
 
         {rows.length === 0 ? (
@@ -160,19 +181,22 @@ export function OccupationList({ occupations }: { occupations: Occupation[] }) {
           <label htmlFor="sector" className="text-sm text-neutral-600">
             Sector
           </label>
-          <select
-            id="sector"
-            value={sector}
-            onChange={(e) => setSector(e.target.value)}
-            className="h-11 rounded-lg border border-neutral-200 bg-white px-3 text-[15px]"
-          >
-            <option value="any">Any sector</option>
-            {sectors.map((s) => (
-              <option key={s} value={s}>
-                {s}
-              </option>
-            ))}
-          </select>
+          <div className="relative">
+            <select
+              id="sector"
+              value={sector}
+              onChange={(e) => setSector(e.target.value)}
+              className="h-11 w-full cursor-pointer appearance-none rounded-lg border border-neutral-200 bg-white pr-11 pl-3 text-[15px]"
+            >
+              <option value="any">Any sector</option>
+              {sectors.map((s) => (
+                <option key={s} value={s}>
+                  {s}
+                </option>
+              ))}
+            </select>
+            <Chevron className="right-4 size-4 text-neutral-500" />
+          </div>
         </div>
       </aside>
     </div>
