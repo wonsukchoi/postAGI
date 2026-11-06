@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getOccupations } from "@/lib/occupations";
 import { STATUSES, STATUS_LABEL } from "@/lib/schema";
+import { JsonLd } from "@/components/JsonLd";
 import { StatusBadge } from "@/components/StatusBadge";
+import { websiteJsonLd } from "@/lib/jsonld";
 import { pageMetadata } from "@/lib/seo";
 import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
 
@@ -24,6 +26,7 @@ export default function Home() {
 
   return (
     <main className="mx-auto flex w-full max-w-[700px] flex-col gap-8 px-6 pt-16 pb-16 sm:pt-24">
+      <JsonLd data={websiteJsonLd()} />
       <div className="flex flex-col gap-4">
         <h1 className="text-[26px] leading-snug font-semibold">
           postAGI tracks which occupations AI has already replaced.

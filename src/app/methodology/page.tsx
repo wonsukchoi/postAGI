@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { CONFIDENCE, CONFIDENCE_DEFINITION, STATUSES, STATUS_DEFINITION } from "@/lib/schema";
 import { ConfidenceDots } from "@/components/ConfidenceDots";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbJsonLd } from "@/lib/jsonld";
 import { pageMetadata } from "@/lib/seo";
 import { StatusBadge } from "@/components/StatusBadge";
 
@@ -15,6 +17,12 @@ export const metadata: Metadata = pageMetadata({
 export default function MethodologyPage() {
   return (
     <main className="mx-auto flex w-full max-w-[700px] flex-col gap-8 px-6 pt-8 pb-16">
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", path: "/" },
+          { name: "Methodology", path: "/methodology" },
+        ])}
+      />
       <h1 className="text-[28px] font-semibold">Methodology</h1>
       <p className="text-[17px] leading-normal text-neutral-800">
         Each occupation gets one of four status levels. A level needs at least

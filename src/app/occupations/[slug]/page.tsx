@@ -7,7 +7,9 @@ import type { Occupation } from "@/lib/schema";
 import { ConfidenceDots } from "@/components/ConfidenceDots";
 import { StatusBadge } from "@/components/StatusBadge";
 import { StatusSpectrum } from "@/components/StatusSpectrum";
+import { JsonLd } from "@/components/JsonLd";
 import { TableOfContents, type TocItem } from "@/components/TableOfContents";
+import { breadcrumbJsonLd, occupationJsonLd } from "@/lib/jsonld";
 import { REPO_URL } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
 
@@ -76,6 +78,15 @@ export default async function OccupationPage(
   return (
     <main className="relative mx-auto flex w-full max-w-[700px] flex-col gap-8 px-6 pt-8 pb-16">
       <TableOfContents items={TOC} />
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Home", path: "/" },
+          { name: "Occupations", path: "/occupations" },
+          { name: occ.title, path: `/occupations/${occ.slug}` },
+        ])}
+      />
+      {/* Drafts hold unverified placeholder claims, so they stay out of the Article data. */}
+      {!occ.draft && <JsonLd data={occupationJsonLd(occ)} />}
       <div className="flex flex-col gap-3">
         <Link href="/occupations" className="text-sm text-neutral-600 hover:text-neutral-900">
           ← All occupations
