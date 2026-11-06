@@ -1,0 +1,29 @@
+import type { Metadata } from "next";
+import { STATUSES, STATUS_DEFINITION } from "@/lib/schema";
+import { StatusBadge } from "@/components/StatusBadge";
+
+export const metadata: Metadata = { title: "Methodology" };
+
+export default function MethodologyPage() {
+  return (
+    <main className="mx-auto flex w-full max-w-[700px] flex-col gap-8 px-6 pt-8 pb-16">
+      <h1 className="text-[28px] font-semibold">Methodology</h1>
+      <p className="text-[17px] leading-normal text-neutral-800">
+        Each occupation gets one of four status levels. A level needs at least
+        one cited source. A page without verified sources is marked Draft.
+      </p>
+      <dl className="flex flex-col gap-6">
+        {STATUSES.map((s) => (
+          <div key={s} className="flex flex-col gap-2">
+            <dt>
+              <StatusBadge status={s} />
+            </dt>
+            <dd className="text-[15px] leading-relaxed text-neutral-800">
+              {STATUS_DEFINITION[s]}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </main>
+  );
+}

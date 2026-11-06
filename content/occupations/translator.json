@@ -1,0 +1,25 @@
+{
+  "slug": "translator",
+  "title": "Translator",
+  "sector": "Language",
+  "status": "partial",
+  "summary": "[Placeholder: one sentence on what AI does for this job today.]",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "confidence": "low",
+  "updatedAt": "2026-11-06",
+  "draft": true,
+  "aiTools": [
+    {
+      "name": "[Example AI tool]",
+      "description": "[Placeholder: what it does, in one line.]",
+      "url": "https://example.com/TODO"
+    }
+  ],
+  "tasks": [
+    { "task": "[Placeholder task 1]", "status": "replaced" },
+    { "task": "[Placeholder task 2]", "status": "augmented" }
+  ],
+  "evidence": "[Placeholder evidence. Replace with a short plain-prose write-up of what changed, when, and what remains human.]",
+  "sources": [{ "title": "[Example source, replace me]", "url": "https://example.com/TODO" }]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "electrician",
+  "title": "Electrician",
+  "sector": "Trades",
+  "status": "not-yet",
+  "summary": "[Placeholder: one sentence on what AI does for this job today.]",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "confidence": "low",
+  "updatedAt": "2026-11-06",
+  "draft": true,
+  "aiTools": [],
+  "tasks": [
+    { "task": "[Placeholder task 1]", "status": "not-yet" },
+    { "task": "[Placeholder task 2]", "status": "augmented" }
+  ],
+  "evidence": "[Placeholder evidence. Replace with a short plain-prose write-up of what changed, when, and what remains human.]",
+  "sources": [{ "title": "[Example source, replace me]", "url": "https://example.com/TODO" }]
+}
