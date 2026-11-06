@@ -4,7 +4,10 @@ import { CONFIDENCE, CONFIDENCE_DEFINITION, CONFIDENCE_LABEL, type Confidence } 
 export function ConfidenceDots({ level }: { level: Confidence }) {
   const filled = CONFIDENCE.indexOf(level) + 1;
   return (
-    <span className="flex flex-wrap items-center gap-x-3 gap-y-1" title={CONFIDENCE_DEFINITION[level]}>
+    <span
+      className="flex cursor-help flex-wrap items-center gap-x-3 gap-y-1"
+      title={CONFIDENCE_DEFINITION[level]}
+    >
       <span>{CONFIDENCE_LABEL[level]}</span>
       <span aria-hidden="true" className="flex items-center gap-1">
         {CONFIDENCE.map((c, i) => (

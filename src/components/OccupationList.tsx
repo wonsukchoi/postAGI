@@ -20,6 +20,10 @@ const SORT_LABEL: Record<Sort, string> = {
   name: "Name",
 };
 
+function plural(n: number, noun: string) {
+  return `${n} ${noun}${n === 1 ? "" : "s"}`;
+}
+
 /** Our own dropdown arrow, so the spacing from the edge is under our control. */
 function Chevron({ className }: { className: string }) {
   return (
@@ -78,127 +82,127 @@ export function OccupationList({ occupations }: { occupations: Occupation[] }) {
     }`;
 
   return (
-    <div className="flex flex-wrap items-start gap-10">
-      <section className="flex min-w-0 flex-[999_1_560px] flex-col gap-4">
-        <div className="flex h-[52px] items-center gap-3 rounded-xl bg-neutral-100 px-4">
-          <label htmlFor="q" className="sr-only">
-            Search occupations
-          </label>
-          <input
-            id="q"
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search occupations"
-            className="min-w-0 flex-1 bg-transparent text-base outline-none"
-          />
-          <label htmlFor="sort" className="sr-only">
-            Sort by
-          </label>
-          <div className="relative">
-            <select
-              id="sort"
-              value={sort}
-              onChange={(e) => setSort(e.target.value as Sort)}
-              className="cursor-pointer appearance-none bg-transparent py-1 pr-6 text-sm text-neutral-700"
-            >
-              {(Object.keys(SORT_LABEL) as Sort[]).map((s) => (
-                <option key={s} value={s}>
-                  {SORT_LABEL[s]}
-                </option>
-              ))}
-            </select>
-            <Chevron className="right-0 size-4 text-neutral-500" />
-          </div>
-        </div>
-
-        {rows.length === 0 ? (
-          <p className="py-10 text-center text-neutral-600">
-            No occupations match.
-          </p>
-        ) : (
-          <ul className="flex flex-col rounded-xl border border-neutral-200">
-            {rows.map((o) => (
-              <li key={o.slug} className="border-b border-neutral-100 last:border-b-0">
-                <Link
-                  href={`/occupations/${o.slug}`}
-                  className="flex flex-col gap-2 px-6 py-5 hover:bg-neutral-50"
-                >
-                  <div className="flex flex-wrap items-baseline justify-between gap-3">
-                    <div className="flex items-baseline gap-2.5">
-                      <span className="text-xl font-medium">{o.title}</span>
-                      <span className="text-[13px] text-neutral-600">
-                        updated {o.updatedAt}
-                      </span>
-                    </div>
-                    <StatusBadge status={o.status} />
-                  </div>
-                  <p className="text-[15px] leading-normal text-neutral-800">
-                    {o.summary}
-                  </p>
-                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[13px] text-neutral-600">
-                    <span>
-                      {o.tasksAutomatedPct === null
-                        ? "tasks automated: unknown"
-                        : `${o.tasksAutomatedPct}% of tasks`}
-                    </span>
-                    <span>{o.aiTools.length} AI tools</span>
-                    <span>{o.sources.length} sources</span>
-                    <span className="rounded bg-neutral-100 px-2 py-0.5">
-                      {o.sector}
-                    </span>
-                    {o.draft && (
-                      <span className="rounded border border-neutral-400 px-2 py-0.5">
-                        Draft
-                      </span>
-                    )}
-                  </div>
-                </Link>
-              </li>
+    <div className="relative flex flex-col gap-5">
+      <div className="flex h-[52px] items-center gap-3 rounded-xl bg-neutral-100 px-4">
+        <label htmlFor="q" className="sr-only">
+          Search occupations
+        </label>
+        <input
+          id="q"
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search occupations"
+          className="min-w-0 flex-1 bg-transparent text-base outline-none"
+        />
+        <label htmlFor="sort" className="sr-only">
+          Sort by
+        </label>
+        <div className="relative">
+          <select
+            id="sort"
+            value={sort}
+            onChange={(e) => setSort(e.target.value as Sort)}
+            className="cursor-pointer appearance-none bg-transparent py-1 pr-6 text-sm text-neutral-700"
+          >
+            {(Object.keys(SORT_LABEL) as Sort[]).map((s) => (
+              <option key={s} value={s}>
+                {SORT_LABEL[s]}
+              </option>
             ))}
-          </ul>
-        )}
-      </section>
-
-      <aside className="flex min-w-[200px] flex-[1_1_220px] flex-col gap-7">
-        <div className="flex flex-wrap gap-2" role="group" aria-label="Status filter">
-          <button type="button" onClick={() => setStatus("any")} className={chip(status === "any")}>
-            Any
-          </button>
-          {STATUSES.map((s) => (
-            <button
-              key={s}
-              type="button"
-              onClick={() => setStatus(s)}
-              className={chip(status === s)}
-            >
-              {STATUS_LABEL[s]}
-            </button>
-          ))}
+          </select>
+          <Chevron className="right-0 size-4 text-neutral-500" />
         </div>
+      </div>
 
-        <div className="flex flex-col gap-2.5">
-          <label htmlFor="sector" className="text-sm text-neutral-600">
-            Sector
-          </label>
-          <div className="relative">
-            <select
-              id="sector"
-              value={sector}
-              onChange={(e) => setSector(e.target.value)}
-              className="h-11 w-full cursor-pointer appearance-none rounded-lg border border-neutral-200 bg-white pr-11 pl-3 text-[15px]"
-            >
-              <option value="any">Any sector</option>
-              {sectors.map((s) => (
-                <option key={s} value={s}>
-                  {s}
-                </option>
-              ))}
-            </select>
-            <Chevron className="right-4 size-4 text-neutral-500" />
+      {/* Same 700px column as every page. On wide screens the filters sit in the
+          right margin, like the table of contents on occupation pages. Below that
+          they stack between the search bar and the results. */}
+      <aside
+        aria-label="Filters"
+        className="xl:absolute xl:top-0 xl:left-full xl:ml-16 xl:h-full xl:w-52"
+      >
+        <div className="flex flex-col gap-5 xl:sticky xl:top-8 xl:gap-7">
+          <div
+            className="flex flex-wrap gap-2 xl:flex-col xl:items-start xl:gap-1"
+            role="group"
+            aria-label="Status filter"
+          >
+            <button type="button" onClick={() => setStatus("any")} className={chip(status === "any")}>
+              Any
+            </button>
+            {STATUSES.map((s) => (
+              <button
+                key={s}
+                type="button"
+                onClick={() => setStatus(s)}
+                className={chip(status === s)}
+              >
+                {STATUS_LABEL[s]}
+              </button>
+            ))}
+          </div>
+
+          <div className="flex flex-col gap-2.5 sm:max-w-xs xl:max-w-none">
+            <label htmlFor="sector" className="text-sm text-neutral-600">
+              Sector
+            </label>
+            <div className="relative">
+              <select
+                id="sector"
+                value={sector}
+                onChange={(e) => setSector(e.target.value)}
+                className="h-11 w-full cursor-pointer appearance-none rounded-lg border border-neutral-200 bg-white pr-11 pl-3 text-[15px]"
+              >
+                <option value="any">Any sector</option>
+                {sectors.map((s) => (
+                  <option key={s} value={s}>
+                    {s}
+                  </option>
+                ))}
+              </select>
+              <Chevron className="right-4 size-4 text-neutral-500" />
+            </div>
           </div>
         </div>
       </aside>
+
+      {rows.length === 0 ? (
+        <p className="py-10 text-center text-neutral-600">No occupations match.</p>
+      ) : (
+        <ul className="flex flex-col overflow-hidden rounded-xl border border-neutral-200">
+          {rows.map((o) => (
+            <li key={o.slug} className="border-b border-neutral-100 last:border-b-0">
+              <Link
+                href={`/occupations/${o.slug}`}
+                className="flex flex-col gap-2 px-6 py-5 hover:bg-neutral-50 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-neutral-900"
+              >
+                <div className="flex flex-wrap items-baseline justify-between gap-3">
+                  <div className="flex items-baseline gap-2.5">
+                    <span className="text-xl font-medium">{o.title}</span>
+                    <span className="text-[13px] text-neutral-600">updated {o.updatedAt}</span>
+                  </div>
+                  <StatusBadge status={o.status} />
+                </div>
+                <p className="text-[15px] leading-normal text-neutral-800">{o.summary}</p>
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[13px] text-neutral-600">
+                  <span>
+                    {o.tasksAutomatedPct === null
+                      ? "tasks automated: unknown"
+                      : `${o.tasksAutomatedPct}% of tasks`}
+                  </span>
+                  <span>{plural(o.aiTools.length, "AI tool")}</span>
+                  <span>{plural(o.sources.length, "source")}</span>
+                  <span className="rounded bg-neutral-100 px-2 py-0.5">{o.sector}</span>
+                  {o.draft && (
+                    <span className="rounded border border-neutral-400 px-2 py-0.5">Draft</span>
+                  )}
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

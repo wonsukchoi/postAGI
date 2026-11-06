@@ -118,12 +118,12 @@ export default async function OccupationPage(
         {occ.aiTools.length === 0 ? (
           <p className="text-sm text-neutral-600">None listed yet.</p>
         ) : (
-          <ul className="flex flex-col rounded-xl border border-neutral-200">
+          <ul className="flex flex-col overflow-hidden rounded-xl border border-neutral-200">
             {occ.aiTools.map((t) => (
               <li key={t.name} className="border-b border-neutral-100 last:border-b-0">
                 <a
                   href={t.url}
-                  className="flex items-center gap-3.5 px-4 py-3.5 hover:bg-neutral-50"
+                  className="flex items-center gap-3.5 px-4 py-3.5 hover:bg-neutral-50 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-neutral-900"
                 >
                   {t.logo ? (
                     <Image

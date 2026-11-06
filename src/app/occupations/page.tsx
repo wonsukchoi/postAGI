@@ -13,7 +13,7 @@ export const metadata: Metadata = pageMetadata({
 
 export default function OccupationsPage() {
   return (
-    <main className="mx-auto w-full max-w-[1040px] px-6 pt-6 pb-16">
+    <main className="mx-auto w-full max-w-[700px] px-6 pt-6 pb-16">
       <OccupationList occupations={getOccupations()} />
     </main>
   );
