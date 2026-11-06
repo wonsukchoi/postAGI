@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getOccupations } from "@/lib/occupations";
 import { STATUSES, STATUS_LABEL } from "@/lib/schema";
 import { StatusBadge } from "@/components/StatusBadge";
+import { pageMetadata } from "@/lib/seo";
+import { SITE_NAME, SITE_TAGLINE } from "@/lib/site";
+
+export const metadata: Metadata = pageMetadata({
+  path: "/",
+  ogTitle: `${SITE_NAME}: ${SITE_TAGLINE}`,
+});
 
 export default function Home() {
   const list = getOccupations();

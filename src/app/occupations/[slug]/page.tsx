@@ -9,6 +9,7 @@ import { StatusBadge } from "@/components/StatusBadge";
 import { StatusSpectrum } from "@/components/StatusSpectrum";
 import { TableOfContents, type TocItem } from "@/components/TableOfContents";
 import { REPO_URL } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -21,7 +22,13 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { slug } = await props.params;
   const occ = getOccupation(slug);
-  return occ ? { title: occ.title, description: occ.summary } : {};
+  if (!occ) return {};
+  return pageMetadata({
+    title: `${occ.title}: has AI replaced it?`,
+    description: occ.summary,
+    path: `/occupations/${occ.slug}`,
+    type: "article",
+  });
 }
 
 function Stat({ label, value }: { label: string; value: React.ReactNode }) {

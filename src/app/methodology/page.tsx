@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
 import { CONFIDENCE, CONFIDENCE_DEFINITION, STATUSES, STATUS_DEFINITION } from "@/lib/schema";
 import { ConfidenceDots } from "@/components/ConfidenceDots";
+import { pageMetadata } from "@/lib/seo";
 import { StatusBadge } from "@/components/StatusBadge";
 
-export const metadata: Metadata = { title: "Methodology" };
+export const metadata: Metadata = pageMetadata({
+  title: "Methodology",
+  description:
+    "How postAGI rates occupations: four status levels, three confidence levels, and the evidence each one needs.",
+  path: "/methodology",
+  image: "/opengraph-image",
+});
 
 export default function MethodologyPage() {
   return (
