@@ -1,0 +1,85 @@
+{
+  "slug": "registered-nurse",
+  "title": "Registered nurse",
+  "sector": "Health",
+  "status": "augmented",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "RN jobs keep growing (3.47M in 2025, BLS projects 6% more by 2035) amid a shortage. AI is entering charting and alerts, but no source shows it cutting RN jobs or doing bedside work.",
+  "aiTools": [
+    {
+      "name": "Abridge Ambient AI for Nursing",
+      "description": "Turns spoken nursing observations into drafted flowsheet entries in the health record, with a feature that links each entry back to the moment it was said. HIT Consultant (April 2, 2026) reports a KLAS First Look score of 94.3, based on limited early-adopter data from 9 individuals at 6 organizations, and no time-savings or outcome figures. A capability claim plus early satisfaction, not proof of impact.",
+      "url": "https://hitconsultant.net/2026/04/02/klas-report-abridge-ambient-ai-nursing-flowsheets-ehr/"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Charting and flowsheet documentation",
+      "status": "augmented",
+      "tool": "Abridge Ambient AI for Nursing",
+      "sourceUrl": "https://hitconsultant.net/2026/04/02/klas-report-abridge-ambient-ai-nursing-flowsheets-ehr/"
+    },
+    {
+      "task": "Early-warning alerts for deteriorating or septic patients, sent to nurses",
+      "status": "augmented",
+      "tool": "COMPOSER sepsis model",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10805720/"
+    },
+    {
+      "task": "Patient acuity scoring (employer algorithms, per a nurse union survey)",
+      "status": "augmented",
+      "sourceUrl": "https://www.nationalnursesunited.org/press/national-nurses-united-survey-finds-ai-technology-undermines-patient-safety"
+    }
+  ],
+  "evidence": "Registered nurse employment has risen at every edition of the BLS Occupational Outlook Handbook I read. Archived editions give 2,751,000 jobs in 2014, 3,059,800 in 2018 and 3,172,500 in 2022. The current page (last modified October 29, 2026) gives 3,465,400 in 2025 and projects 6% growth to 3,660,100 by 2035, with about 180,800 openings a year. BLS gives the aging population, chronic conditions and home care as the reasons. The current page and the three archived editions contain no sentence about AI or automation. HRSA's December 2025 projections still show a national RN shortage, 8% in 2028 and 3% (108,960 full-time equivalents) in 2038, and say they assume historical patterns of attrition, graduation and participation continue. The 2026 NSI Nursing Solutions report (a recruitment firm's report) shows an 8.6% RN vacancy rate, 17.6% turnover, an estimated national shortage of 158,600, and 377,650 RNs hired for a net gain of about 53,500, a 2.9% add rate against 5.6% the year before. Slower hiring alongside vacancies is not evidence that AI cut demand.\n\nAI is present but mostly supports nurses. A UC San Diego before-and-after study (npj Digital Medicine, January 23, 2024) of a nurse-facing sepsis alert, covering 6,217 patients in two emergency departments, found a 1.9-point absolute drop in sepsis deaths (17% relative); it was not randomized. Kaiser Permanente's Advance Alert Monitor, in a 2020 New England Journal of Medicine study, sends alerts first to a regional team of specially trained registered nurses and was linked to 16% lower mortality, so it adds nurse work. A National Nurses United survey (May 15, 2024; over 2,300 nurses, self-selected union members) found half said their employer uses algorithmic systems to determine patient acuity, and 69% of those said the output did not match their own assessment. The union called for a pause on AI in health care and argued that what nurses and patients need is more nurses and better staffing. Nurse-specific ambient charting is new and has only early-adopter data. A Penn study of 880 nurses (JAMA Network Open, December 2025) examined virtual nursing, which means remote human nurses working by video, not AI; 57% said it did not reduce their workload.\n\nLimits: I found no peer-reviewed study of AI's effect on RN employment, no independent nurse time-savings data, and no hospital that announced replacing RNs with AI. That means none found, not that none exist. The status is augmented with medium confidence: AI tools are in routine use, and no source shows RN demand falling because of them.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Registered Nurses (current edition, last modified October 29, 2026)",
+      "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Registered Nurses (archived 2016 edition, 2014 base year)",
+      "url": "https://web.archive.org/web/20160601000000/https://www.bls.gov/ooh/healthcare/registered-nurses.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Registered Nurses (archived April 2020 edition, 2018 base year)",
+      "url": "https://web.archive.org/web/20200601000000/https://www.bls.gov/ooh/healthcare/registered-nurses.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Registered Nurses (archived April 2024 edition, 2022 base year)",
+      "url": "https://web.archive.org/web/20240601000000/https://www.bls.gov/ooh/healthcare/registered-nurses.htm"
+    },
+    {
+      "title": "HRSA: Nurse Workforce Projections 2023-2038 (December 2025, archived copy)",
+      "url": "https://web.archive.org/web/2025/https://bhw.hrsa.gov/sites/default/files/bureau-health-workforce/data-research/nursing-projections-factsheet.pdf"
+    },
+    {
+      "title": "NSI Nursing Solutions: 2026 National Health Care Retention and RN Staffing Report (recruitment firm)",
+      "url": "https://www.nsinursingsolutions.com/documents/library/nsi_national_health_care_retention_report.pdf"
+    },
+    {
+      "title": "National Nurses United: Survey finds A.I. technology degrades and undermines patient safety (May 15, 2024)",
+      "url": "https://www.nationalnursesunited.org/press/national-nurses-united-survey-finds-ai-technology-undermines-patient-safety"
+    },
+    {
+      "title": "Wardi and co-authors: Impact of a deep learning sepsis prediction model on quality of care and survival (npj Digital Medicine, January 23, 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10805720/"
+    },
+    {
+      "title": "Kaiser Permanente: Real-time alerts associated with lower mortality (November 11, 2020)",
+      "url": "https://about.kaiserpermanente.org/news/press-release-archive/real-time-alerts-associated-with-lower-mortality"
+    },
+    {
+      "title": "HIT Consultant: KLAS report on Abridge Ambient AI for Nursing (April 2, 2026)",
+      "url": "https://hitconsultant.net/2026/04/02/klas-report-abridge-ambient-ai-nursing-flowsheets-ehr/"
+    },
+    {
+      "title": "Penn LDI: Virtual nursing gets mixed marks as a fix for hospital staffing (JAMA Network Open, December 2025)",
+      "url": "https://ldi.upenn.edu/our-work/research-updates/virtual-nursing-gets-mixed-marks-as-fix-for-hospital-staffing-crisis/"
+    }
+  ]
+}

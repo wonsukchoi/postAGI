@@ -1,0 +1,78 @@
+{
+  "slug": "teacher",
+  "title": "Teacher (K-12)",
+  "sector": "Education",
+  "status": "augmented",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "Six in 10 US teachers used AI for work in 2024-25, mostly for prep. BLS projects flat teacher jobs, with cuts tied to falling enrollment. One AI-led school chain exists; its results are unverified.",
+  "aiTools": [
+    {
+      "name": "TimeBack (Alpha School)",
+      "description": "ProPublica and the Texas Tribune (October 1, 2026) report that at least three Texas districts, Houston, Fort Davis and Aldine, launched pilots of the AI tool behind Alpha School, now often called TimeBack. All three said they will use it for supplemental learning, not Alpha's full classroom model. Alpha's claimed results could not be verified by outside experts. A capability claim plus pilot use, not proof of replacement.",
+      "url": "https://www.propublica.org/article/alpha-school-ai-texas-public-schools-mike-morath"
+    },
+    {
+      "name": "Tutor CoPilot",
+      "description": "Gives live tutors AI-suggested responses. A randomized trial (arXiv, first posted October 2024, revised October 2026) with 900 tutors and 1,800 K-12 students found students were 4 percentage points more likely to master topics, at about $20 per tutor a year. It covers tutors, not classroom teachers, and measures learning, not jobs.",
+      "url": "https://arxiv.org/abs/2410.03017"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Lesson preparation, worksheets and adapting materials",
+      "status": "augmented",
+      "sourceUrl": "https://news.gallup.com/poll/691967/three-teachers-weekly.aspx"
+    },
+    {
+      "task": "Real-time support for tutors during live tutoring (tutors, not classroom teachers)",
+      "status": "augmented",
+      "tool": "Tutor CoPilot",
+      "sourceUrl": "https://arxiv.org/abs/2410.03017"
+    },
+    {
+      "task": "Core classroom instruction delivered by AI software (Alpha School model)",
+      "status": "not-yet",
+      "tool": "TimeBack",
+      "sourceUrl": "https://www.propublica.org/article/alpha-school-texas-vouchers-ai"
+    }
+  ],
+  "evidence": "AI is in common use by K-12 teachers, mainly to save time. A Gallup and Walton Family Foundation survey of 2,232 US public K-12 teachers (fielded March 18 to April 11, 2025, published June 24, 2025) found six in 10 used an AI tool for work in 2024-25. Teachers who use AI at least weekly estimate it saves them 5.9 hours a week. The most common uses were preparing to teach (37% at least monthly), making worksheets or activities (33%), and modifying materials to meet student needs (28%). The Tutor CoPilot trial found a 4-point gain in topic mastery, but it studied tutors and measured learning, not headcount.\n\nThe demand evidence does not show AI-driven job loss. The BLS pages for elementary, middle and high school teachers (last modified August 27, 2026) each project little or no change from 2025 to 2035: elementary 1,530,500 to 1,524,400, middle school 630,100 to 627,400, and high school 1,087,500 to 1,085,000. BLS ties weak demand to enrollment: it says the number of students in public elementary and middle schools is expected to decrease, notes that charter schools, private schools and homeschooling may shift enrollment, and says projected declines in the school-aged population and enrollment should constrain demand for high school teachers. The only technology sentences say teachers must be comfortable using and learning new technology. None of the pages mentions AI. Local cuts point the same way: K-12 Dive (February 20, 2026) reports Los Angeles Unified will need 350 fewer elementary and 400 fewer secondary teachers next year because of declining enrollment, which it says has persisted for about 2.5 decades, and does not mention AI.\n\nThe nearest thing to AI replacing teachers is Alpha School's model, in which AI software delivers lessons and human adults, called guides, focus on motivation and emotional support. ProPublica and the Texas Tribune (September 2, 2026) report that Alpha has roughly quadrupled its Texas private schools to more than 30 campuses, most accepted into the state voucher program, that an Austin charter school partnered with Alpha received its third consecutive F rating, and that experts could not verify Alpha's claimed gains because it did not release enough data. In October they reported that public-district pilots are supplemental. This is one operator's model with disputed results, not a measured fall in public teaching jobs. Limits: I could not retrieve current NCES enrollment projections, and I found no source tying any teacher job cut to AI. The status is augmented with medium confidence.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Kindergarten and Elementary School Teachers (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/education-training-and-library/kindergarten-and-elementary-school-teachers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Middle School Teachers (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/education-training-and-library/middle-school-teachers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: High School Teachers (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/education-training-and-library/high-school-teachers.htm"
+    },
+    {
+      "title": "Gallup and Walton Family Foundation: Three in 10 Teachers Use AI Weekly, Saving Six Weeks a Year (June 24, 2025)",
+      "url": "https://news.gallup.com/poll/691967/three-teachers-weekly.aspx"
+    },
+    {
+      "title": "Wang and co-authors: Tutor CoPilot, A Human-AI Approach for Scaling Real-Time Expertise (arXiv 2410.03017)",
+      "url": "https://arxiv.org/abs/2410.03017"
+    },
+    {
+      "title": "ProPublica and Texas Tribune: How Texas helped a private school chain's AI tool get into public school classrooms (October 1, 2026)",
+      "url": "https://www.propublica.org/article/alpha-school-ai-texas-public-schools-mike-morath"
+    },
+    {
+      "title": "ProPublica and Texas Tribune: Alpha School, Texas vouchers and AI (September 2, 2026)",
+      "url": "https://www.propublica.org/article/alpha-school-texas-vouchers-ai"
+    },
+    {
+      "title": "K-12 Dive: Los Angeles schools to issue RIF notices to 657 staff (February 20, 2026)",
+      "url": "https://www.k12dive.com/news/los-angeles-schools-to-issue-657-rif-notices-to-staff/812750/"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "taxi-and-ride-hail-driver",
+  "title": "Taxi and ride-hail driver",
+  "sector": "Transportation",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "Waymo reports 500,000 paid rides a week in 10 to 11 cities, yet BLS counts 455,700 taxi, shuttle and chauffeur jobs and projects growth. LA driver hours and pay fell; SF earnings rose.",
+  "aiTools": [
+    {
+      "name": "Waymo Driver (driverless robotaxi service)",
+      "description": "Carries paying passengers with no human driver. Waymo said on X, as reported by Sherwood News (March 30, 2026), that it gives 500,000 paid rides a week in 10 US cities with a fleet of more than 3,000 vehicles as of December 2025. Those are company figures. State data reported secondhand by The Driverless Digest (August 26, 2026) shows about 315,000 paid trips a week in California in June 2026, down from 330,400 in April.",
+      "url": "https://sherwood.news/tech/waymos-now-serving-more-than-500-000-paid-robotaxi-rides-every-week/"
+    },
+    {
+      "name": "Tesla Robotaxi (Texas)",
+      "description": "Pilot scale. electrive (June 2, 2026) reports 42 robotaxis registered with the Texas DMV under new reporting rules. Where they run, and how many have no safety monitor, comes from third-party trackers, not from Tesla or the DMV.",
+      "url": "https://www.electrive.com/2026/06/02/tesla-robotaxi-fleet-in-texas-reaches-only-42-vehicles/"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Driving paying passengers inside Waymo's service areas (evidence from Los Angeles)",
+      "status": "partial",
+      "tool": "Waymo Driver",
+      "sourceUrl": "https://laist.com/news/transportation/waymo-economics-la-uber-lyft-drivers-report-gridwise"
+    },
+    {
+      "task": "Driving paying passengers outside the few robotaxi metros (most of the US)",
+      "status": "not-yet",
+      "sourceUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/taxi-drivers-and-chauffeurs.htm"
+    }
+  ],
+  "evidence": "The national picture is growth, not decline. The BLS Occupational Outlook Handbook page (last modified October 29, 2026) counts 455,700 taxi driver, shuttle driver and chauffeur jobs in 2025 and projects 9% growth to 2035, with taxi drivers (204,200 jobs, 86% self-employed) at 12%. It says much of the growth stems from demand for ride-hailing drivers, who typically work as independent contractors. The page says ride-hailing drivers get requests through a smartphone app and charge a fare typically specified in the app, and it does not mention autonomous, self-driving or driverless vehicles, or AI. The BLS series is not like-for-like: a 2017 edition counted 233,700 jobs for taxi drivers and chauffeurs in 2014, an edition last modified in August 2025 counted 447,900 for 2024, and the title and scope have changed. BLS's latest data year, 2025, also comes before most of Waymo's scale-up, so it cannot show a robotaxi effect either way. A decline that predates generative AI is in street-hail taxis: the New York Taxi and Limousine Commission reported that average daily yellow cab trips fell 15.5% from April 2012 to April 2015 (amNY, July 2015), with a researcher saying Uber and Lyft may be factors among several the commission cited.\n\nRobotaxis are at real commercial scale in a handful of metros, but small against the occupation. Waymo says it provides 500,000 paid rides a week in 10 cities with more than 3,000 vehicles (company claim, March 2026); The Driverless Digest says it operates in 11 cities. That report, citing California Public Utilities Commission data, shows about 330,400 paid trips a week in California in April 2026, 328,500 in May and 314,700 in June, and notes that a nationwide freeway pause from May 21 overlaps the dip, which it presents as one possible cause. Three thousand vehicles is about 0.7% of BLS's 455,700 jobs, by my arithmetic; a vehicle runs far more rides than one human driver, and BLS undercounts part-time ride-hail drivers, so this is not a clean ratio. Business Insider, as relayed by a radio station, puts Waymo at 15% of gross bookings in Los Angeles and San Francisco in June 2026, and it is unclear whether that counts trips or dollars. Tesla is pilot scale, with 42 registered robotaxis in Texas.\n\nEffects on human drivers are mixed. LAist (October 22, 2026), reporting on a study by Gridwise, a gig-driver earnings app, says drivers' total work hours in Los Angeles fell 17.8% and quarterly pay fell 14.7% between the second quarter of 2024 and the second quarter of 2026, while pay per trip and per hour rose and the number of drivers increased. In cities without robotaxis, hours and pay rose. Gridwise's own report says that in San Francisco riders paid the same, platform fees fell 47% and drivers earned 16% more per quarter, and that its analysis cannot separate the effect of AV service from other market factors. I found no source showing driver numbers falling anywhere and no study that isolates robotaxi effects. Waymo's weekly rides after March 2026 are unconfirmed beyond company statements. This status is a loose fit: AI does the driving at real scale only in a few metros, so augmented is the weaker status given mixed evidence, and confidence is low because several key figures are company-reported or secondhand.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Taxi Drivers, Shuttle Drivers, and Chauffeurs (last modified October 29, 2026)",
+      "url": "https://www.bls.gov/ooh/transportation-and-material-moving/taxi-drivers-and-chauffeurs.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Taxi Drivers and Chauffeurs (archived January 2017 edition, 2014 base year)",
+      "url": "https://web.archive.org/web/20170104215223id_/https://www.bls.gov/ooh/transportation-and-material-moving/taxi-drivers-and-chauffeurs.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Taxi Drivers, Shuttle Drivers, and Chauffeurs (archived January 2026 copy of the August 2025 edition, 2024 base year)",
+      "url": "https://web.archive.org/web/20260120174202id_/https://www.bls.gov/ooh/transportation-and-material-moving/taxi-drivers-and-chauffeurs.htm"
+    },
+    {
+      "title": "Sherwood News: Waymo is now serving more than 500,000 paid robotaxi rides every week (March 30, 2026)",
+      "url": "https://sherwood.news/tech/waymos-now-serving-more-than-500-000-paid-robotaxi-rides-every-week/"
+    },
+    {
+      "title": "The Driverless Digest: Waymo's California trips are falling, but its ambitions are growing (August 26, 2026; secondary report of CPUC data)",
+      "url": "https://www.thedriverlessdigest.com/p/waymos-california-trips-are-falling"
+    },
+    {
+      "title": "LAist: Waymo economics and LA Uber and Lyft drivers, Gridwise report (October 22, 2026)",
+      "url": "https://laist.com/news/transportation/waymo-economics-la-uber-lyft-drivers-report-gridwise"
+    },
+    {
+      "title": "Gridwise Analytics: 2026 AV Impact Report",
+      "url": "https://gridwise.io/analytics/2026-av-impact-report"
+    },
+    {
+      "title": "KFI AM 640: New report explores Waymo's impact on LA Uber and Lyft drivers (October 23, 2026; relays a Business Insider figure)",
+      "url": "https://kfiam640.iheart.com/featured/la-local-news/content/2026-10-23-new-report-explores-waymos-impact-on-la-uber-lyft-drivers/"
+    },
+    {
+      "title": "amNY: NYC yellow cab trips on the decline, Uber to blame? (July 10, 2015; TLC data)",
+      "url": "https://www.amny.com/transit/nyc-yellow-cab-trips-on-the-decline-uber-to-blame-1-10627001"
+    },
+    {
+      "title": "electrive: Tesla robotaxi fleet in Texas reaches only 42 vehicles (June 2, 2026)",
+      "url": "https://www.electrive.com/2026/06/02/tesla-robotaxi-fleet-in-texas-reaches-only-42-vehicles/"
+    }
+  ]
+}

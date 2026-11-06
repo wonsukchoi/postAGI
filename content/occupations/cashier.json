@@ -1,0 +1,73 @@
+{
+  "slug": "cashier",
+  "title": "Cashier",
+  "sector": "Retail",
+  "status": "not-yet",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "Cashier jobs fell about 15% from 2018 to 2025. BLS blames plain self-checkout and online sales, not AI. AI voice ordering and cashierless checkout are live but cover a small slice.",
+  "aiTools": [
+    {
+      "name": "Omilia Voice AI (Taco Bell drive-thru)",
+      "description": "Voice AI that takes drive-thru orders. Fox Business (July 8, 2026) reports, from Taco Bell's announcement, that it is deployed at over 890 Taco Bell restaurants in 38 states, and that locations using it reported higher employee retention. These are company-reported figures and no source shows fewer order-taker jobs.",
+      "url": "https://www.foxbusiness.com/lifestyle/taco-bell-ramps-up-voice-ai-use-across-drive-thrus"
+    },
+    {
+      "name": "Amazon Just Walk Out",
+      "description": "Computer-vision checkout with no cashier. American Banker (January 28, 2026) reports Amazon's figures: deployed at more than 360 third-party locations in five countries, with 150 stores adding it in 2025. In the same announcement Amazon said it would close its own Go and Fresh stores. Company-reported.",
+      "url": "https://www.americanbanker.com/payments/news/amazon-will-close-its-go-and-fresh-stores"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Drive-thru order-taking in food service",
+      "status": "augmented",
+      "tool": "Omilia Voice AI",
+      "sourceUrl": "https://www.foxbusiness.com/lifestyle/taco-bell-ramps-up-voice-ai-use-across-drive-thrus"
+    },
+    {
+      "task": "Scanning items and taking payment in stores with no cashier (computer-vision checkout)",
+      "status": "not-yet",
+      "tool": "Amazon Just Walk Out",
+      "sourceUrl": "https://www.americanbanker.com/payments/news/amazon-will-close-its-go-and-fresh-stores"
+    }
+  ],
+  "evidence": "Cashier employment has fallen for about eight years, and the cause BLS gives is not AI. Archived editions of the BLS Occupational Outlook Handbook give about 3.5 million jobs in 2002, 3,362,600 in 2010, 3,424,200 in 2014, 3,648,500 in 2018, 3,379,100 in 2020, 3,345,800 in 2022 and 3,157,200 in 2024. The current page (last modified August 27, 2026) says about 3.1 million in 2025 and projects a 6% decline to 2035. Jobs were roughly flat from 2002 to 2018, then fell about 15% by 2025. These are base years from different editions, not one consistent series, and 2020 includes the pandemic. BLS flagged self-service checkout in its 2004 edition as something that may have an adverse effect on cashiers. Its April 2020 edition first projected a decline (4%), saying employment of cashiers is expected to decline because of advances in technology, such as the use of self-service checkout stands in retail stores and increasing online sales. The current page keeps that sentence. None of the seven editions I read, and not the current page, mentions AI. Plain self-checkout kiosks are automation, not AI, so this page does not count them as AI.\n\nThe AI evidence is real but narrow. Taco Bell says its voice AI is at over 890 restaurants (Fox Business, July 2026) and Amazon says Just Walk Out is at more than 360 third-party sites (American Banker, January 2026); both are company figures, and neither source shows fewer jobs. The record also has retreats: McDonald's ended its IBM voice-ordering test, run in about 100 restaurants since October 2021, in 2024, after a 2022 BTIG report put accuracy in the low 80% range against a 95% goal (Nation's Restaurant News, June 17, 2024), and Amazon closed its own Go and Fresh stores. NBC News (July 4, 2024) reported that Dollar General and Target scaled back plain self-checkout, with theft among the reasons, and that Amazon was pulling Just Walk Out from its grocery stores. That is a reversal of non-AI automation and says nothing about AI.\n\nLimits: I found no independent study that isolates the effect of self-checkout or AI on cashier headcount, and BLS does not say how much of the decline comes from technology versus online sales. I could not retrieve OEWS history. The status is not yet because AI does the work only in a small slice of roughly 3.1 million jobs, and no source ties any job loss to it. Confidence is medium.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Cashiers (current edition, last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/sales/cashiers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Cashiers (archived September 2025 edition, 2024 base year)",
+      "url": "https://web.archive.org/web/20250917134602/https://www.bls.gov/ooh/sales/cashiers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Cashiers (archived April 2020 edition, first projected decline)",
+      "url": "https://web.archive.org/web/20200602234717/https://www.bls.gov/ooh/sales/cashiers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Cashiers (archived 2004 edition, 2002 data)",
+      "url": "https://web.archive.org/web/20040604id_/http://www.bls.gov/oco/ocos116.htm"
+    },
+    {
+      "title": "NBC News: Major retailers are backtracking on self-checkout (July 4, 2024)",
+      "url": "https://www.nbcnews.com/business/business-news/major-retailers-are-backtracking-self-checkout-rcna160234"
+    },
+    {
+      "title": "Nation's Restaurant News: McDonald's is ending its AI drive-thru test with IBM (June 17, 2024)",
+      "url": "https://www.nrn.com/quick-service/mcdonald-s-is-ending-its-ai-drive-thru-test-with-ibm"
+    },
+    {
+      "title": "Fox Business: Taco Bell ramps up voice AI use across nearly 900 drive-thrus (July 8, 2026)",
+      "url": "https://www.foxbusiness.com/lifestyle/taco-bell-ramps-up-voice-ai-use-across-drive-thrus"
+    },
+    {
+      "title": "American Banker: Amazon changes course on its checkout-free tech (January 28, 2026)",
+      "url": "https://www.americanbanker.com/payments/news/amazon-will-close-its-go-and-fresh-stores"
+    }
+  ]
+}

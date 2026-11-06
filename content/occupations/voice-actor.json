@@ -1,0 +1,74 @@
+{
+  "slug": "voice-actor",
+  "title": "Voice actor",
+  "sector": "Creative",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-06",
+  "draft": false,
+  "summary": "A search shows 50,000+ Audible titles voiced by 'Virtual Voice'. A union survey says 21% lost a job to AI, but incomes are mixed and studios reversed some AI voices. No measured job fall.",
+  "aiTools": [
+    {
+      "name": "Audible AI narration (Virtual Voice)",
+      "description": "TechCrunch (May 13, 2025) reports Audible expanding AI narration for publishers, and that a search for Virtual Voice on Audible shows over 50,000 titles labeled Narrated By: Virtual Voice. That is a reporter's search count with no total to compare it to, and Audible's description of the program is a company capability claim.",
+      "url": "https://techcrunch.com/2025/05/13/audible-is-expanding-its-ai-narrated-audiobook-library/"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Audiobook narration (self-published and catalog titles)",
+      "status": "augmented",
+      "tool": "Audible AI narration",
+      "sourceUrl": "https://techcrunch.com/2025/05/13/audible-is-expanding-its-ai-narrated-audiobook-library/"
+    },
+    {
+      "task": "Video game character lines (text-to-speech lines later partly re-recorded)",
+      "status": "augmented",
+      "tool": "Text-to-speech (Arc Raiders)",
+      "sourceUrl": "https://gamingbolt.com/?p=639212"
+    },
+    {
+      "task": "Anime and licensed-series dubbing",
+      "status": "not-yet",
+      "tool": "Amazon Prime Video AI beta dubs",
+      "sourceUrl": "https://www.animenewsnetwork.com/news/2025-12-03/amazon-streamed-ai-english-dubs-on-banana-fish-no-game-no-life-zero-pet-anime/.231513"
+    }
+  ],
+  "evidence": "BLS has no voice actor category. The closest is Actors (67,500 jobs in 2025, little or no change projected to 2035, page last modified September 14, 2026). Its job description says some actors do voiceover or narration work, and its outlook says only that artificial intelligence may replace some actors in certain subfields. It does not discuss demand for voice actors, and I did not check BLS's separate announcers and broadcast group. The strongest hard data is a freelance-platform study that shows no voice-actor decline. Demirci, Hannane and Zhu (CESifo working paper, August 2024) analysed 1,388,711 job posts on one global platform from July 2021 to July 2023. They treat an audio services cluster, which includes voice talent, voice artist and voice over, as a manual-intensive comparison group. Its share of posts rose from 0.9% to 1.07% after ChatGPT, and the paper reports no separate voice result. Its data end before Audible's 2025 expansion.\n\nSurveys are self-reported and mixed. The 2026 NAVA State of Voiceover survey (1,379 responses, January 22 to February 22, 2026, recruited through social media, Facebook groups and NAVA's contact list), as reported by Dane Reid Media because NAVA's own site would not load, found that 21% had knowingly lost a job to a synthetic voice, while 41% said their income grew and 30% said it fell. A survey of UK subscribers to Voiceovers.co.uk (page updated April 2026, sample size not stated) found about 65% reporting some income decline and nearly 25% an increase. It does not attribute the declines to AI; the most common AI concern, cited by 55%, was a contraction of the creative industries. On the employer side, SAG-AFTRA members ratified a video game agreement on July 9, 2025, with 95.04% in favor, after a 320-day strike. TheWrap reports it requires companies to inform performers about all the ways AI is planned to be used and lets performers suspend consent.\n\nThe reversals point away from replacement. Amazon announced an AI dubbing pilot on March 5, 2025, and Anime News Network reported the AI English dubs of Banana Fish and No Game, No Life Zero were removed in early December 2025, with others following within days. Embark Studios' CEO said some lines in Arc Raiders were re-recorded after launch with real voices, adding that a real professional actor is better than AI. Limits: I found no independent employment, hiring or earnings series for voice actors, and I could not read SAG-AFTRA's own agreement text. The 50,000-title count has no denominator. The status is augmented with low confidence, and it is a loose fit: in practice AI substitutes for humans in low-end slices such as self-published audiobooks, but no source measures a fall in hiring.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Actors (last modified September 14, 2026)",
+      "url": "https://www.bls.gov/ooh/entertainment-and-sports/actors.htm"
+    },
+    {
+      "title": "Demirci, Hannane and Zhu: Who Is AI Replacing? (CESifo Working Paper 11276, August 2024)",
+      "url": "https://www.ifo.de/DocDL/cesifo1_wp11276.pdf"
+    },
+    {
+      "title": "Dane Reid Media: What the 2026 voiceover survey reveals about our industry (March 31, 2026; secondary report of the NAVA survey)",
+      "url": "https://danereidmedia.com/2026/03/31/what-the-2026-voiceover-survey-reveals-about-our-industry/"
+    },
+    {
+      "title": "Voiceovers.co.uk: State of the Industry Report 2025 (UK subscribers, updated April 2026)",
+      "url": "https://www.voiceovers.co.uk/subscribersupport/stateoftheindustryreport2025/"
+    },
+    {
+      "title": "TechCrunch: Audible is expanding its AI-narrated audiobook library (May 13, 2025)",
+      "url": "https://techcrunch.com/2025/05/13/audible-is-expanding-its-ai-narrated-audiobook-library/"
+    },
+    {
+      "title": "TheWrap: SAG-AFTRA members ratify Interactive Media Agreement after 320-day video game strike (July 9, 2025)",
+      "url": "https://www.thewrap.com/sag-aftra-ratify-interactive-media-agreement-video-game-strike/"
+    },
+    {
+      "title": "Anime News Network: Amazon streamed AI English dubs on Banana Fish and other anime (December 2025)",
+      "url": "https://www.animenewsnetwork.com/news/2025-12-03/amazon-streamed-ai-english-dubs-on-banana-fish-no-game-no-life-zero-pet-anime/.231513"
+    },
+    {
+      "title": "GamingBolt: Arc Raiders takes steps to address AI voice acting (Embark statement)",
+      "url": "https://gamingbolt.com/?p=639212"
+    }
+  ]
+}
