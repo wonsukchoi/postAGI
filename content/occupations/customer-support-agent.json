@@ -13,7 +13,8 @@
     {
       "name": "Fin (Intercom)",
       "description": "AI agent that answers customer queries and takes actions in connected systems. The vendor reports a 76% average resolution rate and does not define \"resolution\"; this is a vendor claim, not independent evidence.",
-      "url": "https://fin.ai/"
+      "url": "https://fin.ai/",
+      "logo": "/tools/fin.png"
     }
   ],
   "tasks": [

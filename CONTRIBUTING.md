@@ -11,6 +11,17 @@ The most useful contribution is a well-sourced occupation file or a correction t
 5. Run `npm run validate`, `npm run lint` and `npm run build`.
 6. Open a pull request using the template.
 
+## Tool logos
+
+An entry in `aiTools` can have an optional `logo`. Without one, the page shows a letter badge, which is fine.
+
+1. Put the file in `public/tools/` as `<tool-name>.svg`, `.png` or `.webp`, lowercase with hyphens.
+2. Set `"logo": "/tools/<tool-name>.svg"` on the tool. `npm run validate` fails if the file is missing.
+3. Use the tool's own official icon (usually its favicon or press-kit mark), square or close to it. Don't crop or recolor it.
+4. SVGs must not contain `<script>`, `<foreignObject>` or embedded `<image>` elements, and shouldn't change color with `prefers-color-scheme`, since the site is light only.
+
+Logos are trademarks of their owners. They are shown only to identify the tool.
+
 ## Status levels
 
 | Status | Meaning |

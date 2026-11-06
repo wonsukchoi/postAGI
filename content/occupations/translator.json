@@ -13,22 +13,26 @@
     {
       "name": "Google Translate",
       "description": "Free machine translation app. Local adoption across US labor markets was linked to slower growth in translator employment (Frey and Llanos-Paredes, 2025).",
-      "url": "https://oms-www.files.svdcdn.com/production/downloads/academic/Frey_LlanosParedes_2025_LostInTranslation.pdf"
+      "url": "https://oms-www.files.svdcdn.com/production/downloads/academic/Frey_LlanosParedes_2025_LostInTranslation.pdf",
+      "logo": "/tools/google-translate.png"
     },
     {
       "name": "ChatGPT",
       "description": "General-purpose LLM. After its release, translation freelancers on one online platform saw fewer accepted jobs and lower earnings (Qiao, Rui and Xiong).",
-      "url": "https://arxiv.org/pdf/2312.04180"
+      "url": "https://arxiv.org/pdf/2312.04180",
+      "logo": "/tools/chatgpt.svg"
     },
     {
       "name": "DeepL",
       "description": "Translation and editing LLM. The vendor says it is built specifically for translation and editing; this is a vendor press release, not independent evidence.",
-      "url": "https://www.deepl.com/en/press-release/deepl-launches-next-generation-llm-that-outperforms-gpt-4-google-and-microsoft-for-translation-quality"
+      "url": "https://www.deepl.com/en/press-release/deepl-launches-next-generation-llm-that-outperforms-gpt-4-google-and-microsoft-for-translation-quality",
+      "logo": "/tools/deepl.svg"
     },
     {
       "name": "eTranslation (European Commission)",
       "description": "The Commission's machine translation service. It processed more than 890 million pages in 2025.",
-      "url": "https://translation.ec.europa.eu/dg-translation-figures_en"
+      "url": "https://translation.ec.europa.eu/dg-translation-figures_en",
+      "logo": "/tools/etranslation.svg"
     }
   ],
   "tasks": [

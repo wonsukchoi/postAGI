@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getOccupation, getOccupations } from "@/lib/occupations";
@@ -99,7 +100,23 @@ export default async function OccupationPage(
                   href={t.url}
                   className="flex items-center gap-3.5 px-4 py-3.5 hover:bg-neutral-50"
                 >
-                  <span aria-hidden="true" className="size-8 shrink-0 rounded-lg bg-neutral-200" />
+                  {t.logo ? (
+                    <Image
+                      src={t.logo}
+                      alt=""
+                      width={32}
+                      height={32}
+                      unoptimized
+                      className="size-8 shrink-0 rounded-lg object-contain"
+                    />
+                  ) : (
+                    <span
+                      aria-hidden="true"
+                      className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-neutral-900 text-sm font-semibold text-white"
+                    >
+                      {(t.name.match(/[A-Za-z0-9]/)?.[0] ?? "?").toUpperCase()}
+                    </span>
+                  )}
                   <span className="flex min-w-0 flex-1 flex-col gap-0.5">
                     <span className="text-[15px] font-medium">{t.name}</span>
                     <span className="text-[13px] text-neutral-600">{t.description}</span>

@@ -37,6 +37,17 @@ export const AiToolSchema = z.object({
   name: z.string().min(1),
   description: z.string().min(1),
   url: z.url(),
+  /**
+   * Optional logo, a file in public/tools/ (e.g. "/tools/fin.png").
+   * Without one, the page shows a letter badge. See CONTRIBUTING.md.
+   */
+  logo: z
+    .string()
+    .regex(
+      /^\/tools\/[a-z0-9-]+\.(svg|png|webp)$/,
+      'logo must look like "/tools/<name>.svg" (svg, png or webp)',
+    )
+    .optional(),
 });
 
 export const TaskSchema = z.object({

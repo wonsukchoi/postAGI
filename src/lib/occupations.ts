@@ -36,6 +36,13 @@ export function getOccupations(): Occupation[] {
     }
 
     const occ = parsed.data;
+    for (const tool of occ.aiTools) {
+      if (tool.logo && !fs.existsSync(path.join(process.cwd(), "public", tool.logo))) {
+        throw new Error(
+          `${where}: logo "${tool.logo}" for "${tool.name}" does not exist in public/`,
+        );
+      }
+    }
     if (`${occ.slug}.json` !== file) {
       throw new Error(`${where}: slug "${occ.slug}" must match the file name`);
     }
