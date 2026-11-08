@@ -23,6 +23,7 @@ export default function OccupationsPage() {
         ])}
       />
       <JsonLd data={occupationListJsonLd(getOccupations())} />
+      <h1 className="sr-only">Occupations: what has AI already replaced?</h1>
       <OccupationList occupations={getOccupations()} />
     </main>
   );

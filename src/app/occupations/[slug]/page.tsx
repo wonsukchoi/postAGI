@@ -28,7 +28,7 @@ export async function generateMetadata(
   if (!occ) return {};
   return pageMetadata({
     title: `${occ.title}: has AI replaced it?`,
-    description: occ.summary,
+    description: occ.metaDescription ?? occ.summary,
     path: `/occupations/${occ.slug}`,
     type: "article",
   });

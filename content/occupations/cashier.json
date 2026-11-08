@@ -9,6 +9,7 @@
   "updatedAt": "2026-11-06",
   "draft": false,
   "summary": "Cashier jobs fell about 15% from 2018 to 2025. BLS blames plain self-checkout and online sales, not AI. AI voice ordering and cashierless checkout are live but cover a small slice.",
+  "metaDescription": "Has AI replaced cashiers? Cashier jobs fell about 15% from 2018 to 2025, but BLS blames self-checkout and online sales, not AI. AI ordering is a small slice.",
   "aiTools": [
     {
       "name": "Omilia Voice AI (Taco Bell drive-thru)",

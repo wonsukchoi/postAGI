@@ -9,6 +9,7 @@
   "updatedAt": "2026-11-06",
   "draft": false,
   "summary": "BLS has projected a 6% decline in bookkeeping clerks since 2020 and blames software, not AI. AI bookkeeping tools exist, but no source shows AI-driven job loss. AI mostly speeds work up.",
+  "metaDescription": "Has AI replaced bookkeepers? BLS has projected a 6% decline in bookkeeping clerks and blames software, not AI. AI tools exist, but no source shows AI job loss.",
   "aiTools": [
     {
       "name": "QuickBooks Accounting Agent (Intuit)",

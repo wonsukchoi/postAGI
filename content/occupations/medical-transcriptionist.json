@@ -9,6 +9,7 @@
   "updatedAt": "2026-11-06",
   "draft": false,
   "summary": "BLS counts 42,000 medical transcriptionists in 2025, down from 95,100 in 2010, and blames speech recognition. Most of the fall came before generative AI. No source separates AI's share.",
+  "metaDescription": "Has AI replaced medical transcriptionists? BLS counts 42,000 in 2025, down from 95,100 in 2010, blaming speech recognition. Most of it predates generative AI.",
   "aiTools": [
     {
       "name": "Microsoft Dragon Copilot",

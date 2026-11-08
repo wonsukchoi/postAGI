@@ -82,6 +82,7 @@ A file looks like this:
   "sector": "Language",
   "status": "partial",
   "summary": "One plain sentence, 200 characters at most.",
+  "metaDescription": "Optional. 50 to 160 characters, a short version of the summary for search results.",
   "tasksAutomatedPct": null,
   "yearReplaced": null,
   "confidence": "medium",

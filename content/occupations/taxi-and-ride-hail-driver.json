@@ -9,6 +9,7 @@
   "updatedAt": "2026-11-06",
   "draft": false,
   "summary": "Waymo reports 500,000 paid rides a week in 10 to 11 cities, yet BLS counts 455,700 taxi, shuttle and chauffeur jobs and projects growth. LA driver hours and pay fell; SF earnings rose.",
+  "metaDescription": "Has AI replaced taxi and ride-hail drivers? Waymo reports 500,000 paid rides a week, yet BLS counts 455,700 driver jobs and projects growth. Pay is mixed.",
   "aiTools": [
     {
       "name": "Waymo Driver (driverless robotaxi service)",

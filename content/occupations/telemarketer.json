@@ -9,6 +9,7 @@
   "updatedAt": "2026-11-06",
   "draft": false,
   "summary": "About 61,000 US telemarketers in 2025 vs 168,000 in 2018 (BLS bases). BLS blames web ads, caller ID and Do Not Call, not AI. AI outbound calling appears only in a vendor pilot.",
+  "metaDescription": "Has AI replaced telemarketers? About 61,000 US telemarketers in 2025 vs 168,000 in 2018, but BLS blames web ads and Do Not Call, not AI. AI calling is a pilot.",
   "aiTools": [
     {
       "name": "Convoso Voice AI Agent",

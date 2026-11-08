@@ -79,6 +79,11 @@ export const OccupationSchema = z.object({
   sector: z.string().min(1),
   status: z.enum(STATUSES),
   summary: z.string().min(1).max(200),
+  /**
+   * Search snippet and link-preview text, 50 to 160 characters. Falls back to `summary`
+   * when missing. Keep it a faithful short version of the summary, with the same claims.
+   */
+  metaDescription: z.string().min(50).max(160).optional(),
   /** 0-100, or null when unknown. */
   tasksAutomatedPct: z.number().min(0).max(100).nullable(),
   /** Four-digit year, or null when unknown. */

@@ -9,6 +9,7 @@
   "updatedAt": "2026-11-06",
   "draft": false,
   "summary": "Driverless trucks run in small numbers (Aurora, Kodiak: tens of trucks) against 2.2M US driver jobs. Reported driver job losses are tied to the freight recession and regulation, not AI.",
+  "metaDescription": "Has AI replaced truck drivers? Driverless trucks run in small numbers against 2.2M US driver jobs. Reported job losses trace to the freight recession, not AI.",
   "aiTools": [
     {
       "name": "Aurora Driver",

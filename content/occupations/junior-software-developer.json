@@ -9,6 +9,7 @@
   "updatedAt": "2026-11-06",
   "draft": false,
   "summary": "Young developers' employment was about 20% below its late-2022 peak by July 2025, but the cause is disputed. BLS projects 10% growth for developers. No source shows AI replacing juniors.",
+  "metaDescription": "Has AI replaced junior developers? Young developers' jobs were about 20% below the late-2022 peak by July 2025, but the cause is disputed. BLS projects growth.",
   "aiTools": [
     {
       "name": "Claude Code (Anthropic)",
