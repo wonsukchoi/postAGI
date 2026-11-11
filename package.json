@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "validate": "tsx scripts/validate.ts",
+    "test": "tsx --test tests/*.test.ts",
     "prebuild": "npm run validate",
     "typecheck": "next typegen && tsc --noEmit",
     "deploy": "bash scripts/deploy.sh",

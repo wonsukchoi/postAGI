@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { REPO_URL, SITE_NAME } from "@/lib/site";
+import { DATA_URL, REPO_URL, SITE_NAME } from "@/lib/site";
 
 const linkClass = "text-neutral-600 hover:text-neutral-900";
 
@@ -15,6 +15,9 @@ export function Footer() {
         </Link>
         <a href={REPO_URL} className={linkClass}>
           GitHub
+        </a>
+        <a href={DATA_URL} className={linkClass}>
+          Data (JSON)
         </a>
         <a href={`${REPO_URL}/blob/main/CONTRIBUTING.md`} className={linkClass}>
           Contribute
