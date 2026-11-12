@@ -1,0 +1,143 @@
+{
+  "slug": "photographer",
+  "title": "Photographer",
+  "sector": "Creative",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "About 145,000 photographers worked in 2025, two-thirds self-employed. BLS projects a 1% fall by 2035, citing smartphones and AI stock images. Many use AI editing tools; a UK survey reports lost work.",
+  "metaDescription": "Has AI replaced photographers? BLS projects a 1% fall by 2035, citing smartphones and AI stock images. Many use AI editing; a UK survey reports lost work.",
+  "aiTools": [
+    {
+      "name": "Adobe Lightroom AI Denoise and Assisted Culling",
+      "description": "AI features in Adobe's photo editor. TechCrunch (April 18, 2023) reported that Lightroom's AI Denoise uses machine learning to improve high-ISO raw files, alongside new AI mask categories for selecting people. Adobe announced Assisted Culling in Lightroom as a public beta on October 28, 2025, saying it helps creative professionals quickly identify the best images in large photo collections. Adobe gives no usage figures.",
+      "url": "https://news.adobe.com/news/2025/10/adobe-max-2025-creative-cloud"
+    },
+    {
+      "name": "Aftershoot",
+      "description": "AI culling, editing and retouching software for photographers. Aftershoot says that across 188,000 photographers its users processed 8.8 billion images in 2025 and saved an estimated 89 million hours through culling and editing automation (Digital Camera World, December 19, 2025). Company-reported.",
+      "url": "https://www.digitalcameraworld.com/tech/artificial-intelligence/photographers-saved-89-million-hours-12-work-weeks-each-using-ai-in-2025-study-suggests"
+    },
+    {
+      "name": "Generative AI by Getty Images",
+      "description": "Text-to-image generator from the stock photo agency Getty Images, trained on Getty's own library, launched September 25, 2023 (PYMNTS). Getty's March 16, 2026 results release says Getty Images and iStock customers can use text to image generation to create commercially safe visuals. Company statements; Getty gives no figures on how many licensed photos it replaces.",
+      "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-reports-fourth-quarter-and-full-year-2025-results"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Selling stock photos through online stock image platforms",
+      "status": "partial",
+      "tool": "Text-to-image generators",
+      "sourceUrl": "https://thearf-org-unified-admin.s3.amazonaws.com/MSI/2025/MSI_Report_25-129.pdf"
+    },
+    {
+      "task": "Commissioned shoots (UK trade association survey, self-reported)",
+      "status": "partial",
+      "tool": "Generative-AI image services",
+      "sourceUrl": "https://www.the-aop.org/uploads/aop-member-survey-copyright-ai-january-2026.pdf"
+    },
+    {
+      "task": "Culling, editing and retouching photos after a shoot",
+      "status": "augmented",
+      "tool": "Aftershoot",
+      "sourceUrl": "https://www.digitalcameraworld.com/tech/artificial-intelligence/photographers-saved-89-million-hours-12-work-weeks-each-using-ai-in-2025-study-suggests"
+    },
+    {
+      "task": "Menu food photos for delivery apps",
+      "status": "not-yet",
+      "tool": "Just Eat AI menu imagery (trial paused)",
+      "sourceUrl": "https://www.restaurantonline.co.uk/Article/2026/10/21/just-eat-apologises-for-surreal-ai-generated-food-images/"
+    }
+  ],
+  "evidence": "This page covers photographers (BLS code 27-4021). BLS says most photographers do their own postproduction work. The current BLS Occupational Outlook Handbook page (last modified August 27, 2026) says photographers held about 145,000 jobs in 2025 and that 67% were self-employed. It projects employment to decline 1 percent from 2025 to 2035, a loss of about 1,000 jobs, with about 10,700 openings a year. I use that figure, which includes the self-employed, for the size of the occupation. For the trend I use the BLS OEWS national estimates, which cover only wage and salary jobs: the OEWS pages state that estimates do not include self-employed workers, so they miss about two-thirds of photographers.\n\nOEWS shows no fall in wage and salary photographer jobs in the years I could check. It gives 48,660 jobs in May 2016, 49,560 in 2018, 50,620 in 2019, 41,600 in 2020, 38,420 in 2021, 53,630 in 2023, and 51,760 in May 2025 (the 2025 value comes from the BLS public data API, because the 2025 web page redirected). That is about 6% more in 2025 than in 2016. The 2020 and 2021 dips are pandemic years, and the 2021 estimate is the least precise (relative standard error 4.6%). OEWS is a survey estimate, and the code 27-4021 is the same on every page I read. I could not read OEWS pages for years before 2016 or for 2024; they redirect to the OEWS home page.\n\nThe long-running pressure on photographers is older than generative AI and is not mainly AI. The BLS Job Outlook section opens: \"The ease and quality of photos taken by smartphones may reduce the need for professional photographers.\" At newspapers, photo staffs were already shrinking in the 2000s. Pew Research Center (November 11, 2013), using American Society of News Editors data, found that the ranks of newspaper photographers, artists and videographers were trimmed by nearly half (43%), from 6,171 in 2000 to 3,493 in 2012, and that the Chicago Sun-Times cut its entire 28-person photography department in May 2013. Pew named shrinking newsroom budgets and the explosion of mobile technology and social media as causes. Stock photo prices also fell long before image generators. Jim Pickerell, in a guest article on the CEPIC website originally published on Selling Stock (October 23, 2020), writes that in the early 2000s some customers still complained that stock images were too expensive, and names iStockphoto and Shutterstock as two of the early developers of sites serving them. He gives Getty's average prices in 2006 as $536 for a rights-managed image and $292 for a traditional royalty-free image, and, from an analysis of 2017 sales of a few major photographers, puts the average price per image licensed at about $29, with one-third licensed for less than $5. That is a sample, not a market-wide figure.\n\nGenerative AI now competes directly with stock photos, and BLS says so. The current Handbook page says some kinds of photography, such as stock photos, are projected to be partially replaced by artificial intelligence (AI)-generated images, dampening demand for these workers. It does not say how much of the projected 1% decline this explains, and it adds that self-employed photographers are projected to grow as more amateurs and hobbyists enter the occupation, that demand for portrait photographers will remain, and that corporations will still need commercial photographers for advertisements. A working paper by Goldberg and Lam (Marketing Science Institute Working Paper 25-129, May 19, 2025) studied one of the largest platforms in the stock image market, unnamed, which announced in December 2022 that it would accept AI-generated images in some markets but not others. Comparing the two groups, the authors found that non-AI sellers exited at a rate of around 23%, or 230 firms a month, and that total image sales rose 39% while non-AI image sales fell substantially. They conclude that GenAI is a substitute for non-GenAI products. The sellers include illustrators as well as photographers, and the paper does not measure income or jobs. Getty Images launched its own text-to-image generator, trained on its library, on September 25, 2023 (PYMNTS). Getty reported 2025 creative revenue of $556.9 million, up 0.7% (company figure, March 16, 2026); that is agency revenue, not photographers' pay.\n\nCommissioned work shows mixed signs. The fashion retailer Zalando told Reuters (May 7, 2025) that around 70% of its editorial campaign images were AI-generated in the fourth quarter of 2024, cutting production time from six to eight weeks to three or four days and costs by 90% (company figures). Asked about fashion photographers' job prospects, its vice president of content solutions, Matthias Haase, said traditional fashion shoots will still be needed, but that photographers and other creatives will have to adapt to using AI tools. The food delivery app Just Eat trialled AI-generated menu images to help small restaurants add pictures without the cost of professional photography, then paused the rollout in October 2026 after inaccurate images appeared (Restaurant Online, October 21, 2026). The only survey of lost photography work I found comes from the Association of Photographers (AOP), a UK trade association that campaigns on copyright and was lobbying the UK government on generative AI when it released the results (Digital Camera World, January 30, 2026), so it is an interested party. In its January 2026 member survey, answered by 20% of its membership (about 600 people, per Videomaker), 58% said they had lost commissioned work to generative-AI services, the same share as in 2025, with average losses of £34,900 per person, up 142% from £14,400. The same survey reports that respondents' average turnover rose 10%, to £117,000, and that the number of images they licensed fell 65%. Digital Camera World (January 30, 2026) reports that AOP surveys put the share losing work at 30% in September 2024.\n\nAI editing tools are part of everyday postproduction. Adobe added AI Denoise, which uses machine learning to clean up high-ISO raw files, and more AI mask categories to Lightroom in April 2023 (TechCrunch, April 18, 2023), and on October 28, 2025 announced Assisted Culling in Lightroom as a public beta, a tool that helps pick the best images from large photo collections. Aftershoot, which sells AI culling and editing software, says its users across 188,000 photographers processed 8.8 billion images in 2025 and saved an estimated 89 million hours (company figures, Digital Camera World, December 19, 2025). These tools speed up editing; none of these sources ties them to fewer photographer jobs.\n\nLimits: OEWS covers only the third of photographers on payrolls, and I could read it only for 2016 to 2023 and 2025, so I cannot show the OEWS trend from the 2000s. I could not read archived Handbook editions, so I do not know when BLS first mentioned AI. No source measures how much work self-employed photographers have lost to AI. The stock image study covers one unnamed platform and mixes photographers with illustrators. The AOP survey is UK only, self-selected and run by an interested party, and its membership also includes assistants, agents and students. The Zalando, Getty, Adobe and Aftershoot figures come from the companies. The Pickerell price figures come from one writer's samples and Getty's 2006 results.\n\nThe status is augmented. AI editing tools are in common use and make photographers faster, and wage and salary employment did not fall from 2016 to 2025. AI images are replacing part of the stock photo market, BLS expects that to dampen demand, and many UK photographers report losing commissions, so partial could be argued for those slices. But no source shows AI doing a large share of photographers' work across the occupation or cutting total jobs, and BLS names smartphones first, so the weaker status wins. Confidence is low: the displacement evidence comes from one platform study and one interested-party survey, the usage figures come from vendors, and the employment series misses most self-employed photographers.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Photographers (current edition, last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/media-and-communication/photographers.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2016, 27-4021 Photographers",
+      "url": "https://www.bls.gov/oes/2016/may/oes274021.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2018, 27-4021 Photographers",
+      "url": "https://www.bls.gov/oes/2018/may/oes274021.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2019, 27-4021 Photographers",
+      "url": "https://www.bls.gov/oes/2019/may/oes274021.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2020, 27-4021 Photographers",
+      "url": "https://www.bls.gov/oes/2020/may/oes274021.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2021, 27-4021 Photographers",
+      "url": "https://www.bls.gov/oes/2021/may/oes274021.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2023, 27-4021 Photographers",
+      "url": "https://www.bls.gov/oes/2023/may/oes274021.htm"
+    },
+    {
+      "title": "BLS Public Data API: OEWS national employment, Photographers, series OEUN000000000000027402101 (May 2025 estimate)",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUN000000000000027402101"
+    },
+    {
+      "title": "Pew Research Center: At newspapers, photographers feel the brunt of job cuts (Monica Anderson, November 11, 2013)",
+      "url": "https://www.pewresearch.org/short-reads/2013/11/11/at-newspapers-photographers-feel-the-brunt-of-job-cuts/"
+    },
+    {
+      "title": "CEPIC: Stock Photography's Historic Earnings Decline For Creators (Jim Pickerell, October 23, 2020)",
+      "url": "https://www.cepic.org/post/stock-photographys-historic-earnings-decline-for-creators"
+    },
+    {
+      "title": "Marketing Science Institute: Generative AI in Equilibrium, Evidence from a Creative Goods Marketplace (Goldberg and Lam, Working Paper 25-129, May 19, 2025)",
+      "url": "https://thearf-org-unified-admin.s3.amazonaws.com/MSI/2025/MSI_Report_25-129.pdf"
+    },
+    {
+      "title": "Association of Photographers: AOP Copyright and AI Member Survey Results (January 2026)",
+      "url": "https://www.the-aop.org/uploads/aop-member-survey-copyright-ai-january-2026.pdf"
+    },
+    {
+      "title": "Videomaker: Survey shows that 58% of photographers have lost commissioned work to generative AI (2026)",
+      "url": "https://www.videomaker.com/news/survey-shows-that-58-of-photographers-have-lost-commissioned-work-to-generative-ai/"
+    },
+    {
+      "title": "Digital Camera World: Generative AI could hollow out the photo industry within five years, pro organization warns (January 30, 2026)",
+      "url": "https://www.digitalcameraworld.com/tech/artificial-intelligence/generative-ai-could-hollow-out-the-photo-industry-within-five-years-pro-organization-warns-as-creators-band-together-against-the-greatest-acts-of-theft-in-modern-history"
+    },
+    {
+      "title": "Reuters via The Star: Zalando uses AI to speed up marketing campaigns, cut costs (May 7, 2025)",
+      "url": "https://www.thestar.com.my/tech/tech-news/2025/05/07/zalando-uses-ai-to-speed-up-marketing-campaigns-cut-costs"
+    },
+    {
+      "title": "Restaurant Online: Just Eat apologises for surreal AI generated food images (October 21, 2026)",
+      "url": "https://www.restaurantonline.co.uk/Article/2026/10/21/just-eat-apologises-for-surreal-ai-generated-food-images/"
+    },
+    {
+      "title": "PYMNTS: Getty Images launches generative AI tool for commercial use (September 25, 2023)",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2023/getty-images-launches-generative-ai-tool-for-commercial-use/"
+    },
+    {
+      "title": "Getty Images: Getty Images Reports Fourth Quarter and Full Year 2025 Results (March 16, 2026)",
+      "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-reports-fourth-quarter-and-full-year-2025-results"
+    },
+    {
+      "title": "TechCrunch: Adobe Lightroom adds AI-powered denoise and support for content credentials (April 18, 2023)",
+      "url": "https://techcrunch.com/2023/04/18/adobe-lightroom-adds-ai-powered-denoise-and-support-for-content-credentials/"
+    },
+    {
+      "title": "Adobe: Adobe MAX 2025 Creative Cloud announcements (October 28, 2025)",
+      "url": "https://news.adobe.com/news/2025/10/adobe-max-2025-creative-cloud"
+    },
+    {
+      "title": "Digital Camera World: Photographers saved 89 million hours using AI in 2025, study suggests (on Aftershoot data, December 19, 2025)",
+      "url": "https://www.digitalcameraworld.com/tech/artificial-intelligence/photographers-saved-89-million-hours-12-work-weeks-each-using-ai-in-2025-study-suggests"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "slug": "tax-preparer",
+  "title": "Tax preparer",
+  "sector": "Finance",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "BLS counted 95,800 tax preparer jobs in 2025 and projects 5% growth by 2035. H&R Block says AI helps its preparers research; chatbots tested in 2026 still miscalculated returns.",
+  "metaDescription": "Has AI replaced tax preparers? BLS projects 5% job growth by 2035. H&R Block says AI helps preparers research; chatbots tested in 2026 miscalculated returns.",
+  "aiTools": [
+    {
+      "name": "H&R Block Sidekick",
+      "description": "AI research assistant for H&R Block's tax professionals, built with OpenAI. H&R Block announced the OpenAI collaboration on April 15, 2025, and CEO Curtis Campbell said on the May 6, 2026 earnings call that Sidekick was rolled out that season, lets tax pros query and research complex tax topics, and saw strong adoption all season. Company-reported; no independent measure of use or accuracy.",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/06/hr-block-hrb-q3-2026-earnings-transcript/"
+    },
+    {
+      "name": "H&R Block AI Tax Assist",
+      "description": "Generative AI that answers questions for H&R Block's paid DIY online filers, introduced December 14, 2023 and described in the fiscal 2026 10-K (filed August 14, 2026). H&R Block said it supported 4.1 million client messages and responses in the 2026 season, up 88% (company figure). A Washington Post test in March 2024, as summarized by the NYSSCPA, found it and TurboTax's bot unhelpful or wrong as much as half of the time.",
+      "url": "https://www.sec.gov/Archives/edgar/data/12659/000001265926000026/hrb-20260630.htm"
+    },
+    {
+      "name": "TurboTax agentic AI and AI-enabled experts (Intuit)",
+      "description": "Intuit's FY2026 10-K (filed September 9, 2026) describes AI-driven features, including agentic experiences, in TurboTax and returns prepared by AI-enabled experts. Intuit said on November 6, 2025 that it pairs agentic AI with 13,000 tax experts and that generative AI automates data entry for 90% of the most commonly used tax forms. Company claims, not independently checked.",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Researching complex tax questions for clients",
+      "status": "augmented",
+      "tool": "H&R Block Sidekick",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/05/06/hr-block-hrb-q3-2026-earnings-transcript/"
+    },
+    {
+      "task": "Initial review of new clients' prior-year tax transcripts",
+      "status": "augmented",
+      "tool": "H&R Block Second Look (AI-assisted)",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/05/06/hr-block-hrb-q3-2026-earnings-transcript/"
+    },
+    {
+      "task": "Calculating a complete federal return from a client's information",
+      "status": "not-yet",
+      "tool": "General chatbots (Gemini, ChatGPT, Claude, Grok)",
+      "sourceUrl": "https://www.thestar.com.my/tech/tech-news/2026/03/14/a-word-to-the-wise-dont-trust-ai-to-file-your-taxes"
+    }
+  ],
+  "evidence": "This page covers tax preparers (BLS code 13-2082), who prepare tax returns for individuals or small businesses. Accountants and auditors (13-2011) are a separate BLS occupation with their own page, and the IRS counts of paid preparers further down include CPAs, attorneys and enrolled agents, so they are wider than this occupation. BLS does not give tax preparers a full Occupational Outlook Handbook profile, so there is no Job Outlook section explaining its projection. Its page of data for occupations not covered in detail (last modified August 27, 2026) gives 95,800 jobs in 2025 and projects 5 percent growth, or 4,500 new jobs, by 2035; the projections matrix gives 100.3 thousand in 2035. The only BLS statement about AI for this occupation that I found is a supplemental table published with those projections in August 2026, which rates tax preparers' relative AI exposure \"Very high\". BLS says that rating generally means a larger fraction of an occupation's tasks can be completed or assisted by AI technology and that LLMs have been observed performing some of its tasks, but also that exposure does not imply job loss, productivity gains, automation probability, or wage effects. The same table still projects 4.7% growth.\n\nFor the employment trend this page uses BLS OEWS national estimates, which are survey estimates. They give about 63,000 tax preparers in May 2008 (from a BLS Economics Daily article), 70,030 in 2016, 66,670 in 2019, 62,600 in 2020 (a pandemic year), 83,190 in 2021, 81,650 in 2023 and 76,480 in 2025 (from the BLS data API). The OEWS pages I tried for 2005, 2008, 2010, 2012, 2014, 2015, 2024 and 2025 redirected to an index, so I could not read them. Three caveats matter. First, BLS says it does not encourage the use of OEWS data for time-series analysis, and it switched to a new estimation method, MB3, with the May 2021 estimates, which it says affects comparability. So 2016-2020 and 2021-2025 should be read as two separate series, and the jump from 62,600 to 83,190 should not be read as a hiring boom. Second, OEWS does not cover the self-employed, which is part of why the BLS projections figure (95,800, with 17.6% self-employed) is higher. Third, OEWS estimates refer to May, after the peak: H&R Block says the majority of its clients file from February through April, and Intuit says its tax revenue is concentrated from November through April. Within each series the counts drift down: about 5% from 2016 to 2019, before the pandemic year, and about 8% from 2021 to 2025, with most of the second drop between 2023 and 2025. No source I found ties that drop to AI. H&R Block's peak headcount dipped by a similar share over those years and then recovered, as described below. The BLS projections base figure, which includes the self-employed, was 86,600 in 2018 (BLS Career Outlook, April 2020) against 95,800 in 2025, though these come from different projection rounds. The occupation code 13-2082 is the same on every OEWS page I read; I did not check the SOC crosswalks.\n\nDo-it-yourself tax software is the long-running alternative to paid preparers, and it is not AI under this site's rules: TurboTax-style programs, IRS Free File and IRS Direct File compute returns by following coded tax rules. Commercial tax software was already established by January 2003, when the IRS launched Free File with the Free File Alliance, a private-sector consortium of tax software companies that agreed to provide free services to at least 60 percent or 78 million of the nation's taxpayers. IRS Direct File debuted in 2024; over 296,500 taxpayers used it in 2025, and the IRS told states it will not be available in Filing Season 2026 (Route Fifty, November 5, 2025). IRS filing statistics show self-preparation growing without pushing professionals out. Through December 31, 2010, the IRS received 142,449,000 individual returns, of which tax professionals e-filed 63,893,000 and self-preparers e-filed 34,848,000. Through December 26, 2025, it received 165,824,000, with 87,855,000 e-filed by tax professionals and 67,056,000 self-prepared. Self-prepared e-filing nearly doubled, but professional e-filing also rose, from about 45% to about 53% of all returns received, while returns not e-filed fell from about 43.7 million to about 10.9 million. The IRS does not split paper returns by preparer, so these figures cannot give the total paid share. The number of people with IRS preparer tax identification numbers also grew, from more than 715,000 in November 2015 to 886,338 in September 2026; that count includes 209,076 CPAs.\n\nGenerative AI arrived in consumer tax software in late 2023. Accounting Today reported on November 28, 2023 that TurboTax customers would get Intuit Assist, a generative AI model trained on data such as Intuit's proprietary tax knowledge and the Tax Code, and H&R Block introduced AI Tax Assist, a generative artificial intelligence experience for DIY filers, on December 14, 2023. Both answer questions inside DIY software rather than prepare returns for clients. Early accuracy was poor. Washington Post columnist Geoffrey Fowler tested both in March 2024; as summarized by the NYSSCPA, their answers were unhelpful or wrong as much as half of the time, and after an update TurboTax's bot still gave irrelevant information a quarter of the time. H&R Block told Accounting Today the errors could be the result of insufficiently detailed prompts, and Intuit said it had not found a significant number of people experiencing issues. I could not open the Post article itself. General chatbots still cannot reliably do the core calculation. The New York Times (March 2026) gave Gemini, ChatGPT, Claude and Grok eight fictional tax situations from TaxSlayer training materials, and they were off by an average of more than US$2,000 in the refund or amount owed. A July 2025 preprint by researchers at Column Tax (TaxCalcBench, 51 test cases) found that state-of-the-art models calculated less than a third of federal returns correctly even on its simplified sample.\n\nAI tools for preparers themselves are newer and mostly described by the companies. H&R Block announced on April 15, 2025 that it was building a generative AI tool with OpenAI for its more than 60,000 tax professionals, with larger-scale deployment for Tax Season 2026. On its May 6, 2026 earnings call, CEO Curtis Campbell said H&R Block rolled out Sidekick, an AI tool that lets tax pros query and research complex tax topics, with strong adoption all season; that AI Tax Assist supported 4.1 million client messages and responses, an 88% increase; and that H&R Block now uses AI to automate the initial review of prior-year tax transcripts in its Second Look service. He described AI tools to eliminate manual data entry as testing and experimentation with strong early results, and said the strategy is not about replacing expertise with technology. Intuit said on November 6, 2025 that it pairs agentic AI with a network of 13,000 tax experts, was opening about 20 TurboTax stores and nearly 600 TurboTax Expert offices, and uses generative AI to automate data entry for 90% of the most commonly used tax forms (company claims I could not check). Thomson Reuters' own 2026 survey summary says 34% of tax firms are deploying generative AI at an organizational level, up from 21% a year earlier, and 14% say agentic AI is part of their workflow.\n\nCompany headcounts do not show a sustained AI-driven cut. H&R Block's peak headcount, which includes seasonal and year-round staff, was about 98,600 in the year to April 30, 2015, 80,500 in fiscal 2020, 72,400 in fiscal 2021 and 69,900 in the year to June 30, 2022 (its fiscal year now ends in June). That large fall happened before AI Tax Assist launched in December 2023. A second, smaller dip came after it: 74,400 in fiscal 2023, 70,900 in fiscal 2024 and 70,100 in fiscal 2025, about 6% lower, before a rise to 73,400 in fiscal 2026. The filings give no cause for either decline. The fiscal 2026 10-K adds a risk factor, not present in the fiscal 2025 filing, that advances in technology, including artificial intelligence and automation, may reduce the need for third-party tax preparation services; that is a warning, not a reported effect. On the May 2026 call, CFO Tiffany Mason said late-season volume puts pressure on labor capacity, resulting in overtime. Intuit's average seasonal employees from January to April rose from about 9,400 in fiscal 2023 to about 12,300 in fiscal 2025 and fiscal 2026, though the filing says only that they mainly support Consumer customers during tax season, not how many prepare returns, and in May 2026 Intuit expected TurboTax Live customers to grow 38% for the fiscal year, saying more customers chose assisted offerings. Intuit cut about 17% of its full-time workforce in May 2026; its filing and the CEO's email cite management layers, coordination-heavy roles, overlap between TurboTax and Credit Karma, and Mailchimp, and neither says tax preparers were replaced by AI. I found no dated, reliable source on headcount at Jackson Hewitt.\n\nLimits: OEWS counts only employees, refers to May, changed method in 2021, and could not be read for 2024 or before 2016 except the 2008 figure, so it cannot settle a trend. BLS gives no reasons for its tax preparer projection. The IRS counts cover all paid preparers, including CPAs and attorneys, and the H&R Block headcount is company-wide and includes year-round staff. The 2023-2025 dips in OEWS and in H&R Block's headcount are unexplained; with no 2024 OEWS page and only one year of recovery at H&R Block, I cannot rule out an AI effect. Nearly all evidence about AI use by preparers comes from H&R Block and Intuit, which sell these tools, and from a Thomson Reuters executive's summary of its own survey; I found no independent survey of tax preparers' everyday AI use. The NYT and TaxCalcBench tests cover general chatbots, not the professional software preparers use, and the Washington Post test is from 2024.\n\nThe status is augmented, with low confidence. AI is in everyday use at H&R Block, which says Sidekick was adopted all season by preparers, BLS rates the occupation's AI exposure very high, and no source shows a fall caused by AI: H&R Block's large decline came before its AI tools, its smaller 2023-2025 dip has no stated cause and reversed in fiscal 2026 while its CFO described overtime pressure, Intuit's seasonal staff grew, and BLS projects growth. It is not partial because no source shows demand for preparers falling because of AI, and tested AI tools still get returns and tax answers wrong. It is not not-yet because the AI research tool is deployed across a full season at a large preparer, not a small pilot. Confidence is low because the evidence of common use comes mostly from the companies selling the tools, and the OEWS series is too broken to rule out a recent decline.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Data for Occupations Not Covered in Detail, tax preparers entry (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/about/data-for-occupations-not-covered-in-detail.htm"
+    },
+    {
+      "title": "BLS Employment Projections: National Employment Matrix, Tax Preparers 13-2082, 2025-35",
+      "url": "https://data.bls.gov/projections/nationalMatrix?queryParams=13-2082&ioType=o"
+    },
+    {
+      "title": "BLS Employment Projections: Artificial Intelligence (AI) exposure categories (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/emp/publications/ai-exposure-categories.htm"
+    },
+    {
+      "title": "BLS Employment Projections: AI exposure categories and 2025-35 employment projections, supplemental table (XLSX, August 2026)",
+      "url": "https://www.bls.gov/emp/ind-occ-matrix/ai-exposure-categories.xlsx"
+    },
+    {
+      "title": "BLS Career Outlook: Tax Day and beyond: Projected openings in occupations related to filing returns (April 2020)",
+      "url": "https://www.bls.gov/careeroutlook/2020/data-on-display/tax-day.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2016, 13-2082 Tax Preparers",
+      "url": "https://www.bls.gov/oes/2016/may/oes132082.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2019, 13-2082 Tax Preparers",
+      "url": "https://www.bls.gov/oes/2019/may/oes132082.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2020, 13-2082 Tax Preparers",
+      "url": "https://www.bls.gov/oes/2020/may/oes132082.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2021, 13-2082 Tax Preparers",
+      "url": "https://www.bls.gov/oes/2021/may/oes132082.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2023, 13-2082 Tax Preparers",
+      "url": "https://www.bls.gov/oes/2023/may/oes132082.htm"
+    },
+    {
+      "title": "BLS Public Data API: OEWS national employment, Tax Preparers, series OEUN000000000000013208201 (May 2025)",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUN000000000000013208201"
+    },
+    {
+      "title": "BLS The Economics Daily: Metropolitan geography of tax preparers employment and earnings (April 15, 2010)",
+      "url": "https://www.bls.gov/opub/ted/2010/ted_20100415.htm"
+    },
+    {
+      "title": "BLS OEWS: Frequently asked questions",
+      "url": "https://www.bls.gov/oes/oes_ques.htm"
+    },
+    {
+      "title": "IRS: Filing Season Statistics Dec. 31, 2011 (cumulative 2010 and 2011)",
+      "url": "https://www.irs.gov/newsroom/filing-season-statistics-dec-31-2011"
+    },
+    {
+      "title": "IRS: Filing season statistics for week ending Dec. 26, 2025",
+      "url": "https://www.irs.gov/newsroom/filing-season-statistics-for-week-ending-dec-26-2025"
+    },
+    {
+      "title": "IRS: IRS Details Free File Initiative; Millions Eligible for Free Online Preparation and E-Filing (FS-2003-8, January 2003)",
+      "url": "https://www.irs.gov/newsroom/irs-details-free-file-initiative-millions-eligible-for-free-online-preparation-and-e-filing"
+    },
+    {
+      "title": "Route Fifty: Direct File won't happen in 2026, IRS tells states (November 5, 2025)",
+      "url": "https://www.route-fifty.com/digital-government/2025/11/direct-file-wont-happen-2026-irs-tells-states/409322/"
+    },
+    {
+      "title": "IRS: Tax Professional Management Office federal tax return preparer statistics (data as of September 1, 2026)",
+      "url": "https://www.irs.gov/tax-professionals/tax-professional-management-office-federal-tax-return-preparer-statistics"
+    },
+    {
+      "title": "IRS: 2016 PTIN Renewal Period Underway for Tax Professionals (IR-2015-125, November 12, 2015)",
+      "url": "https://www.irs.gov/pub/irs-news/IR-15-125.pdf"
+    },
+    {
+      "title": "Accounting Today: TurboTax bolsters support options, both human and AI (November 28, 2023)",
+      "url": "https://www.accountingtoday.com/news/intuit-turbotax-bolsters-support-options-from-both-humans-and-artificial-intelligence"
+    },
+    {
+      "title": "Franchising.com (H&R Block release): New H&R Block AI Tax Assist Provides DIY Tax Filers Instant, Unlimited Help (December 14, 2023)",
+      "url": "https://www.franchising.com/news/20231214_new_hr_block_ai_tax_assist_provides_diy_tax_filers_instant_unlimited_help.html"
+    },
+    {
+      "title": "NYSSCPA Trusted Professional: Tech Columnist: TurboTax and H&R Block Chatbots Are Unhelpful or Wrong Much of the Time (March 7, 2024)",
+      "url": "https://nysscpa.org/news/1046937-tech-columnist-turbotax-and-hr-block-chatbots-are-unhelpful-or-wrong-much-of-the-time-2024-03-07"
+    },
+    {
+      "title": "Accounting Today: Intuit, H&R Block tax AIs critiqued on accuracy (March 6, 2024)",
+      "url": "https://www.accountingtoday.com/news/intuit-h-r-block-tax-ais-critiqued-on-accuracy-of-answers-many-inaccurate"
+    },
+    {
+      "title": "The Star (from The New York Times): A word to the wise: Don't trust AI to file your taxes (March 14, 2026)",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/03/14/a-word-to-the-wise-dont-trust-ai-to-file-your-taxes"
+    },
+    {
+      "title": "arXiv: TaxCalcBench: Evaluating Frontier Models on the Tax Calculation Task (Bock, Molisee, Ozer and Shah, July 22, 2025)",
+      "url": "https://arxiv.org/abs/2507.16126"
+    },
+    {
+      "title": "Seeking Alpha (H&R Block release): H&R Block Leverages OpenAI to Create a Force Multiplier for Its Human Expertise (April 15, 2025)",
+      "url": "https://seekingalpha.com/pr/20067882-h-and-r-block-leverages-openai-to-create-a-force-multiplier-for-its-human-expertise"
+    },
+    {
+      "title": "The Motley Fool: H&R Block (HRB) Q3 2026 Earnings Call Transcript (May 6, 2026)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/06/hr-block-hrb-q3-2026-earnings-transcript/"
+    },
+    {
+      "title": "SEC: H&R Block Form 10-K for fiscal year ended April 30, 2015",
+      "url": "https://www.sec.gov/Archives/edgar/data/12659/000157484215000011/hrb2015043010k.htm"
+    },
+    {
+      "title": "SEC: H&R Block Form 10-K for fiscal year ended April 30, 2020",
+      "url": "https://www.sec.gov/Archives/edgar/data/12659/000157484220000021/hrb2020043010k.htm"
+    },
+    {
+      "title": "SEC: H&R Block Form 10-K for fiscal year ended April 30, 2021",
+      "url": "https://www.sec.gov/Archives/edgar/data/12659/000183886221000028/hrb-20210430.htm"
+    },
+    {
+      "title": "SEC: H&R Block Form 10-K for fiscal year ended June 30, 2022",
+      "url": "https://www.sec.gov/Archives/edgar/data/12659/000183886222000028/hrb-20220630.htm"
+    },
+    {
+      "title": "SEC: H&R Block Form 10-K for fiscal year ended June 30, 2023",
+      "url": "https://www.sec.gov/Archives/edgar/data/12659/000183886223000027/hrb-20230630.htm"
+    },
+    {
+      "title": "SEC: H&R Block Form 10-K for fiscal year ended June 30, 2024",
+      "url": "https://www.sec.gov/Archives/edgar/data/12659/000183886224000030/hrb-20240630.htm"
+    },
+    {
+      "title": "SEC: H&R Block Form 10-K for fiscal year ended June 30, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/12659/000160529725000016/hrb-20250630.htm"
+    },
+    {
+      "title": "SEC: H&R Block Form 10-K for fiscal year ended June 30, 2026 (filed August 14, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/12659/000001265926000026/hrb-20260630.htm"
+    },
+    {
+      "title": "SEC: Intuit Form 10-K for fiscal year ended July 31, 2023",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687823000034/intu-20230731.htm"
+    },
+    {
+      "title": "SEC: Intuit Form 10-K for fiscal year ended July 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm"
+    },
+    {
+      "title": "SEC: Intuit Form 10-K for fiscal year ended July 31, 2026 (filed September 9, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm"
+    },
+    {
+      "title": "Intuit: Intuit's All-in-One Agentic AI-Driven Consumer Platform Powers Year-Round Money Outcomes for Those Who Need It Most (November 6, 2025)",
+      "url": "https://investors.intuit.com/_assets/_7dae0bd2b94ee55dfc5335ce9c879dc5/intuit/news/2025-11-06_Intuit_s_All_in_One_Agentic_AI_Driven_Consumer_1279.pdf"
+    },
+    {
+      "title": "SEC: Intuit Reports Strong Third-Quarter Results and Raises Full-Year Revenue Guidance (Form 8-K exhibit, May 20, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000024/fy26q3earningspressrelease.htm"
+    },
+    {
+      "title": "SEC: Intuit Form 8-K, Item 2.05 workforce reduction (May 20, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000024/intu-20260520.htm"
+    },
+    {
+      "title": "SEC: Intuit CEO email to employees, Architecting Intuit for a new chapter of growth (Form 8-K exhibit 99.02, May 20, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000024/fy26q3-ex9902.htm"
+    },
+    {
+      "title": "Thomson Reuters: The Real AI Story in Tax and Audit Isn't Adoption - It's Impact (April 16, 2026)",
+      "url": "https://www.thomsonreuters.com/en-us/posts/innovation/the-real-ai-story-in-tax-and-audit-isnt-adoption-its-impact/"
+    }
+  ]
+}

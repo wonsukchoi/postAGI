@@ -1,0 +1,109 @@
+{
+  "slug": "receptionist",
+  "title": "Receptionist",
+  "sector": "Administration",
+  "status": "not-yet",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "Receptionist jobs fell about 9% from 2023 to 2025 (OEWS). BLS cites plain software and consolidation, not AI. AI phone and check-in tools reach only a minority of medical and dental offices.",
+  "metaDescription": "Has AI replaced receptionists? Jobs fell about 9% in 2023-25; BLS cites plain software, not AI. AI tools reach only a minority of medical and dental offices.",
+  "aiTools": [
+    {
+      "name": "Freed Front Desk",
+      "description": "AI phone platform that answers a practice's calls, collects intake and insurance details, answers routine questions and routes calls to staff. A neurology practice in Boca Raton reported in Cureus (July 7, 2026) that from March 2026 it initially answered all of the practice's 400 to 500 daily calls, but was not connected to its records system to schedule appointments on its own. Practice-reported; one practice, which worked with the vendor during rollout.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13446888/"
+    },
+    {
+      "name": "EMMA (QuantumLoopAI)",
+      "description": "AI phone receptionist used by GP surgeries. The BBC (August 26, 2026) reported that it is used at many facilities to prevent long phone waits, and that one surgery near Doncaster decommissioned it after a stroke patient could not get past it and recruited more reception staff. Outside the US data used on this page.",
+      "url": "https://www.bbc.co.uk/news/articles/c4gql3gz9z7o"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Answering and routing patient phone calls in medical practices",
+      "status": "not-yet",
+      "tool": "AI phone agents",
+      "sourceUrl": "https://www.mgma.com/mgma-stat/ai-slowly-redesigning-work-rather-than-replacing-workers"
+    },
+    {
+      "task": "Front desk check-in at dental practices",
+      "status": "not-yet",
+      "sourceUrl": "https://www.ada.org/resources/research/health-policy-institute/dental-practice-research/dentists-ai-usage-and-attitudes"
+    }
+  ],
+  "evidence": "This page covers receptionists and information clerks (BLS code 43-4171), who answer inquiries and provide information to the public, customers and visitors. The BLS definition excludes switchboard operators, and hotel, motel and resort desk clerks are a separate BLS occupation (261,420 jobs in May 2025), so hotel front desks are not covered here. Unlike the call-centre staff on this site's customer support agent page, most receptionists work at a front desk on site, and a large share work in healthcare. The BLS Occupational Outlook Handbook says healthcare and social assistance employed 42% of receptionists in 2025, and the May 2023 OEWS survey put offices of physicians (174,460) and offices of dentists (83,950) at the top of the industry list, followed by personal care services (70,820).\n\nEmployment comes from the BLS Occupational Employment and Wage Statistics (OEWS) survey, national estimates for May of each year: 1,088,400 in 2005, 997,080 in 2010, 997,770 in 2016, 1,057,370 in 2019, 968,420 in 2020, 1,011,170 in 2022, 1,003,820 in 2023, 964,530 in 2024 and 910,180 in 2025. Jobs fell about 8% from 2005 to 2010, long before the AI phone tools described below, recovered to a peak in 2019, dropped in 2020, a pandemic year, and recovered by 2022. The current fall began after 2022: down 0.7% in 2023, 3.9% in 2024 and 5.6% in 2025, about 9% from 2023 to 2025 and about 14% below the 2019 peak. OEWS is a survey estimate with sampling error; the estimates moved from the 2000 to the 2010 occupational classification starting in May 2010 and now use the 2018 version, which can shift occupation boundaries slightly; and BLS says its May 2024 national data may be marginally affected by data-quality problems in Colorado. The Handbook uses a different count that includes the self-employed: about 947,500 jobs in 2025, a projected 2% decline (16,000 jobs) from 2025 to 2035, and about 105,100 openings a year.\n\nBLS does not cite AI. The Handbook's only reason for the projected decline is that employment is expected to be constrained as organizations continue to automate or consolidate administrative functions, and its example is that many organizations use computer software, websites, mobile applications, or other technology to interact with the public or customers. The page does not mention artificial intelligence, AI, chatbots, voice systems or kiosks. Software, websites and apps of that kind are plain automation, not AI, by this site's rules, and so are phone trees, voicemail and self check-in kiosks. I found no dated, independent source on when voicemail, phone trees or check-in kiosks spread, so this page does not date them. Online booking is a non-AI driver with a dated figure: an MGMA poll in July 2025 found 71% of medical practices had fewer than 25% of patients using digital tools to self-schedule.\n\nAI at the front desk is in use, but in a minority of medical and dental offices; I found no adoption data for other workplaces. In an April 8, 2025 MGMA poll of medical practice leaders (375 responses), 19% of practices used some version of chatbot or virtual assistant for patient communication; the poll does not say whether these bots use AI or fixed rules. The American Dental Association's Health Policy Institute reported in July 2026 that 43.3% of responding dentists in its panel use AI for at least one task, but only 10.1% use it for reception or front desk check-in. A February 10, 2026 MGMA poll (177 responses) ranked scheduling (31%) and calls (27%) as the top front-office targets for AI investment; those are plans, not adoption. In a June 2, 2026 MGMA poll (260 responses), 68% of practice leaders said they had not redesigned a role or adjusted staffing with the help of AI in the past year, 26% said they had, and 5% were unsure. MGMA wrote that several of those practices cut or reassigned FTEs (especially in RCM and assistant roles) or put AI agents on the phones, and summed up that AI helped them run leaner without eliminating roles outright. That poll covers all practice roles, not receptionists alone.\n\nTwo dated cases show what AI phone answering looks like in practice. A neurology practice in Boca Raton reported in Cureus (July 7, 2026) that from March 2026 an AI platform, Freed Front Desk, initially answered all of its 400 to 500 daily calls, collecting intake details and routing them. The platform was not integrated with the practice's records system, so it could not schedule appointments on its own. The practice estimated it would need about eight full-time call center staff without AI and modeled three full-time staff plus the platform with it; those are estimates, not a measured job cut. It is one practice reporting on itself, and the authors say the practice worked collaboratively with the vendor during rollout. The BBC reported on August 26, 2026 that a GP surgery in Armthorpe, near Doncaster, decommissioned EMMA, a nationwide AI phone system from QuantumLoopAI used at many facilities, after a stroke patient could not get past it, and that the surgery had recruited more reception staff. That case is outside the US data this page relies on.\n\nDemand for human receptionists has not dried up in healthcare. In a November 3, 2026 MGMA poll (186 responses), about four in five practices reported an open administrative job, front-office jobs including receptionists made up about two in five of the jobs named, and nearly half of jobs open one to three months involved reception, scheduling or phone work. MGMA cited its own compensation data showing median receptionist pay rose 4.8% in 2025. One respondent with a receptionist vacancy of more than six months wrote: \"Pay is too low to be competitive with other industries.\"\n\nLimits: no source I found explains the 2023 to 2025 fall in OEWS employment, and none ties it to AI; it may reflect software, consolidation, cost pressure or survey noise, and it could include early effects of AI that no study has yet measured. The MGMA polls are quick polls of practice leaders who choose to answer, with small samples, and the ADA page does not give its sample size or survey dates. All the adoption evidence comes from healthcare; I found nothing independent on AI receptionists in salons, gyms or office lobbies. Vendor adoption and capability claims are not used. The Cureus study is a single practice reporting on itself. I could not read past editions of the Handbook, so I cannot say when BLS first cited automation for receptionists.\n\nThe status is not yet. BLS gives plain software and consolidation as the reason for the projected decline and does not mention AI, AI front-desk tools reach only about one in ten dentists and a minority of medical practices, and no source ties any fall in receptionist jobs to AI. AI phone agents are in daily use at some offices, so augmented is arguable, but AI is not in common use at the front desk, and the weaker status wins. Confidence is medium: BLS, MGMA and the ADA are independent and point the same way, but the adoption surveys cover only healthcare, and the recent fall in employment is unexplained.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Receptionists (current edition, last modified October 29, 2026)",
+      "url": "https://www.bls.gov/ooh/office-and-administrative-support/receptionists.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2025, Table 1 (national employment by occupation)",
+      "url": "https://www.bls.gov/news.release/ocwage.t01.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2024 news release (April 2, 2025)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_04022025.htm"
+    },
+    {
+      "title": "BLS OEWS: 43-4171 Receptionists and Information Clerks (May 2023)",
+      "url": "https://www.bls.gov/oes/2023/may/oes434171.htm"
+    },
+    {
+      "title": "BLS OEWS: 43-4171 Receptionists and Information Clerks (May 2022)",
+      "url": "https://www.bls.gov/oes/2022/may/oes434171.htm"
+    },
+    {
+      "title": "BLS OEWS: 43-4171 Receptionists and Information Clerks (May 2020)",
+      "url": "https://www.bls.gov/oes/2020/may/oes434171.htm"
+    },
+    {
+      "title": "BLS OEWS: 43-4171 Receptionists and Information Clerks (May 2019)",
+      "url": "https://www.bls.gov/oes/2019/may/oes434171.htm"
+    },
+    {
+      "title": "BLS OEWS: 43-4171 Receptionists and Information Clerks (May 2016)",
+      "url": "https://www.bls.gov/oes/2016/may/oes434171.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2010 news release (May 17, 2011)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_05172011.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2005 news release (May 24, 2006)",
+      "url": "https://www.bls.gov/news.release/history/ocwage_05242006.txt"
+    },
+    {
+      "title": "MGMA: Sizing up the market for AI chatbots, virtual assistants in medical practices in 2025 (April 9, 2025)",
+      "url": "https://www.mgma.com/mgma-stat/sizing-up-the-market-for-ai-chatbots-virtual-assistants-in-medical-practices-in-2025"
+    },
+    {
+      "title": "MGMA: Automatic for the people: AI moves for medical practices to boost the front office and access (February 11, 2026)",
+      "url": "https://www.mgma.com/mgma-stat/automatic-for-the-people-ai-for-front-office-access"
+    },
+    {
+      "title": "MGMA: AI is slowly redesigning work in medical practices rather than replacing workers (June 3, 2026)",
+      "url": "https://www.mgma.com/mgma-stat/ai-slowly-redesigning-work-rather-than-replacing-workers"
+    },
+    {
+      "title": "MGMA: Not everything can be automated: 4 in 5 medical groups report open admin jobs (November 4, 2026)",
+      "url": "https://www.mgma.com/mgma-stat/4-in-5-medical-groups-report-open-admin-jobs"
+    },
+    {
+      "title": "ADA Health Policy Institute: Dentists Use AI to Make Appointments More Efficient, but Draw the Line at Clinical Decision Making (July 2026)",
+      "url": "https://www.ada.org/resources/research/health-policy-institute/dental-practice-research/dentists-ai-usage-and-attitudes"
+    },
+    {
+      "title": "Cureus: Artificial Intelligence-Driven Call Center Operations in a High-Volume Neurology Practice (Espinosa, Espinosa and Espinosa, July 7, 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13446888/"
+    },
+    {
+      "title": "BBC News: AI receptionist could not understand me, says Doncaster stroke patient (August 26, 2026)",
+      "url": "https://www.bbc.co.uk/news/articles/c4gql3gz9z7o"
+    }
+  ]
+}

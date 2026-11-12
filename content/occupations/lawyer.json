@@ -1,0 +1,173 @@
+{
+  "slug": "lawyer",
+  "title": "Lawyer",
+  "sector": "Legal",
+  "status": "augmented",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "Lawyer jobs rose from 619,530 in 2016 to 754,500 in 2025 (OEWS); BLS projects 5% more by 2035. AI is common in research and drafting. Big-firm entry hiring fell in 2025; causes are mixed.",
+  "metaDescription": "Has AI replaced lawyers? Jobs hit 754,500 in 2025; BLS projects 5% more by 2035. AI is common in research, drafting; big-firm entry hiring fell, causes mixed.",
+  "aiTools": [
+    {
+      "name": "Harvey",
+      "description": "Legal AI platform. Nonbillable reported on April 29, 2026 that Slaughter and May is rolling Harvey out across all practice areas, supporting lawyers on work including M&A and due diligence, and, without naming a source, that Harvey works with more than half of the top 100 US law firms. In the ABA's 2024 survey 5.9% of private-practice lawyers reported Harvey use, mainly at larger firms (LawSites, March 7, 2025).",
+      "url": "https://www.nonbillable.co.uk/news/slaughter-and-may-picks-harvey-firmwide-rollout"
+    },
+    {
+      "name": "CoCounsel (Thomson Reuters)",
+      "description": "Thomson Reuters' AI platform, designed to draft, analyse and compare documents and carry out research. Legal IT Insider reported on February 25, 2026 that Thomson Reuters says one million professionals across legal, tax, accounting and other sectors have subscriptions giving them access, and that the company declined to say how many are in the legal sector. Company figure; access is not use. In the ABA's 2024 survey 26% of private-practice lawyers were using or considering CoCounsel.",
+      "url": "https://legaltechnology.com/2026/02/25/cocounsel-now-available-to-one-million-professionals-says-thomson-reuters/"
+    },
+    {
+      "name": "Lexis+ with Protégé (LexisNexis)",
+      "description": "LexisNexis platform that LawSites reported on February 24, 2026 fully replaces Lexis+ AI, with US general availability announced that day. The article gives no adoption figures. In the ABA's 2024 survey 24% of private-practice lawyers were using or considering Lexis+ AI.",
+      "url": "https://www.lawnext.com/2026/02/lexisnexis-launches-lexis-with-protege-replacing-lexis-ai-with-an-end-to-end-workflow-platform.html"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Legal research (most common GenAI use among legal respondents, vendor-run survey)",
+      "status": "augmented",
+      "sourceUrl": "https://www.thomsonreuters.com/content/dam/ewp-m/documents/thomsonreuters/en/pdf/reports/2026-ai-in-professional-services-report.pdf"
+    },
+    {
+      "task": "Drafting complaints, contracts and client memos (law-student trial)",
+      "status": "augmented",
+      "tool": "GPT-4",
+      "sourceUrl": "https://www.legalfutures.co.uk/latest-news/ai-helps-lawyers-complete-work-quicker-study-finds"
+    },
+    {
+      "task": "Patent drafting by practicing patent lawyers (three-month field experiment)",
+      "status": "augmented",
+      "tool": "Custom AI patent drafting assistant",
+      "sourceUrl": "https://www.nber.org/papers/w35720"
+    },
+    {
+      "task": "Document review (second most common GenAI use among legal respondents, vendor-run survey)",
+      "status": "augmented",
+      "sourceUrl": "https://www.thomsonreuters.com/content/dam/ewp-m/documents/thomsonreuters/en/pdf/reports/2026-ai-in-professional-services-report.pdf"
+    }
+  ],
+  "evidence": "This page covers lawyers (BLS code 23-1011), who advise and represent clients and prepare legal documents such as lawsuits, contracts and wills. Paralegals and legal assistants have their own page, built on BLS's paralegal outlook and AI studies of research and drafting; this page uses different evidence and adds lawyer employment, court sanctions for AI-invented citations, machine-learning document review in discovery and new-lawyer hiring. Lawyer employment has grown, not fallen. BLS Occupational Employment and Wage Statistics (OEWS) national estimates give 619,530 lawyers in May 2016, 642,750 in 2018, 658,120 in 2020, 681,010 in 2021, 707,160 in 2022, 731,340 in 2023 and 754,500 in 2025, about 22% more than in 2016. The figure rose in every year shown, including 2020, a pandemic year, so there is no decline to date. OEWS is a survey estimate that covers wage and salary workers and does not include the self-employed or owners and partners in unincorporated firms. The BLS Occupational Outlook Handbook (last modified August 27, 2026) uses a wider count, about 863,700 lawyer jobs in 2025, and lists self-employed workers as 11 percent of them. It projects 5% growth from 2025 to 2035, faster than the average for all occupations, and about 28,700 openings a year.\n\nBLS mentions automation but not AI. The Handbook page has no sentence using the words artificial intelligence, software, computer or technology. It says some routine legal work may be automated, that this increased efficiency is not expected to reduce overall demand for lawyers, and that automation is expected to let lawyers spend more time on other parts of their work, like meeting with clients and strategizing. It ties demand to a growing economy and to individuals, businesses and all levels of government needing legal services.\n\nSoftware has been reshaping document review, once done by the most junior staff, since at least the late 2000s. Writing in Law Technology News in October 2011, Magistrate Judge Andrew Peck described lawyers culling electronic documents with keyword searches, Boolean connectors, deduplication and email threading, and cited court decisions from 2008 that criticized how lawyers used keyword searches. This page counts those tools as plain software, not AI. He contrasted them with computer-assisted coding, often called predictive coding, in which tools determine relevance based on training by a human reviewer who first codes a seed set. That is supervised machine learning, which this site counts as AI. On February 24, 2012, in Da Silva Moore v. Publicis Groupe (S.D.N.Y.), Judge Peck issued what appears to be the first opinion recognizing computer-assisted review as an acceptable way to search for relevant electronically stored information (K&L Gates). Grossman and Cormack (Richmond Journal of Law & Technology, 2011), using TREC 2009 Legal Track data, found that technology-assisted review could beat exhaustive manual review on recall and precision. NALP notes that entry-level law firm hiring contracted after the Great Recession in 2010 and again in 2015, when firms recalibrated their hiring models in response to technological advances and competition from alternative legal service providers. Lawyer employment in OEWS still rose from 2016 to 2025.\n\nGenerative AI use has grown fast since 2023. The ABA's 2024 Legal Technology Survey Report, based on 512 attorneys in private practice, found 30% using AI-based tools, up from 11% in 2023, with 46% at firms of 100 or more attorneys and 18% of solo practitioners (LawSites, March 7, 2025). In that survey 26% were using or considering Thomson Reuters CoCounsel, 24% Lexis+ AI and 5.9% Harvey, and 75% named accuracy as their top concern. Two later surveys are vendor-run. Thomson Reuters' 2026 AI in Professional Services Report, an online survey of 1,514 professionals in October and November 2025 drawn from Thomson Reuters lists, says 41% of law firms report their legal teams use GenAI, up from 28% in 2025; the report ranks legal research (80%), document review (74%), document summarization (73%) and brief or memo drafting (59%) as the top GenAI uses in legal. 8am's 2026 Legal Industry Report found 42% of legal professionals use legal-specific AI tools, up from 21% the year before (ABA Journal, March 5, 2026). Named tools are spreading at large firms: Slaughter and May is rolling Harvey out across all practice areas (Nonbillable, April 29, 2026), and LexisNexis replaced Lexis+ AI with Lexis+ with Protégé in February 2026 (LawSites).\n\nCourts punish unchecked AI output. In Mata v. Avianca, Judge P. Kevin Castel of the Southern District of New York imposed a $5,000 penalty on lawyers Steven A. Schwartz and Peter LoDuca of Levidow, Levidow & Oberman on June 22, 2023, after a filing cited six bogus judicial decisions; Schwartz said he had consulted ChatGPT (Legal Dive). Route Fifty reported on July 25, 2025 that Judge Anna M. Manasco of the Northern District of Alabama had reprimanded three Butler Snow attorneys working for the Alabama Department of Corrections, after one used AI for research that led to fabricated citations, removed them from a civil rights lawsuit and referred the matter to the Alabama State Bar Association and other licensing authorities. A database kept by researcher Damien Charlotin listed 2,292 court decisions addressing AI use as of November 12, 2026, from many countries (1,553 from the USA), 912 of them tagged as involving lawyers. These cases show that AI output still needs a lawyer to check it. I found no source measuring whether sanctions have slowed adoption.\n\nControlled studies find AI makes lawyers faster or better, not redundant. In what its authors call the first randomized controlled trial of AI in legal analysis, Choi, Monahan and Schwarcz (Minnesota Law Review, 2024) had 60 law students draft a complaint, a contract, an employee handbook section and a client memo with or without GPT-4. GPT-4 only slightly and inconsistently improved quality but induced large and consistent increases in speed, which Legal Futures reported as 12% to 32% depending on the task. An NBER working paper by Autor and co-authors (September 2026, revised October 2026) gave 133 practicing patent lawyers at eleven U.S. intellectual property law firms a custom AI patent drafting assistant for three months. Quality rose, with larger gains among junior lawyers, but on a later task done without AI the advantage was concentrated entirely among senior lawyers. Google conducted and funded that study, and several authors are Google employees or contractors. Neither study measures employment, and I found no peer-reviewed or working paper that estimates AI's effect on lawyer headcount or hiring.\n\nEntry-level hiring at large firms fell in 2025, but the stated causes are mixed. NALP's Class of 2025 findings (August 2026) report that firms of more than 500 lawyers hired about 540 fewer new graduates, a 7.5% decline to 6,588 jobs and the first decrease since the Class of 2014, and that private practice lost more than 940 entry-level jobs. NALP says the post-pandemic talent wars have subsided, calls the disruption that came with the new federal administration, including the January 2025 federal hiring freeze, perhaps the most significant force on the class's outcomes, notes the class was 7.0% smaller, and still found 92.8% of graduates employed. It asks whether the fall is a temporary market correction or the beginning of a structural shift driven, at least in part, by generative AI. Firm Prospects data show overall associate hiring down about 5% in 2025 versus 2024, with 49% of hires coming from other firms and 38% from law school; the ABA Journal report (May 28, 2026) gives firms rethinking their pyramid as the reason and does not mention AI. Bloomberg Law (September 10, 2026) named law firms' own expectations of how AI will affect their rosters as one driver, but I could read only the opening. The one explicit AI-linked cut to new lawyers I found is outside the US: MinterEllison in Australia cut its graduate intake from 104 to 72 for 2025-26, saying AI is improving efficiency in routine work graduates start on and that client demand is shifting to complex matters (Lawyers Weekly, May 20, 2026).\n\nLimits: OEWS pages for years before 2016, and for 2024, were not retrievable (they redirect to the OEWS home page, and the BLS data files block downloads), so this page cannot show the 2005 to 2015 trend. The 2025 figure comes from the BLS data API, not an HTML page. I did not check whether the 2018 SOC revision changed what 23-1011 covers; the code and title are the same on every page I read. OEWS leaves out self-employed lawyers and partners in unincorporated firms. The 2025 hiring dip is not yet in any total employment series, and no source separates AI from the end of the hiring boom, the federal freeze or firms restructuring. The latest ABA figures I found are for 2024; they cover private practice only, and the tool figures mix use with consideration. The Thomson Reuters and 8am surveys are vendor-run, and the Thomson Reuters sample was screened for familiarity with AI. The Charlotin count is worldwide and includes some decisions where AI use was alleged but not confirmed. The Bloomberg Law article was paywalled.\n\nThe status is augmented. AI is in common use for legal research, review and drafting, and studies show it makes lawyers faster, but lawyer employment rose every year shown through 2025, and BLS expects automation to make lawyers more efficient without reducing overall demand. Big-firm entry-level hiring fell in 2025, but the sources name several causes and only one firm, outside the US, explicitly tied a cut to AI, so the weaker status wins. Confidence is medium: BLS, the ABA survey, NALP and the two studies are independent and point the same way, but the hiring data are new, the studies cover narrow tasks, and the effect of AI on junior hiring is unsettled.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Lawyers (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/legal/lawyers.htm"
+    },
+    {
+      "title": "BLS Public Data API: OEWS national employment, Lawyers, series OEUN000000000000023101101 (May 2025 estimate)",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUN000000000000023101101"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2016, 23-1011 Lawyers",
+      "url": "https://www.bls.gov/oes/2016/may/oes231011.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2018, 23-1011 Lawyers",
+      "url": "https://www.bls.gov/oes/2018/may/oes231011.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2020, 23-1011 Lawyers",
+      "url": "https://www.bls.gov/oes/2020/may/oes231011.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2021, 23-1011 Lawyers",
+      "url": "https://www.bls.gov/oes/2021/may/oes231011.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2022, 23-1011 Lawyers",
+      "url": "https://www.bls.gov/oes/2022/may/oes231011.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2023, 23-1011 Lawyers",
+      "url": "https://www.bls.gov/oes/2023/may/oes231011.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wage Statistics Overview (coverage and exclusions)",
+      "url": "https://www.bls.gov/oes/oes_emp.htm"
+    },
+    {
+      "title": "Law Technology News: Search, Forward, by Magistrate Judge Andrew Peck (October 2011, hosted by Duke Law Center for Judicial Studies)",
+      "url": "https://judicialstudies.duke.edu/sites/default/files/centers/judicialstudies/TAR_conference/Panel_1-Background_Paper.pdf"
+    },
+    {
+      "title": "K&L Gates Electronic Discovery Law: Magistrate Judge Peck Issues Written Opinion Addressing Computer-Assisted Review (February 27, 2012)",
+      "url": "https://www.ediscoverylaw.com/2012/02/27/magistrate-judge-peck-issues-written-opinion-addressing-computer-assisted-review/"
+    },
+    {
+      "title": "Richmond Journal of Law & Technology: Technology-Assisted Review in E-Discovery Can Be More Effective and More Efficient Than Exhaustive Manual Review (Grossman and Cormack, 2011)",
+      "url": "https://scholarship.richmond.edu/jolt/vol17/iss3/5/"
+    },
+    {
+      "title": "LawSites (LawNext): ABA Tech Survey Finds Growing Adoption of AI in Legal Practice, with Efficiency Gains as Primary Driver (March 7, 2025)",
+      "url": "https://www.lawnext.com/2025/03/aba-tech-survey-finds-growing-adoption-of-ai-in-legal-practice-with-efficiency-gains-as-primary-driver.html"
+    },
+    {
+      "title": "Thomson Reuters: How AI is reshaping the legal profession (blog, July 2, 2026, vendor)",
+      "url": "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/"
+    },
+    {
+      "title": "Thomson Reuters Institute: 2026 AI in Professional Services Report (2026, vendor-run survey)",
+      "url": "https://www.thomsonreuters.com/content/dam/ewp-m/documents/thomsonreuters/en/pdf/reports/2026-ai-in-professional-services-report.pdf"
+    },
+    {
+      "title": "ABA Journal: AI usage among lawyers swells despite little governance and training, report says (March 5, 2026, on 8am's vendor-run 2026 Legal Industry Report)",
+      "url": "https://www.abajournal.com/web/article/ai-usage-among-lawyers-swells-despite-little-governance-and-training-report-says"
+    },
+    {
+      "title": "Nonbillable: Slaughter and May picks Harvey for firmwide rollout (April 29, 2026)",
+      "url": "https://www.nonbillable.co.uk/news/slaughter-and-may-picks-harvey-firmwide-rollout"
+    },
+    {
+      "title": "Legal IT Insider: CoCounsel now available to one million professionals, says Thomson Reuters (February 25, 2026)",
+      "url": "https://legaltechnology.com/2026/02/25/cocounsel-now-available-to-one-million-professionals-says-thomson-reuters/"
+    },
+    {
+      "title": "LawSites (LawNext): LexisNexis Launches Lexis+ with Protégé, Replacing Lexis+ AI with an End-to-End Workflow Platform (February 24, 2026)",
+      "url": "https://www.lawnext.com/2026/02/lexisnexis-launches-lexis-with-protege-replacing-lexis-ai-with-an-end-to-end-workflow-platform.html"
+    },
+    {
+      "title": "Legal Dive: Lawyers citing fake ChatGPT cases are fined (June 22, 2023)",
+      "url": "https://www.legaldive.com/news/lawyer-fake-chatgpt-cases-sanctions-fines-lawyers-chatgpt-fake-cases/653741/"
+    },
+    {
+      "title": "Route Fifty (Alabama Reflector): Federal judge removes attorneys from Alabama DOC lawsuit after AI fabricated citations (July 25, 2025)",
+      "url": "https://www.route-fifty.com/artificial-intelligence/2025/07/federal-judge-removes-attorneys-alabama-doc-lawsuit-after-ai-fabricated-citations/406981/"
+    },
+    {
+      "title": "Damien Charlotin: AI Hallucination Cases Database (last updated November 12, 2026)",
+      "url": "https://www.damiencharlotin.com/hallucinations/"
+    },
+    {
+      "title": "Minnesota Law Review: Lawyering in the Age of Artificial Intelligence (Choi, Monahan and Schwarcz, vol. 109, 2024)",
+      "url": "https://experts.umn.edu/en/publications/lawyering-in-the-age-of-artificial-intelligence/"
+    },
+    {
+      "title": "Legal Futures: AI helps lawyers complete work quicker, study finds (November 13, 2023)",
+      "url": "https://www.legalfutures.co.uk/latest-news/ai-helps-lawyers-complete-work-quicker-study-finds"
+    },
+    {
+      "title": "NBER Working Paper 35720: Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting (Autor and co-authors, September 2026, revised October 2026)",
+      "url": "https://www.nber.org/papers/w35720"
+    },
+    {
+      "title": "NALP: Jobs & JDs, Employment for the Class of 2025, Selected Findings (August 2026)",
+      "url": "https://www.nalp.org/uploads/Research/Classof2025_SelectedFindings_5Aug2026.pdf"
+    },
+    {
+      "title": "ABA Journal: Firms are pivoting toward associates with more experience, new report says (May 28, 2026)",
+      "url": "https://www.abajournal.com/news/article/firms-are-pivoting-toward-associates-with-more-experience-new-report-says"
+    },
+    {
+      "title": "Bloomberg Law: Big Law First-Year Hiring Set to Plunge as History, AI Collide (September 10, 2026, paywalled)",
+      "url": "https://news.bloomberglaw.com/litigation-finance/big-law-first-year-hiring-set-to-plunge-as-history-ai-collide"
+    },
+    {
+      "title": "Lawyers Weekly: AI is coming for BigLaw grads: What shrinking intakes mean for Australia's future lawyers (May 20, 2026)",
+      "url": "https://www.lawyersweekly.com.au/biglaw/44334-ai-is-coming-for-biglaw-grads-what-shrinking-intakes-mean-for-australia-s-future-lawyers"
+    }
+  ]
+}

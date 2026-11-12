@@ -1,0 +1,168 @@
+{
+  "slug": "insurance-underwriter",
+  "title": "Insurance underwriter",
+  "sector": "Finance",
+  "status": "augmented",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "OEWS counts 105,420 underwriters in 2025, up from 89,910 in 2017. BLS projects a 4% fall by 2035 as underwriting software spreads. AI is used in underwriting, mostly to speed up humans.",
+  "metaDescription": "Has AI replaced insurance underwriters? Jobs rose to 105,420 in 2025; BLS projects a 4% fall by 2035. AI is used in underwriting, mostly to speed up humans.",
+  "aiTools": [
+    {
+      "name": "AIG AI Underwriter Assistance",
+      "description": "AI underwriting assistant. Insurance Journal (April 30, 2025), reporting on AIG's Investor Day, says it is in use for North America private and non-profit business submissions, that the underwriting timeline per submission has been cut to less than one day from three or four weeks, and that AI tools in financial lines let AIG review 100% of those submissions without adding underwriters. Company-reported; no job cuts are mentioned.",
+      "url": "https://amp.insurancejournal.com/news/national/2025/04/30/821952.htm"
+    },
+    {
+      "name": "Hiscox generative AI lead underwriting model",
+      "description": "Generative AI lead underwriting model built in collaboration with Google Cloud, using its Gemini large language model, for Hiscox's sabotage and terrorism line in the London insurance market. CIR Magazine (August 12, 2024) reports Hiscox said it had removed the manual elements of the underwriting process, producing output within minutes, with risks sent to the broker ready for underwriter review. Company-reported; dated to its August 2024 launch.",
+      "url": "https://www.cirmagazine.com/cir/c2024081201.php"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Underwriting life insurance applications with AI/ML models",
+      "status": "augmented",
+      "tool": "AI/ML underwriting models (34% of surveyed life insurers)",
+      "sourceUrl": "https://www.mayerbrown.com/en/insights/publications/2023/12/us-naic-fall-2023-national-meeting-highlights-big-data-and-artificial-intelligence-h-working-group"
+    },
+    {
+      "task": "Reviewing incoming commercial insurance submissions",
+      "status": "augmented",
+      "tool": "AIG AI Underwriter Assistance",
+      "sourceUrl": "https://amp.insurancejournal.com/news/national/2025/04/30/821952.htm"
+    },
+    {
+      "task": "Drafting quotes for sabotage and terrorism risks for underwriter review",
+      "status": "augmented",
+      "tool": "Hiscox generative AI lead underwriting model",
+      "sourceUrl": "https://www.cirmagazine.com/cir/c2024081201.php"
+    }
+  ],
+  "evidence": "This page covers insurance underwriters (BLS code 13-2053), who use applicant information to decide whether to insure a risk and on what terms. Employment has not fallen over the long run. BLS Occupational Employment and Wage Statistics (OEWS) national estimates put the occupation at 98,970 jobs in May 2005, 95,350 in 2010, 92,540 in 2013, 89,910 in 2017, 100,050 in 2019, 101,790 in 2020 (a pandemic year), 107,690 in 2021, 101,310 in 2023 and 105,420 in 2025. Employment fell about 9% from 2005 to 2017, years before the generative AI tools described below, then recovered: 2025 is about 17% above 2017 and about 7% above 2005. OEWS is a survey estimate with sampling error (BLS gives relative standard errors of 2% to 3% for the years it publishes online), and it excludes the self-employed. Every year used here lists the occupation under the same code, 13-2053; I did not check whether the 2010 and 2018 SOC revisions changed its boundaries. The current Occupational Outlook Handbook (last modified October 29, 2026) gives 125,600 jobs in 2025, which comes from a different BLS count and is not comparable with the OEWS figures.\n\nBLS projects a decline and blames software. The current Handbook projects that employment will decline 4% from 2025 to 2035, with about 6,800 openings a year, all from replacing workers who leave. It says: \"Automated underwriting software allows workers to process applications quickly, reducing the need for underwriters. As this technology continues to improve and become more widely adopted in the insurance industry, more underwriting decisions are expected to be made automatically.\" I could confirm that exact sentence only on the current page: I found no older Handbook pages for this occupation on bls.gov, and archived copies were off limits for this research. BLS's own Occupational Outlook Quarterly shows how the reasoning built up. In Spring 2004 (2002-12 projections, 10% growth) it said underwriting software should continue to increase worker productivity, but employment was expected to increase with rising insurance needs. In Spring 2006 (2004-14, 8% growth) software was expected to keep slowing job growth, and in Spring 2008 (2006-16, 6% growth) growth was to be tempered by underwriting software. Spring 2010 (2008-18) projected the first decline among the editions I read, 4%, saying productivity increases, such as automatic underwriting, have limited employment of these workers. Spring 2012 (2010-20) went back to 6% growth. In June 2014 (2012-22, a 6.1% decline) BLS wrote that the need for insurance underwriters is expected to fall because of automated underwriting software that helps workers process insurance applications quickly. So BLS has cited software as a brake since at least 2004 and has projected declines in some editions since 2010, but OEWS employment rose after 2017 instead.\n\nBLS never says what kind of software it means. The current Handbook says underwriters enter applicant information into a program that provides recommendations on coverage and premiums, and that for simple types such as automobile insurance they typically rely on automated recommendations. McKinsey (July 31, 2020) describes automated underwriting platforms in which the underwriting manual is embedded as automated rules, and separately notes that machine-learning decisions can be at odds with the output of traditional rules engines. This site counts rules engines as plain software, not AI, and machine-learning scoring as AI. Because I could not show that the software BLS has cited since 2004 is machine learning, this page does not credit the 2005 to 2017 dip, or the projection, to AI.\n\nMachine learning is now in real use in underwriting. In an NAIC survey of 161 life insurers reported in December 2023, 58% were using or interested in using AI; the top uses were marketing (36% of respondents) and underwriting (34%), AI/ML use in pricing and underwriting was more often for automating decisions, and more than half of the models were built by third parties. An NAIC survey of 193 private passenger auto insurers (reported March 14, 2023) found 88% use, plan to use or plan to explore AI or machine learning, but only a minority use it for underwriting. Large commercial insurers report newer generative AI tools. Insurance Journal reported on April 30, 2025, from AIG's Investor Day, that AIG's AI Underwriter Assistance cut the underwriting timeline per submission in its North America private and non-profit business to less than one day from three or four weeks, and let AIG review 100% of those submissions without adding underwriters. CIR Magazine reported on August 12, 2024 that Hiscox's generative AI model for its sabotage and terrorism line, built with Google Cloud, delivers output within minutes, with risks sent to brokers ready for underwriter review. Both are company figures. AIG presents its tool as raising underwriter output, and Hiscox's sends each risk on for underwriter review.\n\nOne insurer has tied planned job cuts to AI, but not to underwriters alone. Repairer Driven News reported on December 16, 2025 that a Chubb investor presentation planned a 20% headcount reduction in the next three to four years and to move 85% of its major underwriting and claims processes to automated systems, affecting sales and marketing, underwriting, claims, finance and other functions. Chubb's 2025 shareholder letter (March 2026) says it plans to reduce its global employee population significantly, that natural staff turnover substantially supports this, and that in some businesses tech and AI will replace what humans do entirely, while in others it supports and makes them more productive. This is a company-wide plan, not a measured cut, and it does not say how many underwriters are affected. I found no measured cut in underwriter headcount caused by AI.\n\nRegulators now set rules for AI in underwriting. Colorado passed SB21-169 in July 2021 to keep insurers' use of external consumer data, algorithms and predictive models from unfairly discriminating by race and other protected traits. Its governance rule, Regulation 10-1-1, took effect for life insurers in November 2023. On August 20, 2025 the state extended it to private passenger auto and health benefit plan insurers, effective October 15, 2025, while standards for quantitative testing remained under consideration. The NAIC adopted a model bulletin on insurers' use of AI systems on December 4, 2023, setting principles-based expectations, and by late 2025, 23 states and Washington, D.C. had adopted it. The NAIC bulletin asks insurers to establish governance, documentation and audit procedures, and Colorado's rule requires a governance and risk management framework.\n\nLimits: OEWS pages for 2024 and for years before 2016 were not readable on bls.gov, so the 2005, 2010 and 2013 figures come from BLS national download files that I parsed myself, and there is no 2024 point. I could not read older Handbook editions, so the year the exact current sentence first appeared is unknown. The NAIC surveys date from 2023; the life survey's 58% counts insurers interested in AI, not only those using it, and the auto survey says only a minority use AI in underwriting. The AIG, Hiscox and Chubb figures come from the companies. NAIC documents and the Colorado Division of Insurance site blocked my requests, so the regulatory dates come from law-firm and consultancy summaries.\n\nThe status is augmented. AI and machine learning are in everyday use in underwriting, especially in life insurance, and the generative AI tools reported still work alongside human underwriters, while OEWS employment has risen since 2017. BLS projects a decline, but it blames automated underwriting software that it does not describe as AI, and similar projections since 2010 have not come true so far. Chubb's planned cuts are not yet in any data, so the weaker status wins. Confidence is medium: the headcount data (BLS) and the usage data (NAIC surveys) are independent, but evidence on what AI does inside underwriting comes mostly from the insurers, and P&C use in underwriting is still a minority.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Insurance Underwriters (current edition, last modified October 29, 2026)",
+      "url": "https://www.bls.gov/ooh/business-and-financial/insurance-underwriters.htm"
+    },
+    {
+      "title": "BLS OEWS: National employment for Insurance Underwriters, May 2025 (Public Data API series OEUN000000000000013205301)",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUN000000000000013205301"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2023: 13-2053 Insurance Underwriters",
+      "url": "https://www.bls.gov/oes/2023/may/oes132053.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2021: 13-2053 Insurance Underwriters",
+      "url": "https://www.bls.gov/oes/2021/may/oes132053.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2020: 13-2053 Insurance Underwriters",
+      "url": "https://www.bls.gov/oes/2020/may/oes132053.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2019: 13-2053 Insurance Underwriters",
+      "url": "https://www.bls.gov/oes/2019/may/oes132053.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2017: 13-2053 Insurance Underwriters",
+      "url": "https://www.bls.gov/oes/2017/may/oes132053.htm"
+    },
+    {
+      "title": "BLS OEWS: National estimates download file, May 2013",
+      "url": "https://www.bls.gov/oes/special-requests/oesm13nat.zip"
+    },
+    {
+      "title": "BLS OEWS: National estimates download file, May 2010",
+      "url": "https://www.bls.gov/oes/special-requests/oesm10nat.zip"
+    },
+    {
+      "title": "BLS OEWS: National estimates download file, May 2005",
+      "url": "https://www.bls.gov/oes/special-requests/oesm05nat.zip"
+    },
+    {
+      "title": "BLS Occupational Outlook Quarterly: The 2002-12 job outlook in brief, table (Spring 2004)",
+      "url": "https://www.bls.gov/careeroutlook/2004/spring/table.pdf"
+    },
+    {
+      "title": "BLS Occupational Outlook Quarterly: The 2004-14 job outlook in brief, table (Spring 2006)",
+      "url": "https://www.bls.gov/careeroutlook/2006/spring/table.pdf"
+    },
+    {
+      "title": "BLS Occupational Outlook Quarterly: The 2006-16 job outlook in brief, table (Spring 2008)",
+      "url": "https://www.bls.gov/careeroutlook/2008/spring/art03.pdf"
+    },
+    {
+      "title": "BLS Occupational Outlook Quarterly: The 2008-18 job outlook in brief (Spring 2010)",
+      "url": "https://www.bls.gov/careeroutlook/2010/spring/spring2010ooq.pdf"
+    },
+    {
+      "title": "BLS Occupational Outlook Quarterly: The 2010-20 job outlook in brief, tables (Spring 2012)",
+      "url": "https://www.bls.gov/careeroutlook/2012/spring/art02.pdf"
+    },
+    {
+      "title": "BLS Career Outlook: Financial specialists: Working with money (Sara Royster, June 2014)",
+      "url": "https://www.bls.gov/careeroutlook/2014/article/financial-specialists.htm"
+    },
+    {
+      "title": "McKinsey & Company: Rewriting the rules: Digital and AI-powered underwriting in life insurance (July 31, 2020)",
+      "url": "https://karriere.mckinsey.de/industries/financial-services/our-insights/rewriting-the-rules-digital-and-ai-powered-underwriting-in-life-insurance"
+    },
+    {
+      "title": "Mayer Brown: US NAIC Fall 2023 National Meeting Highlights: Big Data and Artificial Intelligence (H) Working Group (December 12, 2023)",
+      "url": "https://www.mayerbrown.com/en/insights/publications/2023/12/us-naic-fall-2023-national-meeting-highlights-big-data-and-artificial-intelligence-h-working-group"
+    },
+    {
+      "title": "InsuranceNewsNet: 58% of life insurers use artificial intelligence or are interested: NAIC survey (December 4, 2023)",
+      "url": "https://insurancenewsnet.com/innarticle/58-of-life-insurers-use-artificial-intelligence-or-are-interested-naic-survey"
+    },
+    {
+      "title": "InsuranceNewsNet: NAIC survey: 88% of insurers are using AI or machine learning (March 14, 2023)",
+      "url": "https://insurancenewsnet.com/innarticle/naic-survey-88-of-insurers-are-using-ai-or-machine-learning"
+    },
+    {
+      "title": "Insurance Journal: AIG: Turning One Human Underwriter Into Five, 'Turbocharging' E&S (April 30, 2025)",
+      "url": "https://amp.insurancejournal.com/news/national/2025/04/30/821952.htm"
+    },
+    {
+      "title": "CIR Magazine: Hiscox unveils GenAI-enhanced underwriting for terrorism risks (August 12, 2024)",
+      "url": "https://www.cirmagazine.com/cir/c2024081201.php"
+    },
+    {
+      "title": "Repairer Driven News: Chubb plans 20% staff reduction in next few years as it moves to AI (December 16, 2025)",
+      "url": "https://www.repairerdrivennews.com/2025/12/16/chubb-plans-20-staff-reduction-in-next-few-years-as-it-moves-to-ai/"
+    },
+    {
+      "title": "Chubb: 2025 Letter to Shareholders from Evan Greenberg (March 2026)",
+      "url": "https://about.chubb.com/content/dam/chubb-sites/chubb-com/us-en/about-chubb/shareholder-letter-2025/pdf/2025-chubb-letter-to-shareholders-from-evan-greenberg.pdf"
+    },
+    {
+      "title": "Royal Gazette: Greenberg: AI will enable Chubb to reduce global staff (May 27, 2026)",
+      "url": "https://www.royalgazette.com/?p=517115"
+    },
+    {
+      "title": "Milliman: Protecting consumers: Implementation of Colorado's antidiscrimination law in insurance (March 13, 2024)",
+      "url": "https://www.milliman.com/en-GB/insight/protecting-consumers-colorado-antidiscrimination-law-insurance"
+    },
+    {
+      "title": "Debevoise & Plimpton: Colorado Approves Extension of AI Regulation to Health and Auto Insurers (September 9, 2025)",
+      "url": "https://www.debevoise.com/insights/publications/2025/09/colorado-approves-extension-of-ai-regulation-to"
+    },
+    {
+      "title": "Willkie Farr & Gallagher: Colorado Division of Insurance Adopts Amended AI Governance Regulation (September 2, 2025)",
+      "url": "https://www.willkie.com/publications/2025/09/colorado-division-of-insurance-adopts-amended-ai-governance-regulation"
+    },
+    {
+      "title": "Sullivan & Cromwell: NAIC Model Bulletin on Use of AI by Insurers (December 15, 2023)",
+      "url": "https://www.sullcrom.com/insights/memo/2023/December/NAIC-Model-Bulletin-on-Use-of-AI-by-Insurers"
+    },
+    {
+      "title": "Fenwick: Tracking the Evolution of AI Insurance Regulation (December 11, 2025)",
+      "url": "https://www.fenwick.com/insights/publications/tracking-the-evolution-of-ai-insurance-regulation"
+    }
+  ]
+}
