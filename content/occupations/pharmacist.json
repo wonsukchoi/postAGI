@@ -1,0 +1,110 @@
+{
+  "slug": "pharmacist",
+  "title": "Pharmacist",
+  "sector": "Health",
+  "status": "not-yet",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "Pharmacist jobs peaked at about 337,700 in 2023 and fell about 4% by 2025. BLS ties weak retail demand to consolidation and mail-order fills, not AI. Dispensing robots are not AI; AI use is thin.",
+  "metaDescription": "Has AI replaced pharmacists? Jobs fell about 4% from 2023 to 2025. BLS ties weak retail demand to consolidation and mail-order fills, not AI. AI use is thin.",
+  "aiTools": [
+    {
+      "name": "Optum Rx AI pill validation",
+      "description": "AI-based image processing that checks each prescription contains the correct medication before it is sealed and shipped. Optum's newsroom (October 23, 2025) says it performs more than 5 million checks per month and works alongside pharmacist verification, not in place of it. These are company-reported figures, and no source shows fewer pharmacist jobs.",
+      "url": "https://www.optum.com/en/newsroom/health-tech/using-ai-faster-more-connected-pharmacy-experience.html"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Filling routine refills in central-fill centers (plain robotics)",
+      "status": "not-yet",
+      "tool": "Walgreens micro-fulfillment centers",
+      "sourceUrl": "https://www.cnbc.com/2025/05/11/walgreens-doubles-down-on-robots-to-fill-prescriptions-amid-turnaround.html"
+    },
+    {
+      "task": "Catching errors in prescription directions (2024 trial)",
+      "status": "not-yet",
+      "tool": "MEDIC (Amazon Pharmacy)",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/38664535/"
+    },
+    {
+      "task": "Hospital pharmacy analytics using AI, machine learning or predictive models",
+      "status": "not-yet",
+      "sourceUrl": "https://www.managedhealthcareexecutive.com/view/survey-of-health-system-pharmacy-directors-has-mixed-message-about-role-of-health-system-pharmacists"
+    }
+  ],
+  "evidence": "Pharmacist employment grew for more than a decade and has dipped only since 2023, and BLS does not tie the dip to AI. Archived editions of the BLS Occupational Outlook Handbook give 274,900 jobs in 2010, 297,100 in 2014, 314,300 in 2018, 322,200 in 2020, 334,200 in 2022, 337,700 in 2023 and 335,100 in 2024. The current page (last modified October 29, 2026) says 325,200 in 2025, about 4% below the 2023 figure, and projects 5% growth from 2025 to 2035, faster than average, with about 12,500 openings a year. These are base years from different editions, not one consistent series, and 2020 includes the pandemic. BLS expects demand to grow in hospitals and clinics. For retail pharmacies it says demand is expected to be limited as the industry consolidates and more people fill their prescriptions online or by mail. BLS first named mail order and online pharmacy sales in the edition with 2014 data. Its October 2020 edition projected a 3% decline (2019 to 2029), partly because pharmacy technicians increasingly perform tasks previously done by pharmacists, such as verifying the work of other technicians. Its September 2021 edition projected a 2% decline (2020 to 2030) and added that pharmacy chains reduce the number of their retail locations. Neither the current page nor any of the eleven archived editions I read (2010 to 2024 data) mentions AI, automation or robots.\n\nStore closures are the main non-AI change in retail pharmacy. A Health Affairs study (December 2024) found that of 88,930 retail pharmacies operating during 2010-20, 29.4 percent had closed by 2021. CNN (October 6, 2025) reported that CVS announced in November 2021 that it would close 900 stores by 2024, that Walgreens announced in October 2024 that it would close 1,200 stores, and that Rite Aid, which first filed for bankruptcy in October 2023, shuttered its remaining 89 stores in early October 2025 after selling most of its pharmacy services to rivals. The study's title says more pharmacies closed than opened in 2018-21, yet BLS edition figures show pharmacist jobs rising from 314,300 in 2018 to 322,200 in 2020 and 334,200 in 2022. No source I found counts the pharmacist jobs these closures removed, and timing alone does not prove they caused the 2023 to 2025 dip.\n\nDispensing robots and central fill are automation, not AI. CNBC (May 11, 2025) describes Walgreens' micro-fulfillment centers as a highly automated system that uses robotics, conveyor belts and barcode scanners. Technicians fill canisters for the robots, and pharmacists verify them. Walgreens says the centers handled 40% of prescription volume on average at supported pharmacies as of February 2025 and have generated about $500 million in savings. These are company figures, and the article does not report any cut in pharmacist jobs. In hospitals, the 2023 ASHP national survey found automated dispensing cabinets are the main distribution method in 86.1% of hospitals and machine-readable coding is used to verify doses in 73.6%. This page does not count either as AI.\n\nGenuine AI in pharmacist work is real but thin. The same ASHP survey (published August 2024, 21.6% response rate) says advanced analytics are used in 5.7% of hospitals. Reporting on the 2024 survey, Managed Healthcare Executive (June 26, 2025) says the authors found growth of advanced analytics, such as AI, machine learning and predictive analytics, \"has been slower than anticipated.\" A national survey of 1,363 U.S. pharmacists, run from September to November 2023 (JAPhA), found that 38.7% had used AI at all, most commonly large language models, and that 56.1% feel AI will decrease the number of pharmacy jobs. That is opinion, not a measured job loss. Optum Rx says AI image tools check that each prescription it seals and ships holds the correct medication, with more than 5 million checks a month, alongside pharmacist verification (company newsroom, October 23, 2025). Amazon Pharmacy staff reported in Nature Medicine (2024) that an LLM system called MEDIC cut near-miss events in prescription directions by 33% during an experimental period in production. I could not confirm from any later source that it is still in use. I found no source that ties any change in pharmacist headcount to AI.\n\nLimits: The BLS figures are edition base years, not one series, and I could not retrieve OEWS history to check the 2023 to 2025 dip. No source splits the dip among store closures, mail order, technician delegation and other causes. I found no independent data on AI use in retail pharmacies, which employ about half of pharmacists (37% in pharmacies and drug retailers, 6% each in general merchandise and food retailers). I also found no independent evidence that the drug-interaction checking or clinical decision support pharmacists use every day is machine learning rather than rules. The Optum and Walgreens figures are company-reported, and the MEDIC study was written by Amazon staff.\n\nThe status is not yet because AI does the core work only in narrow, mostly company-reported deployments, the main dispensing technology is plain robotics, and no source ties a job loss to AI. Confidence is medium: BLS, the ASHP surveys and a national pharmacist survey point the same way, but none measures AI use across retail pharmacy, and the cause of the post-2023 dip is not measured.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Pharmacists (current edition, last modified October 29, 2026)",
+      "url": "https://www.bls.gov/ooh/healthcare/pharmacists.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Pharmacists (archived August 2025 edition, 2024 base year)",
+      "url": "https://web.archive.org/web/20251003140919/https://www.bls.gov/ooh/healthcare/pharmacists.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Pharmacists (archived August 2024 edition, 2023 base year)",
+      "url": "https://web.archive.org/web/20241012153836/https://www.bls.gov/ooh/healthcare/pharmacists.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Pharmacists (archived September 2023 edition, 2022 base year)",
+      "url": "https://web.archive.org/web/20231012140818/https://www.bls.gov/ooh/healthcare/pharmacists.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Pharmacists (archived September 2021 edition, 2020 base year)",
+      "url": "https://web.archive.org/web/20211010090545/https://www.bls.gov/ooh/healthcare/pharmacists.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Pharmacists (archived October 2020 edition, 2019 base year)",
+      "url": "https://web.archive.org/web/20201016162554/https://www.bls.gov/ooh/healthcare/pharmacists.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Pharmacists (archived April 2020 edition, 2018 base year)",
+      "url": "https://web.archive.org/web/20200619191051/https://www.bls.gov/ooh/healthcare/pharmacists.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Pharmacists (archived edition captured February 2016, 2014 base year)",
+      "url": "https://web.archive.org/web/20160215022045/https://www.bls.gov/ooh/healthcare/pharmacists.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Pharmacists (archived edition captured June 2012, 2010 base year)",
+      "url": "https://web.archive.org/web/20120615170206/https://www.bls.gov/ooh/healthcare/pharmacists.htm"
+    },
+    {
+      "title": "Health Affairs: More US Pharmacies Closed Than Opened In 2018-21 (December 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39626155/"
+    },
+    {
+      "title": "CNN Wire via ABC7 New York: Rite Aid closes all remaining stores after 63 years in business (October 6, 2025)",
+      "url": "https://abc7ny.com/post/rite-aid-closes-remaining-stores-more-60-years-business/17937848/"
+    },
+    {
+      "title": "CNBC: Walgreens doubles down on prescription-filling robots to cut costs, free up pharmacists amid turnaround (May 11, 2025)",
+      "url": "https://www.cnbc.com/2025/05/11/walgreens-doubles-down-on-robots-to-fill-prescriptions-amid-turnaround.html"
+    },
+    {
+      "title": "American Journal of Health-System Pharmacy: ASHP National Survey of Pharmacy Practice in Hospital Settings, Operations and Technology 2023 (August 12, 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38780002/"
+    },
+    {
+      "title": "Managed Healthcare Executive: Survey of Health-System Pharmacy Directors Has Mixed Message About Role of Health-System Pharmacists (June 26, 2025)",
+      "url": "https://www.managedhealthcareexecutive.com/view/survey-of-health-system-pharmacy-directors-has-mixed-message-about-role-of-health-system-pharmacists"
+    },
+    {
+      "title": "Journal of the American Pharmacists Association: Pharmacists' perceptions of artificial intelligence, a national survey (November 28, 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39615589/"
+    },
+    {
+      "title": "Nature Medicine: Large language models for preventing medication direction errors in online pharmacies (April 25, 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38664535/"
+    },
+    {
+      "title": "Optum (company newsroom): Optum Rx uses AI to foster faster, more connected experience (October 23, 2025)",
+      "url": "https://www.optum.com/en/newsroom/health-tech/using-ai-faster-more-connected-pharmacy-experience.html"
+    }
+  ]
+}

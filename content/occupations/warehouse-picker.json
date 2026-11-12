@@ -1,0 +1,129 @@
+{
+  "slug": "warehouse-picker",
+  "title": "Warehouse picker",
+  "sector": "Logistics",
+  "status": "not-yet",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "BLS counts about 2.8 million stockers and order fillers, flat since 2022, and projects 9% growth. Sources name only a few Amazon sites using AI arms to pick or sort items.",
+  "metaDescription": "Has AI replaced warehouse pickers? BLS counts about 2.8 million stockers and order fillers, flat since 2022. Sources name only a few Amazon sites using AI arms.",
+  "aiTools": [
+    {
+      "name": "Amazon Vulcan",
+      "description": "Robot arm with an AI-powered touch sensor. CNBC (May 7, 2025) reported it was in full operation only at Amazon's Spokane, Washington warehouse, stowing items into bins, with a picking version in testing in Hamburg, Germany. Amazon said it works at about the same speed as a human worker and planned more U.S. and German sites in 2026 (company statements).",
+      "url": "https://www.cnbc.com/2025/05/07/meet-amazons-robot-vulcan-the-first-with-a-sense-of-touch.html"
+    },
+    {
+      "name": "Amazon Robin, Cardinal and Sparrow",
+      "description": "Robotic arms Amazon calls AI-powered. Amazon (October 9, 2024) says they sort, stack and consolidate items at its Shreveport, Louisiana site and that Sparrow uses computer vision and AI; its claim that Sparrow can handle over 200 million products is a company figure. The Wall Street Journal (July 2025) reported more than six dozen robotic arms doing this work at Shreveport.",
+      "url": "https://www.aboutamazon.com/news/operations/amazon-fulfillment-center-robotics-ai"
+    },
+    {
+      "name": "Amazon DeepFleet",
+      "description": "Generative AI model that Amazon says will coordinate how its mobile robots move through its fulfillment centers. Amazon announced it on June 30, 2025 and says it will improve robot fleet travel time by 10%. Company-reported; I found no independent measure of it. It routes robots and does not pick items.",
+      "url": "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Picking specific items from storage bins to fill orders",
+      "status": "not-yet",
+      "tool": "Amazon Vulcan (picking version)",
+      "sourceUrl": "https://www.cnbc.com/2025/05/07/meet-amazons-robot-vulcan-the-first-with-a-sense-of-touch.html"
+    },
+    {
+      "task": "Stowing items into storage bins, including high rows",
+      "status": "not-yet",
+      "tool": "Amazon Vulcan",
+      "sourceUrl": "https://www.cnbc.com/2025/05/07/meet-amazons-robot-vulcan-the-first-with-a-sense-of-touch.html"
+    },
+    {
+      "task": "Sorting, stacking and consolidating items and orders",
+      "status": "not-yet",
+      "tool": "Amazon Robin, Cardinal and Sparrow",
+      "sourceUrl": "https://www.tovima.com/wsj/amazon-is-on-the-cusp-of-using-more-robots-than-humans-in-its-warehouses/"
+    }
+  ],
+  "evidence": "BLS has no separate category for warehouse pickers, so this page uses one BLS occupation, stockers and order fillers (SOC 53-7065), and titles it Warehouse picker. Its BLS definition covers receiving, storing and issuing items from a stockroom, warehouse or storage yard to fill shelves, racks, tables or customers' orders. It is narrower than the broader hand laborers and material movers group, which also counts freight movers, packers, machine feeders, vehicle cleaners and refuse collectors. Most work for retailers: of 2,872,680 in the May 2023 OEWS estimates, 889,180 were in general merchandise retailers, 631,160 in food and beverage retailers and 451,860 in the warehousing and storage industry.\n\nEmployment grew for more than a decade and has been roughly flat since 2022. Archived editions of the BLS Occupational Outlook Handbook give 1,787,400 in 2010 and 2,056,600 in 2018 under the older category stock clerks and order fillers (43-5081), then, under 53-7065, 2,135,800 in 2019, 2,223,000 in 2020, 2,472,700 in 2021, 2,851,600 in 2022, 2,864,700 in 2023 and 2,764,800 in 2024. The current page (last modified August 27, 2026) gives 2,804,300 in 2025 and projects 3,055,000 in 2035, a 9% rise. These are base years from different editions, not one consistent series; the change of category code means 2018 and 2019 are not a clean comparison, and 2020 and 2021 include the pandemic. The 2024 figure was about 3.5% below 2023 and 2025 was slightly higher again, so no sustained decline has begun.\n\nBLS has written about warehouse technology for years, but none of the editions I read mentions artificial intelligence. When stock clerks and order fillers sat in its material recording clerks profile, the 2019 edition said retailers will seek to automate warehouse operations with \"collaborative robots\" and that this efficiency may reduce the demand for some material recording clerks; the 2020 edition kept a shorter version. In the hand laborers profile, the 2020 to 2023 editions said automation was becoming more viable in warehouses, and the 2024 edition dropped that sentence. For stockers specifically, the 2021 edition said RFID tags were expected to limit employment growth, and the 2022 and 2023 editions said automated storage and retrieval tools may offset fast employment growth. The current page drops these too: it says demand will be supported by orders for pickup or delivery and that the preference to buy online and pick up in store is expected to accelerate it. E-commerce is the driver BLS names. Census figures on FRED put e-commerce at 4.2% of retail sales in early 2010, 11.2% at the end of 2019, 16.3% in the second quarter of 2020 and 17.1% in the second quarter of 2026.\n\nMuch warehouse technology is automation, not AI: conveyors, sorting systems, barcode scanners and goods-to-person systems that carry shelves to a human picker, such as the robots made by Kiva Systems, which Amazon bought for $775 million in 2012. This page does not count them as AI. The UC Berkeley Labor Center (October 2019) described these systems and noted that in most warehouses picking still relied on human hands, while robotic picking arms rely on AI to learn how to grasp products. This page counts only such learning systems. Amazon says it deployed its 1 millionth robot and, on June 30, 2025, announced DeepFleet, a generative AI model that it says will coordinate robot movement and cut fleet travel time by 10%; these are company claims and I found no independent check. At its Shreveport, Louisiana site, Amazon says Robin, Cardinal and Sparrow, which it calls AI-powered, sort, stack and consolidate items (October 2024). The Wall Street Journal (July 2025) reported more than six dozen robotic arms doing that work there and another robot that reaches for hard-to-grab items inside shelves with a human worker supervising, while the inventory system moves products to an employee who picks the items. CNBC (May 7, 2025) reported that Vulcan, which uses an AI-powered touch sensor, was in full operation only at Spokane, Washington, where it stows items into bins, and that a version that picks specific items was being tested in Hamburg, Germany.\n\nReporting points to fewer workers per Amazon facility, but from robotics as a whole, not AI alone. A Wall Street Journal analysis (July 2025) estimated that Amazon averaged roughly 670 employees per facility the previous year, the lowest in 16 years, by comparing its reported workforce with estimates of its facility count. The New York Times (October 21, 2025), citing internal documents, reported that Amazon's automation team expects to avoid hiring more than 160,000 U.S. workers by 2027, that executives told the board automation could mean more than 600,000 people Amazon would not need to hire by 2033, and that the thousand robots at Shreveport let it employ a quarter fewer workers than it would have without automation. These are avoided hires, not layoffs. Amazon said the documents were incomplete and did not represent its overall hiring strategy, and in June 2026 an Amazon Robotics executive told CNBC that its robotics investment had created hundreds of thousands of jobs. None of these figures separates AI systems from conveyors and shelf-moving robots.\n\nLimits: I found no independent study that measures the effect of warehouse robots, or of AI specifically, on picker employment. The Berkeley report predates today's systems; it projected that the industry likely would not see dramatic job loss over the following decade. BLS does not publish a warehouse-only count. Most stockers and order fillers work for retailers, and because these are industry counts, warehouse workers employed by retailers are not separated out, so a fall among warehouse pickers could be hidden inside a flat total. I did not check AI picking deployments outside Amazon. The robot count, DeepFleet's effect and the Sparrow claims are Amazon's own, the NYT figures are internal plans, and I could read only part of the NYT article. The status is not yet because the sources show AI arms picking, stowing or sorting only at a few named Amazon sites (Shreveport, Spokane) and in tests (Hamburg), and DeepFleet speeds up robots rather than doing the picking. It is not augmented because no source shows AI in common use across an occupation of about 2.8 million jobs, most of them with retailers, and BLS projects 9% growth without mentioning AI. Confidence is medium: BLS and independent reporting point the same way, but most of what is known about AI deployment comes from Amazon.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Hand Laborers and Material Movers, including stockers and order fillers (current edition, last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Hand Laborers and Material Movers (archived August 2025 edition, 2024 base year)",
+      "url": "https://web.archive.org/web/20251008230457/https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Hand Laborers and Material Movers (archived August 2024 edition, 2023 base year)",
+      "url": "https://web.archive.org/web/20241008190402/https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Hand Laborers and Material Movers (archived September 2023 edition, 2022 base year)",
+      "url": "https://web.archive.org/web/20231004152733/https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Hand Laborers and Material Movers (archived September 2022 edition, 2021 base year)",
+      "url": "https://web.archive.org/web/20221005141631/https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Hand Laborers and Material Movers (archived September 2021 edition, 2020 base year)",
+      "url": "https://web.archive.org/web/20211105221755/https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Hand Laborers and Material Movers (archived September 2020 edition, warehouse automation sentence)",
+      "url": "https://web.archive.org/web/20201101104031/https://www.bls.gov/ooh/transportation-and-material-moving/hand-laborers-and-material-movers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Material Recording Clerks (archived September 2020 edition, 2019 base year for stockers and order fillers)",
+      "url": "https://web.archive.org/web/20210121203807/https://www.bls.gov/ooh/office-and-administrative-support/material-recording-clerks.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Material Recording Clerks (archived September 2019 edition, 2018 base year, collaborative robots)",
+      "url": "https://web.archive.org/web/20200420082819/https://www.bls.gov/ooh/office-and-administrative-support/material-recording-clerks.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Material Recording Clerks (archived 2012 edition, 2010 base year)",
+      "url": "https://web.archive.org/web/20120401235613/http://www.bls.gov/ooh/office-and-administrative-support/material-recording-clerks.htm"
+    },
+    {
+      "title": "BLS Occupational Employment and Wage Statistics: Stockers and Order Fillers, May 2023 (archived)",
+      "url": "https://web.archive.org/web/20250301134851/https://www.bls.gov/oes/current/oes537065.htm"
+    },
+    {
+      "title": "FRED, Federal Reserve Bank of St. Louis: E-Commerce Retail Sales as a Percent of Total Sales, from the U.S. Census Bureau (updated August 18, 2026)",
+      "url": "https://fred.stlouisfed.org/series/ECOMPCTSA"
+    },
+    {
+      "title": "UC Berkeley Labor Center: The Future of Warehouse Work: Technological Change in the U.S. Logistics Industry (October 2019)",
+      "url": "https://laborcenter.berkeley.edu/pdf/2019/Future-of-Warehouse-Work.pdf"
+    },
+    {
+      "title": "The New York Times: Amazon Plans to Replace More Than Half a Million Jobs With Robots (October 21, 2025)",
+      "url": "https://www.nytimes.com/2025/10/21/technology/inside-amazons-plans-to-replace-workers-with-robots.html"
+    },
+    {
+      "title": "The Wall Street Journal, reprinted by To Vima: Amazon Is on the Cusp of Using More Robots Than Humans in Its Warehouses (July 1, 2025)",
+      "url": "https://www.tovima.com/wsj/amazon-is-on-the-cusp-of-using-more-robots-than-humans-in-its-warehouses/"
+    },
+    {
+      "title": "CNBC: Amazon says new warehouse robot can 'feel' items, but won't replace workers (May 7, 2025)",
+      "url": "https://www.cnbc.com/2025/05/07/meet-amazons-robot-vulcan-the-first-with-a-sense-of-touch.html"
+    },
+    {
+      "title": "CNBC: Amazon unveils latest warehouse robot as tech giants continue AI layoffs (June 5, 2026)",
+      "url": "https://www.cnbc.com/2026/06/05/amazon-robot-proteus-warehouse-ai-layoffs.html"
+    },
+    {
+      "title": "Amazon: Amazon launches a new AI foundation model to power its robotic fleet and deploys its 1 millionth robot (June 30, 2025)",
+      "url": "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model"
+    },
+    {
+      "title": "Amazon: Amazon unveils the next generation of fulfillment centers powered by AI and 10 times more robotics (October 9, 2024)",
+      "url": "https://www.aboutamazon.com/news/operations/amazon-fulfillment-center-robotics-ai"
+    }
+  ]
+}

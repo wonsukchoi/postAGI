@@ -1,0 +1,114 @@
+{
+  "slug": "graphic-designer",
+  "title": "Graphic designer",
+  "sector": "Creative",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "Graphic designer jobs have held at about 250,000-290,000 since 2006. BLS now projects a 2% fall to 2035, citing AI tools. Freelance design posts fell, but no source shows AI cutting total jobs.",
+  "metaDescription": "Has AI replaced graphic designers? Jobs held near 250,000-290,000 since 2006. BLS projects a 2% fall, citing AI tools; no source shows AI cutting total jobs.",
+  "aiTools": [
+    {
+      "name": "Adobe Photoshop Generative Fill",
+      "description": "Adobe's October 28, 2025 announcement says Generative Fill in Photoshop now offers partner AI models, including Google Gemini, and is generally available, alongside Harmonize, which blends people or objects into new scenes. Company announcement; it gives no figures on use by designers.",
+      "url": "https://news.adobe.com/news/2025/10/adobe-max-2025-creative-cloud"
+    },
+    {
+      "name": "Canva AI",
+      "description": "AI features in the Canva design platform. Cofounder and COO Cliff Obrecht said its AI tools have been used 27 billion times and that Canva AI usage tripled over the last year (Entrepreneur India, July 6, 2026). Company-reported; the article does not say how much of that use replaces paid design work.",
+      "url": "https://india.entrepreneur.com/business-news/gear-up-for-canva-ai-2-0"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Designing layouts and branding for print, websites and social media",
+      "status": "augmented",
+      "sourceUrl": "https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "task": "Short freelance graphic design and image-creation jobs on online platforms",
+      "status": "partial",
+      "tool": "Text-to-image generators",
+      "sourceUrl": "https://www.imperial.ac.uk/business-school/ib-knowledge/technology/how-ai-affecting-freelance-jobs/"
+    },
+    {
+      "task": "Simple design tasks for businesses",
+      "status": "augmented",
+      "sourceUrl": "https://clutch.co/press-releases/state-of-graphic-design-industry-survey"
+    }
+  ],
+  "evidence": "Graphic designers create logos and other visual elements and design layouts for printed pages, websites and social media. This page is separate from the illustrator page, which covers commissioned image-making; freelance evidence is used here only where the source names graphic design or design work.\n\nEmployment has moved within a band of about 250,000 to 290,000 jobs for two decades, with no clear trend. Archived editions of the BLS Occupational Outlook Handbook give about 261,000 jobs in 2006, 286,100 in 2008, 279,200 in 2010, 261,600 in 2014, 266,300 in 2016, 290,100 in 2018, 254,100 in 2020, 270,900 in 2022, 267,200 in 2023 and 265,900 in 2024. The current page (last modified October 29, 2026) says about 253,100 in 2025 and projects a 2 percent decline from 2025 to 2035, with about 16,000 openings a year. These are base years from different editions, not one consistent series, and 2020 includes the pandemic. The drop from 265,900 to 253,100 crosses two editions, and BLS gives no cause for it, so this page does not credit it to AI.\n\nThe older pressure is the shrinking of print publishing, and it is not AI. BLS's December 2007 edition still expected demand to grow from advertisers, publishers and computer design firms. Its May 2010 edition first said growth \"may be tempered by reduced demand in the print publishing\". Later editions projected steep falls for graphic designers employed by newspaper, periodical, book and directory publishers: 35 percent from 2014 to 2024, and 22 percent from both 2016 to 2026 and 2018 to 2028. As late as its September 2023 edition, BLS named a decrease in print newspapers and magazines as the limit on growth and did not mention AI. Layout software and desktop publishing are ordinary software, not AI, and this page does not count them.\n\nBLS first named AI in its August 2024 edition, which still projected 2 percent growth and said automated design tools, such as AI, \"may reduce the need for companies to contract with freelance graphic designers\". The August 2025 edition kept that wording. The current edition switches to a projected decline and says these tools \"are projected to make graphic designers more productive and reduce the need for these workers\", while designers are expected to still be needed for layouts and branding. That is a projection, not a measured loss.\n\nThe measured evidence comes from one freelance platform. Demirci, Hannane and Zhu analysed 1,725,587 job posts from July 2021 to July 2023 on a large international freelancing platform. In a February 5, 2024 article, Zhu wrote that after text-to-image AI arrived, work in graphic design and rendering of 3D images saw a 13 per cent fall in demand. The published paper (Management Science, October 2025) reports a 17% decrease in job posts related to image creation; its abstract does not say graphic design. The article and the abstract give different figures and category names, and I did not read the full paper to reconcile them.\n\nBusiness surveys show the tools are widespread but mostly not replacing designers. Clutch, a marketplace that lists design agencies, reported in March 2026 that 88% of businesses use AI design tools, but only 18% say AI has reduced their need for designers, 32% say AI has replaced only simple design tasks, and 47% increased their graphic design budgets over the past year; its release does not state a sample size. Bloomberry, which sells jobs data, analysed nearly 180 million job postings from January 2023 to October 2025 (updated June 17, 2026) and says graphics designers have not decreased much in demand so far, against an 8% drop in all postings in 2025. On the tool side, Adobe said on October 28, 2025 that Generative Fill with partner AI models is generally available in Photoshop, and Canva's cofounder said in July 2026 that its AI tools had been used 27 billion times. Both are company statements, and neither says how much paid design work the tools replace. I found no employer that announced cutting graphic designers because of AI.\n\nLimits: BLS does not say how much of its projected decline comes from AI, and I could not retrieve OEWS history to check the 2025 figure against a consistent series. The freelance study covers one platform and short gigs. The Clutch and Bloomberry figures come from companies that sell into this market, and Clutch gives no sample size. I found no independent survey of how many working graphic designers use generative tools. The status is augmented because AI design tools are in common use and BLS describes them as making designers more productive, while no source shows total headcount falling because of AI. Partial could reasonably be argued from BLS's new projected decline and the fall in freelance design postings, so confidence is low.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Graphic Designers (current edition, last modified October 29, 2026)",
+      "url": "https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Graphic Designers (archived August 28, 2025 edition, 2024 base year)",
+      "url": "https://web.archive.org/web/20250930155717/https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Graphic Designers (archived August 29, 2024 edition, 2023 base year, first mention of AI)",
+      "url": "https://web.archive.org/web/20241005122013/https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Graphic Designers (archived September 6, 2023 edition, 2022 base year)",
+      "url": "https://web.archive.org/web/20231004052125/https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Graphic Designers (archived April 18, 2022 edition, 2020 base year)",
+      "url": "https://web.archive.org/web/20220701085610/https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Graphic Designers (archived April 10, 2020 edition, 2018 base year)",
+      "url": "https://web.archive.org/web/20200614154252/https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Graphic Designers (archived April 13, 2018 edition, 2016 base year)",
+      "url": "https://web.archive.org/web/20180629140103/https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Graphic Designers (archived June 2016 capture, 2014 base year)",
+      "url": "https://web.archive.org/web/20160601013229/https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Graphic Designers (archived September 2012 capture, 2010 base year)",
+      "url": "https://web.archive.org/web/20120915163855/https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook 2010-11: Graphic Designers (last modified May 17, 2010, 2008 data)",
+      "url": "https://web.archive.org/web/20110511212328/http://www.bls.gov/oco/ocos090.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook 2008-09: Graphic Designers (last modified December 18, 2007, 2006 data)",
+      "url": "https://web.archive.org/web/20080515233106/http://www.bls.gov/oco/ocos090.htm"
+    },
+    {
+      "title": "Imperial Business School: How is AI affecting freelance jobs? (February 5, 2024)",
+      "url": "https://www.imperial.ac.uk/business-school/ib-knowledge/technology/how-ai-affecting-freelance-jobs/"
+    },
+    {
+      "title": "Management Science: Who is AI replacing? The impact of generative AI on online freelancing platforms, Demirci, Hannane and Zhu (October 2025, Imperial repository record)",
+      "url": "https://spiral.imperial.ac.uk/entities/publication/88113a91-b994-4717-8526-dadac657f1cb"
+    },
+    {
+      "title": "Clutch: 90% of Businesses Use Graphic Designers as AI Reshapes Creative Work (March 2026)",
+      "url": "https://clutch.co/press-releases/state-of-graphic-design-industry-survey"
+    },
+    {
+      "title": "Bloomberry: I analyzed 180M jobs to see what jobs AI is actually replacing today (updated June 17, 2026)",
+      "url": "https://bloomberry.com/blog/i-analyzed-180m-jobs-to-see-what-jobs-ai-is-actually-replacing-today/"
+    },
+    {
+      "title": "Adobe: Adobe Delivers New AI Innovations, Assistants and Models Across Creative Cloud (October 28, 2025)",
+      "url": "https://news.adobe.com/news/2025/10/adobe-max-2025-creative-cloud"
+    },
+    {
+      "title": "Entrepreneur India: Gear Up For Canva AI 2.0 (July 6, 2026)",
+      "url": "https://india.entrepreneur.com/business-news/gear-up-for-canva-ai-2-0"
+    }
+  ]
+}

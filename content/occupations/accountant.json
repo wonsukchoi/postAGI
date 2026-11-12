@@ -1,0 +1,125 @@
+{
+  "slug": "accountant",
+  "title": "Accountant",
+  "sector": "Finance",
+  "status": "augmented",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "Accountant and auditor jobs grew from 1.2 million in 2010 to 1.6 million in 2025, and BLS projects 5% more by 2035. AI is widely used in audit; studies disagree on whether it cut junior staff.",
+  "metaDescription": "Has AI replaced accountants? Jobs grew to 1.6 million in 2025; BLS projects 5% more. AI is widely used in audit; studies split on whether it cut junior staff.",
+  "aiTools": [
+    {
+      "name": "EY agentic AI in EY Canvas",
+      "description": "Multi-agent AI built into EY Canvas, EY's global audit platform. CPA Practice Advisor (April 7, 2026) reports, from EY's announcement, that EY is embedding it into EY Canvas in a rollout encompassing the daily workflows of 130,000 assurance professionals across 160,000 audit engagements and more than 150 countries and territories, and that it is expected to support all end-to-end audit activities by 2028. Company-reported; the article says nothing about headcount.",
+      "url": "https://www.cpapracticeadvisor.com/2026/04/07/ey-rolls-out-agentic-ai-in-assurance-across-its-global-network-of-accounting-firms/181097/"
+    },
+    {
+      "name": "KPMG Clara AI agents",
+      "description": "AI agents in KPMG's Clara audit platform. KPMG said in April 2025 that the agents deployed then are designed to support standardizing and automating various aspects of the audit process, and include substantive procedures such as expense vouching and the search for unrecorded liabilities, and that the rollout aims to reach more than 95,000 auditors. Bloomberg Law (April 1, 2026) reports KPMG will test-run a next generation of orchestration agents as soon as summer 2026. Company-reported.",
+      "url": "https://kpmg.com/xx/en/media/press-releases/2025/04/kpmg-advances-ai-integration-in-kpmg-clara-smart-audit-platform.html"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Auditing financial statements, including going-concern and internal-control opinions",
+      "status": "augmented",
+      "tool": "In-house audit AI",
+      "sourceUrl": "https://ideas.repec.org/a/inm/ormnsc/v71y2025i5p3641-3666.html"
+    },
+    {
+      "task": "Routine accounting tasks such as data entry",
+      "status": "augmented",
+      "sourceUrl": "https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
+    }
+  ],
+  "evidence": "This page covers accountants and auditors (BLS code 13-2011), who examine financial statements, compute taxes owed and assess financial operations. Bookkeeping, accounting and auditing clerks are a separate BLS occupation with their own page. Accountant and auditor employment has grown, not fallen. Archived editions of the BLS Occupational Outlook Handbook give about 1.1 million jobs in 2002, 1,216,900 in 2010, 1,332,700 in 2014, 1,424,000 in 2018, 1,436,100 in 2019, 1,392,200 in 2020, 1,538,400 in 2022 and 1,579,800 in 2024. The current page (last modified October 29, 2026) gives 1,595,200 in 2025, projects 5% growth to 2035 and expects about 115,300 openings a year. That is about 31% more jobs in 2025 than in 2010. The only dip is 2020, a pandemic year. These are base years from different editions, not one consistent series.\n\nBLS has noted plain software for at least two decades. Its 2004-05 edition said that as computer programs continue to simplify some accounting-related tasks, clerical staff will increasingly handle many routine calculations, and that due to the increasing popularity of tax preparation firms and computer software, accountants will shift away from tax preparation. Its September 2019 and September 2020 editions said only that some routine accounting tasks may become automated as platforms such as cloud computing become more widespread. BLS now mentions AI too, and says it will not cut demand. The September 2021 edition is the first I read that names AI: accountants and auditors may use technology, such as artificial intelligence (AI) and robotics process automation, to increase their productivity. The current page keeps that sentence and adds that although these technologies will likely increase accountants' efficiency, this change is not expected to reduce overall demand, and that automating routine tasks such as data entry will make advisory and analytical duties more prominent. This page counts cloud computing and robotics process automation as plain software, not AI.\n\nTwo peer-reviewed studies of audit firms disagree about jobs. Fedyk, Hodson, Khimich and Fedyk (Review of Accounting Studies, published online July 7, 2022) tracked workers with AI skills such as machine learning at the 36 largest U.S. public accounting firms from 2010 to 2019; this site counts that machine learning as AI. The audit partners they interviewed said AI is widely used in audit. They found that a one-standard-deviation rise in AI investment was followed by 3.6% fewer accounting employees after three years and 7.1% after four, with the cut concentrated among junior staff (5.7% and 11.8%). Law and Shen (Management Science, 2025), using AI hiring at U.S. audit offices, found the opposite: offices that hired AI employees had a 4.3% increase in auditor jobs, particularly among junior and midlevel auditors, and none of the partners they interviewed believe AI has replaced or will replace human auditors.\n\nThe Big Four are now rolling out agentic AI in audit. CPA Practice Advisor reported on April 7, 2026 that EY is embedding a multi-agent framework into EY Canvas, its global audit platform, encompassing the daily workflows of 130,000 assurance professionals across 160,000 audit engagements, and expects it to support all end-to-end audit activities by 2028 (company figures; the article says nothing about headcount). KPMG said in April 2025 that AI agents deployed in its Clara audit platform include substantive procedures such as expense vouching and the search for unrecorded liabilities, and Bloomberg Law reported on April 1, 2026 that KPMG would test-run a next generation of agents as soon as that summer. The parts of these articles I could read do not tie the tools to job cuts.\n\nEntry-level hiring has fallen at some firms since 2023, but the stated causes are mixed. A PwC US internal slide reported in August 2025 projected 2,197 tax and assurance associates in 2028, 1,045 fewer campus hires than 2025 (Going Concern); PwC said the rapid pace of technological change is reshaping how it works and cited historically low attrition. In May 2025 PwC laid off 1,500 U.S. staff, mostly in audit and tax, and blamed historically low levels of attrition; the Accounting Today report does not mention AI. Fortune reported on September 8, 2025 that PwC UK was hiring 1,300 entry-level staff that year versus 1,500; its UK chief pointed to the wider slowdown in investment, hiring and deal-making, while also saying AI is reshaping roles. City AM (June 2025) reported that KPMG UK cut its graduate intake from 1,399 to 942 but did not name its data source. None of this has yet shown up as a fall in total U.S. employment in the BLS data through 2025.\n\nTwo non-AI forces also shape hiring. The supply of graduates is smaller: there were 16.9% fewer accounting graduates in the 2021-22 school year than in 2012-13 (AICPA data reported by the Journal of Accountancy, October 12, 2023), years before the EY and KPMG agent rollouts. Schools awarded 55,152 accounting bachelor's and master's degrees in 2023-2024, down 6.6%, and new CPA exam candidates fell from 42,626 in 2023, the highest figure since 2016, to 28,082 in 2024 (Journal of Accountancy, October 27, 2025). Even so, 75% of firms in the AICPA survey expected to hire at least as many new graduates in 2025 as in 2024. Offshoring is the other force. City AM reported that all four firms have expanded their offshoring to lower-cost hubs in India, Malaysia and the Philippines, and ACCA's AB magazine (August 2025) cites an estimate from Simandhar Education that the Big Four employ 140,000 to 160,000 professionals in global capability centres. Neither source measures how many U.S. jobs this replaced.\n\nLimits: BLS data run only through 2025, so hiring cuts from 2025 may show up later. I found no study that separates the effects of AI, offshoring, low attrition and the graduate shortage on headcount. Reports that PwC's US cut was driven partly by its offshore centres appeared only in summaries I could not open, so they are not used here. Both audit studies cover audit firms only, not accountants employed elsewhere, and the Fedyk sample ends in 2019. The EY and KPMG figures come from the firms, and the Bloomberg Law article was paywalled, so I read only an excerpt. I found no current, dated, independent source on AI in tax work, so this page has no tax task row. I did not check OEWS data.\n\nThe status is augmented. AI is widely used in audit, BLS expects it to make accountants more efficient without reducing overall demand, and total employment kept rising through 2025. One peer-reviewed study finds AI cut junior audit staff, but a second finds the opposite, and the recent hiring cuts come with other stated causes, so the weaker status wins. Confidence is medium: BLS and the two studies are independent, but they disagree at the firm level, and the newest hiring cuts are not yet in the employment data.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Accountants and Auditors (current edition, last modified October 29, 2026)",
+      "url": "https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Accountants and Auditors (archived August 2025 edition, 2024 base year)",
+      "url": "https://web.archive.org/web/20251007101906/https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Accountants and Auditors (archived September 2023 edition, 2022 base year)",
+      "url": "https://web.archive.org/web/20231022052533/https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Accountants and Auditors (archived September 2021 edition, 2020 base year, first mention of AI)",
+      "url": "https://web.archive.org/web/20211006164441/https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Accountants and Auditors (archived September 2020 edition, 2019 base year, cloud computing but no AI)",
+      "url": "https://web.archive.org/web/20201001100057/https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Accountants and Auditors (archived September 2019 edition, 2018 base year, first automation sentence)",
+      "url": "https://web.archive.org/web/20191007034733/https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Accountants and Auditors (archived 2016-17 edition, 2014 base year)",
+      "url": "https://web.archive.org/web/20160113053007/https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Accountants and Auditors (archived 2012-13 edition, 2010 base year)",
+      "url": "https://web.archive.org/web/20120525230403/https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Accountants and Auditors (archived 2004-05 edition, 2002 data)",
+      "url": "https://web.archive.org/web/20040610083956/http://www.bls.gov:80/oco/ocos001.htm"
+    },
+    {
+      "title": "Review of Accounting Studies: Is artificial intelligence improving the audit process? (Fedyk, Hodson, Khimich and Fedyk, July 7, 2022)",
+      "url": "https://www.runi.ac.il/media/jccjb0m0/is-artificial-intelligence-improving-the-audit-process.pdf"
+    },
+    {
+      "title": "Management Science: How Does Artificial Intelligence Shape Audit Firms? (Law and Shen, 2025)",
+      "url": "https://ideas.repec.org/a/inm/ormnsc/v71y2025i5p3641-3666.html"
+    },
+    {
+      "title": "Journal of Accountancy: The accounting graduate pipeline: Where do things stand? (October 27, 2025)",
+      "url": "https://www.journalofaccountancy.com/news/2025/oct/the-accounting-graduate-pipeline-where-do-things-stand/"
+    },
+    {
+      "title": "Journal of Accountancy: Pool of accounting graduates shrinks, AICPA report finds (October 12, 2023)",
+      "url": "https://www.journalofaccountancy.com/news/2023/oct/pool-of-accounting-graduates-shrinks-aicpa-report-finds.html"
+    },
+    {
+      "title": "Going Concern: PwC confirms they're majorly cutting campus recruiting (August 21, 2025)",
+      "url": "https://goingconcern.com/pwc-confirms-theyre-majorly-cutting-campus-recruiting"
+    },
+    {
+      "title": "Accounting Today: PwC lays off 1,500 in U.S. (May 6, 2025)",
+      "url": "https://www.accountingtoday.com/news/pwc-lays-off-1-500-in-u-s"
+    },
+    {
+      "title": "Fortune: PwC's U.K. chief admits he's cutting back entry-level jobs and taking a 'watch and wait' approach to see how AI changes work (September 8, 2025)",
+      "url": "https://fortune.com/2025/09/08/pwc-uk-chief-cutting-entry-level-junior-gen-z-jobs-ai-economic-headwinds-like-amazon-salesforce/"
+    },
+    {
+      "title": "City AM: Big Four slash graduate jobs as AI takes on entry level work (June 23, 2025)",
+      "url": "https://www.cityam.com/big-four-slash-graduate-jobs-as-ai-takes-on-entry-level-work/"
+    },
+    {
+      "title": "ACCA AB magazine: US firms hire India's talent (August 2025)",
+      "url": "https://abmagazine.accaglobal.com/global/articles/2025/aug/practice/us-firms-hire-india-s-talent.html"
+    },
+    {
+      "title": "CPA Practice Advisor: EY rolls out agentic AI in assurance across its global network of accounting firms (April 7, 2026)",
+      "url": "https://www.cpapracticeadvisor.com/2026/04/07/ey-rolls-out-agentic-ai-in-assurance-across-its-global-network-of-accounting-firms/181097/"
+    },
+    {
+      "title": "Bloomberg Law: KPMG to test advanced AI agents in next phase for audits (April 1, 2026)",
+      "url": "https://news.bgov.com/crypto/kpmg-to-test-advanced-ai-agents-in-next-phase-for-audits"
+    },
+    {
+      "title": "KPMG: KPMG advances AI integration in KPMG Clara smart audit platform (April 22, 2025)",
+      "url": "https://kpmg.com/xx/en/media/press-releases/2025/04/kpmg-advances-ai-integration-in-kpmg-clara-smart-audit-platform.html"
+    }
+  ]
+}

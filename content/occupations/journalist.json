@@ -1,0 +1,130 @@
+{
+  "slug": "journalist",
+  "title": "Journalist",
+  "sector": "Media",
+  "status": "augmented",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "Journalist jobs fell about 32% from 2008 to 2025. BLS blames ad revenue and consolidation, not AI. A 2026 survey finds most journalists use AI, mainly for work around the story, not writing it.",
+  "metaDescription": "Has AI replaced journalists? Jobs fell about 32% in 2008-2025; BLS blames ad revenue and consolidation, not AI. A 2026 survey: most use AI around the story.",
+  "aiTools": [
+    {
+      "name": "Newsquest News Creator",
+      "description": "AI drafting tool used by UK regional publisher Newsquest. The Reuters Institute (January 12, 2026) reports Newsquest has created more than 30 AI-assisted reporters who use it to draft up to 30 stories every day, which are then checked and supplemented. Company-described figures; no source shows a fall in Newsquest reporter headcount.",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026"
+    },
+    {
+      "name": "McClatchy content scaling agent (CSA)",
+      "description": "Internal McClatchy tool that CJR (September 17, 2026) says is powered by Anthropic's Claude and used to repackage stories under journalists' bylines. Miami Herald journalists filed a grievance over it. McClatchy did not respond to CJR's questions about its AI plans.",
+      "url": "https://www.cjr.org/analysis/mcclatchys-post-layoff-future-artificial-intelligence-ai-labor-union.php"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Drafting routine stories for a human to check and supplement",
+      "status": "augmented",
+      "tool": "Newsquest News Creator",
+      "sourceUrl": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026"
+    },
+    {
+      "task": "Repackaging existing stories for other audiences",
+      "status": "augmented",
+      "tool": "McClatchy content scaling agent",
+      "sourceUrl": "https://www.cjr.org/analysis/mcclatchys-post-layoff-future-artificial-intelligence-ai-labor-union.php"
+    },
+    {
+      "task": "Transcribing and summarising interviews and audio",
+      "status": "augmented",
+      "sourceUrl": "https://pressgazette.co.uk/comment-analysis/how-journalists-are-using-ai-2026/"
+    },
+    {
+      "task": "Research, fact-checking and brainstorming angles and interview questions",
+      "status": "augmented",
+      "sourceUrl": "https://pressgazette.co.uk/comment-analysis/how-journalists-are-using-ai-2026/"
+    },
+    {
+      "task": "Writing high school sports recaps from box scores",
+      "status": "not-yet",
+      "tool": "LedeAI (paused by Gannett)",
+      "sourceUrl": "https://wtop.com/business-finance/2023/08/gannett-to-pause-ai-experiment-after-botched-high-school-sports-articles/"
+    }
+  ],
+  "evidence": "Journalist employment has been falling for about two decades, and BLS gives business reasons, not AI. Archived editions of the BLS Occupational Outlook Handbook give about 66,000 jobs in 2002, 69,300 in 2008, 57,600 in 2012, 49,700 in 2018, 58,500 in 2022, 49,800 in 2023 and 49,300 in 2024. The current page (last modified August 27, 2026) says 47,100 in 2025 and projects a 6% decline from 2025 to 2035. That is about 32% below the 2008 figure. These are base years from different editions, not one consistent series. The occupation's title also changed, from News Analysts, Reporters, and Correspondents (2004 and 2010 editions) to Reporters, Correspondents, and Broadcast News Analysts (2014 and 2019 editions) to News Analysts, Reporters, and Journalists (2023 edition onward), and the 2022 figure is out of line with the years on either side, which the pages do not explain. BLS already gave non-AI causes in its 2004 edition: mergers, consolidations, and closures of newspapers, decreased circulation, increased expenses, and a decline in advertising profits. The current page says declining advertising revenue in radio, newspapers, and television is expected to impact the long-term demand for these workers, and that consolidation and shared content may reduce demand as organizations downsize. None of the seven archived editions I read, and not the current page, mentions AI or automation. The only technology sentence, in the 2010 edition, said improving technology may open new areas of work, such as online or mobile news divisions.\n\nThe newspaper side of the fall began around 2005, long before generative AI. Northwestern Medill's State of Local News 2025 report counts close to 3,500 newspapers that have ceased printing since 2005, and more than 270,000 newspaper jobs lost since 2005, a loss of more than 75%, leaving 91,550 people employed across all occupations in the newspaper industry in 2024. Using BLS data, it finds the journalist occupation declined by a little more than 7% from 2023 to 2024. The report names AI as a newer pressure on revenue, through changes to search and the adoption of AI technologies, not as something that does reporters' work.\n\nAutomated news stories are older than ChatGPT, but the best-known case is not AI under this site's rules. The Associated Press began publishing automated earnings reports in July 2014 for companies including Hasbro, Honeywell and GE, using Automated Insights and data from Zacks Investment Research (Poynter, January 29, 2015). Nieman Reports (September 1, 2015) describes Automated Insights' Wordsmith assembling the stories by following rules set by AP staff, from a predetermined set of vocabulary and phrases. AP then produced about 3,500 such stories per quarter, and managing editor Lou Ferrara estimated the system freed up 20 percent of the business desk's time. Poynter reported that no jobs were cut as a result. That is rule-based, templated text generation, not machine learning, so this page does not count it as AI.\n\nGenerative AI in newsrooms has a record of public retreats. CNET used an internally designed AI engine to help write 77 published stories from November 2022, issued corrections it described in some cases as substantial, and paused the tool (CNN via CBS News, January 26, 2023). Gannett paused its experiment with LedeAI high school sports recaps in all of its local markets that had been using the service, after errors went viral; one story ran with unfilled placeholders such as [[WINNING_TEAM_MASCOT]] (CNN via WTOP, August 31, 2023). Those placeholders point to template filling, though the coverage calls LedeAI an AI service. In November 2023 Futurism reported that Sports Illustrated product reviews ran under fabricated author profiles whose photos appeared to come from a site selling AI-generated headshots. The Arena Group denied the content was AI-generated, blamed the contractor AdVon Commerce, removed the content and ended the partnership (Fox News, November 28, 2023).\n\nEveryday use is now common, mostly around the story rather than for whole stories. Cision's 2026 State of the Media survey of nearly 1,900 journalists across 19 markets found only 21% do not use AI tools, down from 33% a year earlier. The most common uses were brainstorming angles and interview questions (48%), research and fact-checking (43%), and transcription or summarisation of interviews and audio (41%) (Press Gazette, May 27, 2026). Cision sells media software, so this is a company survey. Some publishers go further. UK regional publisher Newsquest has created more than 30 AI-assisted reporters who use a tool called News Creator to draft up to 30 stories every day, which are then checked and supplemented (Reuters Institute, January 12, 2026). McClatchy uses a content scaling agent, powered by Anthropic's Claude, to repackage stories under journalists' bylines (CJR, September 17, 2026).\n\nJob cuts tied directly to AI doing the work are few so far. In the Reuters Institute's survey of 280 senior publishing executives from 51 countries and territories (November 18 to December 20, 2025), 67% said they had not saved any jobs through AI efficiencies, 16% said they had slightly reduced staff numbers, and 9% had added roles. Business Insider cut about 21% of its workforce in May 2025. Reuters tied the cut to shrinking search traffic and the growing use of generative AI tools such as ChatGPT, which is AI taking readers rather than writing stories, while the company also said it was accelerating its own AI adoption (Reuters via The Star, May 30, 2025). McClatchy laid off more than ninety unionized media workers across seventeen publications, according to the NewsGuild; it did not tell CJR its plans for AI, and some of its union contracts bar using AI to replace staff (CJR, September 17, 2026).\n\nLimits: I found no independent study that isolates AI's effect on journalist headcount. The BLS figures come from different editions with changing titles, and the 2022 jump is unexplained. The broad usage survey comes from Cision, a media software company, and the Reuters Institute sample is senior publishing executives worldwide, not U.S. reporters. The Newsquest and McClatchy cases are single companies, and McClatchy has not said what role AI played in its layoffs. The status is augmented because AI is in common use, mostly for research, transcription and drafts that humans check, while the long fall in jobs began around 2005 with advertising losses and consolidation. Newsquest's drafting, McClatchy's repackaging and the 16% of leaders reporting small cuts point toward partial, but no source shows headcount measurably falling because of AI, and when evidence is mixed the weaker status wins. Confidence is medium.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: News Analysts, Reporters, and Journalists (current edition, last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/media-and-communication/reporters-correspondents-and-broadcast-news-analysts.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: News Analysts, Reporters, and Journalists (archived August 2025 edition, 2024 base year)",
+      "url": "https://web.archive.org/web/20250911000913/https://www.bls.gov/ooh/Media-and-Communication/Reporters-correspondents-and-broadcast-news-analysts.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: News Analysts, Reporters, and Journalists (archived August 2024 edition, 2023 base year)",
+      "url": "https://web.archive.org/web/20241017180002/https://www.bls.gov/ooh/media-and-communication/reporters-correspondents-and-broadcast-news-analysts.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: News Analysts, Reporters, and Journalists (archived September 2023 edition, 2022 base year)",
+      "url": "https://web.archive.org/web/20231011004121/https://www.bls.gov/ooh/media-and-communication/reporters-correspondents-and-broadcast-news-analysts.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Reporters, Correspondents, and Broadcast News Analysts (archived September 2019 edition, 2018 base year)",
+      "url": "https://web.archive.org/web/20200615014935/https://www.bls.gov/ooh/media-and-communication/reporters-correspondents-and-broadcast-news-analysts.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: Reporters, Correspondents, and Broadcast News Analysts (archived June 2014 capture, 2012 base year)",
+      "url": "https://web.archive.org/web/20140625050836/http://www.bls.gov/ooh/Media-and-Communication/Reporters-correspondents-and-broadcast-news-analysts.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: News Analysts, Reporters, and Correspondents (archived 2010-11 edition, 2008 data)",
+      "url": "https://web.archive.org/web/20100530202907/http://www.bls.gov/oco/ocos088.htm"
+    },
+    {
+      "title": "BLS Occupational Outlook Handbook: News Analysts, Reporters, and Correspondents (archived 2004-05 edition, 2002 data)",
+      "url": "https://web.archive.org/web/20040603174905/http://www.bls.gov/oco/ocos088.htm"
+    },
+    {
+      "title": "Northwestern Medill Local News Initiative: The State of Local News 2025 (2025)",
+      "url": "https://localnewsinitiative.northwestern.edu/assets/slnp/the_state_of_local_news_2025.pdf"
+    },
+    {
+      "title": "Poynter: Robot-writing increased AP's earnings stories by tenfold (January 29, 2015)",
+      "url": "https://www.poynter.org/reporting-editing/2015/robot-writing-increased-aps-earnings-stories-by-tenfold/"
+    },
+    {
+      "title": "Nieman Reports: Automation in the Newsroom (September 1, 2015)",
+      "url": "https://niemanreports.org/automation-in-the-newsroom/"
+    },
+    {
+      "title": "CBS News (CNN): CNET's decision to write stories with AI backfires (January 26, 2023)",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/cnets-decision-to-write-stories-with-ai-backfires/"
+    },
+    {
+      "title": "WTOP (CNN): Gannett to pause AI experiment after botched high school sports articles (August 31, 2023)",
+      "url": "https://wtop.com/business-finance/2023/08/gannett-to-pause-ai-experiment-after-botched-high-school-sports-articles/"
+    },
+    {
+      "title": "Fox News via FOX 35 Orlando: Sports Illustrated parent company denies publishing AI-generated articles, blames third party (November 28, 2023)",
+      "url": "https://www.fox35orlando.com/sports/sports-illustrated-parent-company-denies-publishing-ai-generated-articles-blames-third-party"
+    },
+    {
+      "title": "The Star (Reuters): Business Insider cuts 21% of workforce, memo shows (May 30, 2025)",
+      "url": "https://www.thestar.com.my/tech/tech-news/2025/05/30/business-insider-cuts-21-of-workforce-memo-shows"
+    },
+    {
+      "title": "Reuters Institute: Journalism, media, and technology trends and predictions 2026 (January 12, 2026)",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026"
+    },
+    {
+      "title": "Press Gazette: Journalists using AI to save time but don't want AI-generated pitches or press releases (May 27, 2026)",
+      "url": "https://pressgazette.co.uk/comment-analysis/how-journalists-are-using-ai-2026/"
+    },
+    {
+      "title": "Columbia Journalism Review: McClatchy's Post-Layoff Future (September 17, 2026)",
+      "url": "https://www.cjr.org/analysis/mcclatchys-post-layoff-future-artificial-intelligence-ai-labor-union.php"
+    }
+  ]
+}
