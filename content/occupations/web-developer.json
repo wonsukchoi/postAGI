@@ -1,0 +1,163 @@
+{
+  "slug": "web-developer",
+  "title": "Web developer",
+  "sector": "Software",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "Wage and salary web developer jobs fell 21% from 2022 to 2025, but no source ties the fall to AI, and BLS projects 4% growth. AI coding tools are widely used; freelance evidence is mixed.",
+  "metaDescription": "Has AI replaced web developers? Wage and salary jobs fell 21% from 2022 to 2025, but no source ties it to AI, and BLS projects 4% growth.",
+  "aiTools": [
+    {
+      "name": "GitHub Copilot",
+      "description": "GitHub's AI coding tool. Microsoft CEO Satya Nadella said on the July 29, 2026 earnings call that GitHub Copilot now has 50 million users (company figure). In Stack Overflow's 2026 Developer Survey, a self-selected survey of all developers, 59% named it among their agents of choice. Neither figure is specific to web developers or says anything about jobs.",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/microsoft-msft-q4-2026-earnings-call-transcript/"
+    },
+    {
+      "name": "Claude Code (Anthropic)",
+      "description": "AI coding agent. Stack Overflow's 2026 Developer Survey (30,903 responses, self-selected, fielded June 23 to August 5, 2026; results post October 6, 2026) reports that the agents of choice are Claude Code (66%) and GitHub Copilot (59%). The post does not state the base for these shares, and the survey covers all developers, not web developers.",
+      "url": "https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/"
+    },
+    {
+      "name": "Lovable",
+      "description": "AI app and website builder: users describe what they want in plain language and the platform builds it, with hosting included. SiliconANGLE (August 12, 2026) reports annualized revenue of $500 million in June 2026, mostly from individuals and small teams, without naming its source. Lovable itself says more than 60 million projects have been built on it. No source measures effects on web developer jobs.",
+      "url": "https://siliconangle.com/2026/08/12/vibe-coding-startup-lovable-doubles-valuation-13-3b-400m-raise/"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Writing web server and application code (in a lab test, an HTTP server in JavaScript)",
+      "status": "augmented",
+      "tool": "GitHub Copilot",
+      "sourceUrl": "https://arxiv.org/abs/2302.06590"
+    },
+    {
+      "task": "Freelance web development projects",
+      "status": "augmented",
+      "tool": "ChatGPT",
+      "sourceUrl": "https://arxiv.org/abs/2312.04180"
+    }
+  ],
+  "evidence": "This page covers web developers (BLS code 15-1254), who, in the BLS definition, develop and implement websites, web applications, application databases, and interactive web interfaces. Web and digital interface designers (15-1255) are a separate code. This site's junior software developer page covers young and entry-level software developers; web developers are a much smaller, separate BLS occupation. The BLS OEWS survey counted 70,190 wage and salary web developer jobs in May 2025, against 1,687,890 software developer jobs. The BLS Occupational Outlook Handbook says 18% of web developers are self-employed and projects 4% growth for them from 2025 to 2035. Web development also faces a pressure that is not AI: ready-made website platforms.\n\nThe employment trend comes from the BLS Occupational Employment and Wage Statistics (OEWS) national estimates, and the occupation code changed twice. The May 2010 release had only a combined row, \"Information security analysts, web developers, and computer network architects\". The first standalone figure I found is May 2012, under the 2010 code 15-1134 Web Developers, whose definition began \"Design, create, and modify Web sites\", so it also covered design work. That code gives 102,940 jobs in 2012, 129,540 in 2016, 125,890 in 2017 and 127,300 in 2018. May 2019 and May 2020 used a combined code, 15-1257 Web Developers and Digital Interface Designers: 148,340 and 156,220 (2020 is a pandemic year). The 2018 SOC split that group into web developers (15-1254) and web and digital interface designers (15-1255). Web developers alone, since May 2021: 84,820 (2021), 88,620 (2022), 85,350 (2023), 78,860 (2024) and 70,190 (2025). That is about 21% below the 2022 peak, and the decline began after 2022. Comparing 2016 with 2025 is not valid, because the older code included designers. Over the same years the designer code grew: 82,380 (2021), 97,350 (2022), 111,400 (2024) and 113,330 (2025). Developers and designers together were 167,200 in 2021, 185,970 in 2022, 190,260 in 2024 and 183,520 in 2025, about 1% below 2022. Some of the fall in web developers could therefore be employers reporting the same workers under the designer code; I cannot tell from these data.\n\nOEWS is a survey estimate: the 2023 web developer figure has a relative standard error of 4.8%. It covers only wage and salary jobs; the occupation pages say estimates do not include self-employed workers, which BLS puts at 18% of web developers. That is why the Handbook, which counts the self-employed, gives a larger figure, 87,400 jobs in 2025. BLS does not encourage the use of OEWS data for time-series analysis, and it switched to a new estimation method (MB3) with the May 2021 estimates. The 2021-2025 web developer series starts with that change, so it is not split by it. The May 2024 release excluded Colorado data, and BLS said national data may be marginally impacted. The May 2025 figure is from the May 2025 release table and the BLS public data API.\n\nBLS still projects growth and names AI as a brake, not a cause of decline. The Handbook (last modified August 27, 2026) projects web developers to grow from 87,400 jobs in 2025 to 90,600 in 2035, or 4%, and web developers and digital designers together by 5%, with about 13,600 openings a year. It ties growth to e-commerce and says: \"However, improving web development tools and increasing use of artificial intelligence (AI) for web development may soften the employment growth of these workers.\" It adds that these tools may make the workers more productive and may let some workers in other occupations do basic web development tasks. BLS does not say what caused the 2022-2025 fall in OEWS jobs.\n\nThe long-running pressure that is not AI is ready-made website software: platforms such as WordPress, Wix and Squarespace, which W3Techs tracks as content management systems. This site counts this kind of software as plain software, not AI. W3Techs, which tracks what technology websites run on, shows the shift began well before ChatGPT. Among the sites it surveys, the share using no content management system fell from 61.7% on January 1, 2015 to 28.6% on January 1, 2026; WordPress rose from 23.3% to 43.0%, Wix from 0.1% to 4.2% and Squarespace from 0.2% to 2.4%. W3Techs changed the ranking it uses to pick sites in November 2022, so the series is not perfectly consistent. These figures measure what sites run on, not demand for developers, and many WordPress sites are built by developers. I found no source that measures how many developer jobs these platforms removed. BLS's own outlook names \"improving web development tools\" separately from AI.\n\nAI coding tools are in common use, but the adoption data cover developers in general, not web developers. The Stack Overflow Developer Survey is a self-selected online survey recruited mainly through Stack Overflow's own channels. Its 2025 edition (49,009 responses, fielded May 29 to June 23, 2025) found that 84% of respondents were using or planning to use AI tools in their development process, that 51% of professional developers used them daily, and that more distrusted the accuracy of AI tools (46%) than trusted it (33%). The 2026 edition (30,903 responses from 169 countries, fielded June 23 to August 5, 2026) reports that the agents of choice are Claude Code (66%) and GitHub Copilot (59%); the results post does not state the base for those shares. Microsoft said on July 29, 2026 that GitHub Copilot has 50 million users (company figure). AI app builders that take plain-language requests are growing fast: SiliconANGLE reported on August 12, 2026 that Lovable, where users describe what they want in plain language, reached $500 million in annualized revenue in June 2026 (the article does not say where that figure came from), and Lovable says more than 60 million projects have been built on it. None of these sources measures jobs.\n\nControlled studies show speed effects in both directions, and neither measures headcount. In a 2022 experiment by authors from Microsoft Research, GitHub and MIT (arXiv, February 13, 2023), 95 professional programmers recruited on Upwork were asked to implement an HTTP server in JavaScript as quickly as possible; the group with GitHub Copilot completed the task 55.8% faster than the control group. It is one lab task, and the paper was co-authored by GitHub and Microsoft Research staff. METR's randomized trial (arXiv, July 2025) gave 16 experienced open-source developers 246 tasks in mature projects they knew well, not web projects specifically. Allowing early-2025 AI tools, mainly Cursor Pro with Claude 3.5/3.7 Sonnet, increased completion time by 19%, although the developers estimated afterwards that AI had cut it by 20%.\n\nFreelance evidence that separates web development is mixed. Qiao, Rui and Xiong (arXiv working paper, version 3, December 12, 2025) used data from one popular, unnamed freelance platform from May 2022 to October 2023, with construction design freelancers as the comparison group. After ChatGPT's launch, translation freelancers lost work, but web development freelancers gained: a 6.4% increase in transaction volume and an earnings increase of nearly 66.5%. With data extended to January 2025 the web development effect stayed positive, but the authors say it gradually diminishes and appears to taper off after December 2023. Newer platform data point the other way. TechRadar (October 16, 2026) relays Freelancer.com recruitment figures showing website design ads down 59% between the second quarter of 2024 and the third quarter of 2026, PHP down 59%, WordPress down 58% and HTML down 55%, against graphic design down 43% and data entry up 16%. TechRadar itself says these figures cover one marketplace and cannot confirm that AI tools caused the drop. The same article reports a survey of 201 American entrepreneurs, commissioned by the company Bluehost, in which 53% had adopted AI website builders rather than relying on professional developers; it is a company survey, not independent research.\n\nLimits: OEWS counts only wage and salary jobs, and its 2021-2025 web developer series is short. I cannot separate a real fall in web developer jobs from reclassification into the designer code, since the two codes together barely changed from 2022 to 2025. No source I found measures how much of any change comes from AI, website builders, offshoring or the wider tech hiring slowdown. The adoption surveys are self-selected and cover all developers, the tool figures are company-reported, and the Copilot experiment was co-authored by GitHub and Microsoft Research staff. The only freelance study that separates web development is a working paper using one platform, with data through January 2025; the newer Freelancer.com figures come from one company and are relayed second-hand.\n\nThe status is augmented. AI coding tools are in common use, and BLS expects them to make web developers more productive while still projecting 4% growth. Wage and salary web developer jobs did fall about 21% from 2022 to 2025, but no source attributes that fall to AI, and combined developer and designer jobs were nearly flat. The freelance evidence is split between gains through 2023 and steep posting declines on one platform since 2024, so the weaker status wins. Confidence is low: the fall in OEWS jobs is unexplained, and the evidence could reasonably be argued toward partial.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Web Developers and Digital Designers (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2025, Table 1 (national employment by occupation)",
+      "url": "https://www.bls.gov/news.release/ocwage.t01.htm"
+    },
+    {
+      "title": "BLS Public Data API: OEWS national employment, Web Developers 15-1254 (May 2025)",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUN000000000000015125401"
+    },
+    {
+      "title": "BLS OEWS: 15-1254 Web Developers (May 2023)",
+      "url": "https://www.bls.gov/oes/2023/may/oes151254.htm"
+    },
+    {
+      "title": "BLS OEWS: 15-1254 Web Developers (May 2022)",
+      "url": "https://www.bls.gov/oes/2022/may/oes151254.htm"
+    },
+    {
+      "title": "BLS OEWS: 15-1254 Web Developers (May 2021)",
+      "url": "https://www.bls.gov/oes/2021/may/oes151254.htm"
+    },
+    {
+      "title": "BLS OEWS: 15-1255 Web and Digital Interface Designers (May 2022)",
+      "url": "https://www.bls.gov/oes/2022/may/oes151255.htm"
+    },
+    {
+      "title": "BLS OEWS: 15-1255 Web and Digital Interface Designers (May 2021)",
+      "url": "https://www.bls.gov/oes/2021/may/oes151255.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2024 (news release, April 2, 2025)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_04022025.htm"
+    },
+    {
+      "title": "BLS OEWS: 15-1257 Web Developers and Digital Interface Designers (May 2020)",
+      "url": "https://www.bls.gov/oes/2020/may/oes151257.htm"
+    },
+    {
+      "title": "BLS OEWS: 15-1257 Web Developers and Digital Interface Designers (May 2019)",
+      "url": "https://www.bls.gov/oes/2019/may/oes151257.htm"
+    },
+    {
+      "title": "BLS OEWS: 15-1134 Web Developers (May 2018)",
+      "url": "https://www.bls.gov/oes/2018/may/oes151134.htm"
+    },
+    {
+      "title": "BLS OEWS: 15-1134 Web Developers (May 2017)",
+      "url": "https://www.bls.gov/oes/2017/may/oes151134.htm"
+    },
+    {
+      "title": "BLS OEWS: 15-1134 Web Developers (May 2016)",
+      "url": "https://www.bls.gov/oes/2016/may/oes151134.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2012 (news release, March 29, 2013)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_03292013.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2010 (news release, May 17, 2011)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_05172011.htm"
+    },
+    {
+      "title": "BLS: OEWS frequently asked questions (read November 13, 2026)",
+      "url": "https://www.bls.gov/oes/oes_ques.htm"
+    },
+    {
+      "title": "W3Techs: Historical yearly trends in the usage statistics of content management systems (November 2026)",
+      "url": "https://w3techs.com/technologies/history_overview/content_management/all/y"
+    },
+    {
+      "title": "W3Techs: Technologies overview and survey methodology (read November 13, 2026)",
+      "url": "https://w3techs.com/technologies"
+    },
+    {
+      "title": "Stack Overflow: 2025 Developer Survey, AI section (survey fielded May 29 to June 23, 2025)",
+      "url": "https://survey.stackoverflow.co/2025/ai"
+    },
+    {
+      "title": "Stack Overflow: 2025 Developer Survey, methodology (read November 13, 2026)",
+      "url": "https://survey.stackoverflow.co/2025/methodology"
+    },
+    {
+      "title": "Stack Overflow Blog: The results of the 2026 Developer Survey are here (October 6, 2026)",
+      "url": "https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/"
+    },
+    {
+      "title": "Stack Overflow: 2026 Developer Survey, methodology (read November 13, 2026)",
+      "url": "https://survey.stackoverflow.co/2026/methodology"
+    },
+    {
+      "title": "The Motley Fool: Microsoft (MSFT) Q4 2026 earnings call transcript (call July 29, 2026)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/microsoft-msft-q4-2026-earnings-call-transcript/"
+    },
+    {
+      "title": "SiliconANGLE: Vibe coding startup Lovable doubles valuation to $13.3B with $400M raise (August 12, 2026)",
+      "url": "https://siliconangle.com/2026/08/12/vibe-coding-startup-lovable-doubles-valuation-13-3b-400m-raise/"
+    },
+    {
+      "title": "arXiv: The Impact of AI on Developer Productivity: Evidence from GitHub Copilot (Peng, Kalliamvakou, Cihon and Demirer, February 13, 2023)",
+      "url": "https://arxiv.org/abs/2302.06590"
+    },
+    {
+      "title": "arXiv: Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity (Becker, Rush, Barnes and Rein, METR, July 2025)",
+      "url": "https://arxiv.org/abs/2507.09089"
+    },
+    {
+      "title": "arXiv: AI and Jobs: Has the Inflection Point Arrived? Evidence from an Online Labor Platform (Qiao, Rui and Xiong, working paper v3, December 12, 2025)",
+      "url": "https://arxiv.org/abs/2312.04180"
+    },
+    {
+      "title": "TechRadar: The collapse of web coding gigs is getting ugly — AI takes over routine website development jobs, and business owners are very happy with its job so far (October 16, 2026)",
+      "url": "https://www.techradar.com/pro/the-collapse-of-web-coding-gigs-is-getting-ugly-ai-takes-over-routine-website-development-jobs-and-business-owners-are-very-happy-with-its-job-so-far"
+    }
+  ]
+}

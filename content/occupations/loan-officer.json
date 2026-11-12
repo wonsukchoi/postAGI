@@ -1,0 +1,173 @@
+{
+  "slug": "loan-officer",
+  "title": "Loan officer",
+  "sector": "Finance",
+  "status": "augmented",
+  "confidence": "low",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "Loan officer jobs fell about 21% from 2022 to 2025, to 274,330 (OEWS), as mortgage rates rose and refinancing collapsed. Some lenders use ML underwriting; no independent source ties cuts to it.",
+  "metaDescription": "Has AI replaced loan officers? Jobs fell about 21% from 2022 to 2025 as rates rose and refinancing collapsed. No independent source ties cuts to ML.",
+  "aiTools": [
+    {
+      "name": "Freddie Mac Loan Product Advisor (machine learning analytics)",
+      "description": "Freddie Mac's flagship automated underwriting system. Freddie Mac wrote on November 18, 2025 that LPA's machine learning powered analytics evaluate credit, income, assets and collateral, and that lenders making full use of LPA's digital capabilities save about $1,700 per loan and shorten production timelines by 5 days. Company-reported; the article says nothing about loan officer headcount.",
+      "url": "https://sf.freddiemac.com/articles/insights/2025-updates-to-the-cost-to-originate-study"
+    },
+    {
+      "name": "Upstart AI lending marketplace",
+      "description": "Upstart describes itself as an AI lending marketplace. Its annual report for 2025 says it had more than 100 lending partners and that 91% of loans on its platform were fully automated, with no human intervention by Upstart. Company-reported; it does not measure loan officer jobs at the partners.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1647639/000164763926000027/upst-20251231.htm"
+    },
+    {
+      "name": "Rocket AI underwriting agents and AI prospecting",
+      "description": "AI tools in Rocket's mortgage operation. On its Q1 2026 earnings call (May 7, 2026), Rocket's president and CFO listed AI underwriting agents among capabilities live at scale and said Rocket has up to $300 billion of origination capacity with several hundred fewer production team members than in 2024; CEO Varun Krishna said AI prospecting cut loan officer prospecting time from up to two hours per day to zero. Company-reported.",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/07/rocket-rkt-q1-2026-earnings-call-transcript/"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Underwriting mortgage applications against Freddie Mac credit requirements",
+      "status": "augmented",
+      "tool": "Freddie Mac Loan Product Advisor",
+      "sourceUrl": "https://sf.freddiemac.com/articles/insights/2025-updates-to-the-cost-to-originate-study"
+    },
+    {
+      "task": "Approving consumer loans on an AI lending platform",
+      "status": "augmented",
+      "tool": "Upstart AI lending marketplace (91% of its loans fully automated, company-reported)",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1647639/000164763926000027/upst-20251231.htm"
+    },
+    {
+      "task": "Prospecting and contacting potential mortgage borrowers",
+      "status": "augmented",
+      "tool": "Rocket AI prospecting (company-reported)",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/05/07/rocket-rkt-q1-2026-earnings-call-transcript/"
+    }
+  ],
+  "evidence": "This page covers loan officers (BLS code 13-2072). BLS includes loan underwriters in this occupation; it says they specialize in evaluating whether a client is creditworthy. BLS Occupational Employment and Wage Statistics (OEWS) national estimates put loan officer employment at 332,690 in May 2005, 321,850 in 2008, 283,330 in 2010, 305,700 in 2016, 308,370 in 2019, 308,700 in 2020 (a pandemic year), 340,170 in 2021, 345,550 in 2022, 321,090 in 2023, 290,530 in 2024 and 274,330 in 2025. There are two falls. The first ran from 2005 to 2010, about 15%. The second began after 2022: the 2025 figure is about 21% below 2022, the lowest in the series, and about 18% below 2005. OEWS is a survey estimate (BLS gives relative standard errors of 0.8% to 1.4% for the 2016 and 2019-2023 figures) and does not include the self-employed. BLS does not encourage the use of OEWS data for time-series analysis. With the May 2021 estimates it switched to a new model-based method called MB3, and those were the first estimates based entirely on survey data collected using the 2018 SOC, so the 2020 and 2021 figures are not strictly comparable. Every year used lists the occupation under 13-2072; I did not check whether the 2010 or 2018 SOC revisions changed its boundaries. The current Occupational Outlook Handbook gives about 283,000 jobs in 2025, a different BLS count that is not comparable with OEWS.\n\nBLS expects little growth and blames technology it does not call AI. The current Handbook (last modified August 27, 2026) projects 1% growth from 2025 to 2035, slower than average, with about 17,100 openings a year. It says demand will come as businesses and individuals seek credit, but that \"the decline of bank branches and the increased use of productivity-enhancing technology in loan processing are expected to slow employment growth.\" It says most firms use underwriting software that produces a loan recommendation, that loan officers review the software output to make a final decision, and that some institutions, usually small banks and credit unions, still rely on loan officers instead of underwriting software. It adds: \"For simple consumer loans, the underwriting process may be fully automated.\" BLS's 2025-35 projections table says companies are adopting automated systems that \"can perform data processing tasks and require reduced interactions with customers, thereby enabling fewer officers to complete loan applications.\" The Handbook page does not use the words artificial intelligence, AI, machine learning or algorithm. A July 2022 Monthly Labor Review article by BLS economist Michael Handel put loan officers among occupations that have been affected by prior waves of computing technology, citing research that \"traditional algorithms threaten to automate the mortgage origination tasks\" of loan officers, and noted that the 2008-18 decline (-3.2 percent) was not anticipated by BLS projections. This page counts underwriting software and BLS's automated systems as plain software unless a source says they use machine learning.\n\nMortgage volume, not AI, is the best-documented driver of the recent fall. In October 2022 the Mortgage Bankers Association forecast that total mortgage origination volume would fall to $2.05 trillion in 2023 from the $2.26 trillion expected in 2022, with refinance volume down 24 percent to $513 billion, and estimated a 25 to 30 percent decrease in mortgage industry employment from peak to trough (all forecasts). The CFPB's report on 2023 mortgage data (December 13, 2024) found applications down 30% and originations down 32% from 2022, with refinancing of single-family homes down 64%, and said high interest rates contributed to a significant drop in homebuying volume. HousingWire reported on November 10, 2022 that Freedom Mortgage's layoffs affected at least 50% of its staff, including positions in operations and loan officers, according to former employees, and that Wells Fargo had told Maryland it cut 31 jobs. A count by the mortgage technology platform RETR of loan officers who closed at least one mortgage (preliminary vendor data, HousingWire, January 6, 2026) says that at its peak the producing workforce approached 290,000, that widespread layoffs, bankruptcies, and mergers and acquisitions followed as rates rose sharply and origination volumes collapsed, and that the count edged up to 221,161 in 2025 from 220,449 in 2024. That count covers mortgage originators only, and its small 2025 rise does not match the OEWS fall from 2024 to 2025, which also covers commercial and consumer lending; I did not reconcile the two. The parts of these sources I read do not mention AI.\n\nAutomated underwriting is three decades old, and its core is not AI by this site's rules. Fannie Mae's Desktop Underwriter (DU) was first released into production in June of 1995; a 1997 AAAI paper called it an automated underwriting expert system that applies both heuristics and statistics. A Federal Reserve Bank of Dallas working paper (Johnson and Tzur-Ilan, January 2025) says Freddie Mac's Loan Prospector and DU were both publicly released in 1995, that Freddie Mac incorporated new statistical rules into Loan Prospector, and that DU was initially not statistically based and simply applied Fannie Mae's existing manual guidelines. It says that in the first half of 1997 less than a quarter of eligible loans were processed with either system, and that in 2023 over 80% of HMDA purchase loans to owner-occupiers of single-family homes were underwritten using Fannie's or Freddie's systems, or the FHA's scorecard. It also notes that Countrywide built its own system, CLUES, with the primary goal of increasing the number of loans per employee. This page treats these rules engines and statistical scorecards as plain software. I found no source describing DU as machine learning.\n\nMachine learning is now in use in parts of lending, but the evidence of scale comes mostly from the companies. Freddie Mac wrote on November 18, 2025 that its Loan Product Advisor's \"machine learning powered analytics evaluate credit, income, assets and collateral,\" and that lenders making full use of its digital capabilities save about $1,700 per loan and shorten production timelines by 5 days (company figures). Upstart, which calls itself an AI lending marketplace with more than 100 lending partners, reported in its annual report for 2025 that 91% of loans on its platform were fully automated, \"with no human intervention by Upstart\"; that figure says nothing about loan officers at its partners, so this page marks that task augmented rather than partial. The one independent adoption figure I found is older: in Fannie Mae's August 2023 survey of 242 senior executives from 219 lending institutions, about 22% of lenders said they had started deploying AI or ML on a limited or trial basis, up from 13% in 2018, and underwriting was among the top recommended uses (HousingWire, October 4, 2023).\n\nI found no lender that explicitly cut loan officers because of AI. The closest case is Rocket Companies. National Mortgage News ran the headline \"Rocket Companies' embrace of AI shrunk workforce in 2024\" on March 5, 2025, reporting 14,200 team members at the end of 2024, a 500-person drop from 2023, but the article body gives no cause for the drop. On Rocket's first-quarter 2026 earnings call (May 7, 2026), its president and chief financial officer said deployment had accelerated \"with the power of AI,\" listed AI underwriting agents among capabilities live at scale, and said Rocket now has up to $300 billion of origination capacity \"with several hundred fewer production team members than we had back in 2024.\" He said loans closed per team member were up 75% compared to two years ago, and chief executive Varun Krishna said AI prospecting has reduced loan officer prospecting time from up to two hours per day down to zero. These are company statements. Production staff are not the same as loan officers, and no independent source measures the effect.\n\nRegulators have treated machine-learning credit decisions as a fair-lending question, not a jobs question. On May 26, 2022 the CFPB said in Circular 2022-03 that creditors using complex algorithms must still give the specific, principal reasons for taking adverse actions. On September 19, 2023, in Circular 2023-03, it said lenders cannot simply rely on its sample adverse action forms and checklists when those do not reflect the actual reasons, and its director said: \"There is no special exemption for artificial intelligence.\" On May 12, 2025 the CFPB withdrew both circulars along with many other guidance documents, saying the withdrawal is not necessarily final but that the guidance should not be enforced or otherwise relied upon by the Bureau while its review is ongoing.\n\nLimits: OEWS runs only through May 2025, mixes estimation methods, and BLS discourages using it as a time series. I found no study that separates the effects of mortgage volume, branch closures, plain automated underwriting and machine learning on loan officer headcount. The RETR count is preliminary vendor data for mortgage originators only. Evidence of machine learning at scale (Freddie Mac, Upstart, Rocket) is company-reported, and the only independent adoption survey I found is from 2023. I could not open Freddie Mac's May 2025 machine learning announcement, a paywalled American Banker article on bank AI job cuts, or NMLS licensing counts, so none of them is used. The BLS data API was unavailable, so the 2025 figure comes from the May 2025 news release. I did not read archived Handbook editions, so I cannot say when BLS first linked technology to slower growth for this occupation.\n\nThe status is augmented. Machine learning is used in some mortgage and consumer underwriting, and Rocket says AI lets fewer production staff handle more loans. But the recent fall in loan officer jobs began after 2022, at the same time as the rate rise and refinancing collapse that MBA, the CFPB and the RETR count describe, and BLS ties its slow projected growth to branch closures and productivity technology it does not call AI. Independent evidence of everyday AI use is thin, so not-yet could also be argued. Confidence is low: the evidence that AI does loan officer work at scale comes mostly from the companies involved, and no independent source isolates AI's effect on headcount.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Loan Officers (current edition, last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/business-and-financial/loan-officers.htm"
+    },
+    {
+      "title": "BLS Employment Projections: Table 1.12 Factors affecting occupational utilization, projected 2025-35",
+      "url": "https://www.bls.gov/emp/tables/factors-affecting-occupational-utilization.htm"
+    },
+    {
+      "title": "BLS Monthly Labor Review: Growth trends for selected occupations considered at risk from automation (Michael J. Handel, July 2022)",
+      "url": "https://www.bls.gov/opub/mlr/2022/article/growth-trends-for-selected-occupations-considered-at-risk-from-automation.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2025 news release, Table 1 (May 15, 2026)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_05152026.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2024 news release, Table 1 (April 2, 2025)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_04022025.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2010 news release, Table 1 (May 17, 2011)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_05172011.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, 2008 news release, Table 1, May 2008 (May 1, 2009)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_05012009.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2005 news release, Table 1 (May 24, 2006)",
+      "url": "https://www.bls.gov/news.release/history/ocwage_05242006.txt"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2023: 13-2072 Loan Officers",
+      "url": "https://www.bls.gov/oes/2023/may/oes132072.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2022: 13-2072 Loan Officers",
+      "url": "https://www.bls.gov/oes/2022/may/oes132072.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2021: 13-2072 Loan Officers",
+      "url": "https://www.bls.gov/oes/2021/may/oes132072.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2020: 13-2072 Loan Officers",
+      "url": "https://www.bls.gov/oes/2020/may/oes132072.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2019: 13-2072 Loan Officers",
+      "url": "https://www.bls.gov/oes/2019/may/oes132072.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2016: 13-2072 Loan Officers",
+      "url": "https://www.bls.gov/oes/2016/may/oes132072.htm"
+    },
+    {
+      "title": "BLS OEWS: Frequently asked questions",
+      "url": "https://www.bls.gov/oes/oes_ques.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages technical note, May 2025",
+      "url": "https://www.bls.gov/news.release/ocwage.tn.htm"
+    },
+    {
+      "title": "MBA NewsLink: MBA Forecast: Recession Likely in 2023, Mortgage Originations to Decline 9% to $2.05 Trillion (October 24, 2022)",
+      "url": "https://newslink.mba.org/?p=182248"
+    },
+    {
+      "title": "CFPB: CFPB Report Finds Significant Drop in Annual Mortgage Applications and Originations in 2023 (December 13, 2024)",
+      "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-report-finds-significant-drop-in-annual-mortgage-applications-and-originations-in-2023/"
+    },
+    {
+      "title": "HousingWire: These mortgage lenders are making major job cuts as production plummets (November 10, 2022)",
+      "url": "https://www.housingwire.com/articles/these-mortgage-lenders-are-making-major-job-cuts-as-production-plummets/"
+    },
+    {
+      "title": "HousingWire: Producing LOs grow their ranks in 2025: RETR (January 6, 2026)",
+      "url": "https://www.housingwire.com/articles/loan-officer-growth-2025/"
+    },
+    {
+      "title": "AAAI/IAAI: Desktop Underwriter: Fannie Mae's Automated Mortgage Underwriting Expert System (McDonald, Pepe, Bowers and Dombroski, 1997)",
+      "url": "https://mlanthology.org/aaai/1997/mcdonald1997aaai-desktop"
+    },
+    {
+      "title": "Federal Reserve Bank of Dallas: Financial Technology and the 1990s Housing Boom (Johnson and Tzur-Ilan, Working Paper 2506, January 2025)",
+      "url": "https://www.dallasfed.org/-/media/documents/research/papers/2025/wp2506.pdf"
+    },
+    {
+      "title": "Freddie Mac: 2025 Updates to the Cost to Originate Study (November 18, 2025)",
+      "url": "https://sf.freddiemac.com/articles/insights/2025-updates-to-the-cost-to-originate-study"
+    },
+    {
+      "title": "HousingWire: Operational efficiency is primary motivation for lenders to adopt AI: Fannie Mae (October 4, 2023)",
+      "url": "https://www.housingwire.com/articles/operational-efficiency-is-primary-motivation-for-lenders-to-adopt-ai-fannie-mae/"
+    },
+    {
+      "title": "Upstart Holdings: Form 10-K for the fiscal year ended December 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1647639/000164763926000027/upst-20251231.htm"
+    },
+    {
+      "title": "The Motley Fool: Rocket (RKT) Q1 2026 Earnings Call Transcript (May 7, 2026)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/07/rocket-rkt-q1-2026-earnings-call-transcript/"
+    },
+    {
+      "title": "National Mortgage News: Rocket Companies' embrace of AI shrunk workforce in 2024 (March 5, 2025)",
+      "url": "https://www.nationalmortgagenews.com/news/rocket-companies-embrace-of-ai-shrunk-workforce-in-2024"
+    },
+    {
+      "title": "CFPB: CFPB Acts to Protect the Public from Black-Box Credit Models Using Complex Algorithms (May 26, 2022)",
+      "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-acts-to-protect-the-public-from-black-box-credit-models-using-complex-algorithms/"
+    },
+    {
+      "title": "CFPB: CFPB Issues Guidance on Credit Denials by Lenders Using Artificial Intelligence (September 19, 2023)",
+      "url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-issues-guidance-on-credit-denials-by-lenders-using-artificial-intelligence/"
+    },
+    {
+      "title": "Federal Register: Interpretive Rules, Policy Statements, and Advisory Opinions; Withdrawal, 90 FR 20084 (May 12, 2025)",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-05-12/html/2025-08286.htm"
+    }
+  ]
+}

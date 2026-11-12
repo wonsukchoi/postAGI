@@ -1,0 +1,157 @@
+{
+  "slug": "fast-food-cook",
+  "title": "Fast food cook",
+  "sector": "Service",
+  "status": "not-yet",
+  "confidence": "medium",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "updatedAt": "2026-11-13",
+  "draft": false,
+  "summary": "BLS survey counts of fast food cooks fell 17% from 2021 to 2025, after a 2021 method change. No source ties it to AI. Miso's AI fry robot ran in 14 units at end-2025; other kitchen machines aren't AI.",
+  "metaDescription": "Has AI replaced fast food cooks? BLS counts fell 17% from 2021-25 after a method change; no source ties it to AI. Miso's AI fry robot had 14 units at end-2025.",
+  "aiTools": [
+    {
+      "name": "Miso Robotics Flippy",
+      "description": "Robot arm that moves fry baskets in and out of the oil. The Batch (November 24, 2021) described the Flippy 2 then being deployed at a Chicago White Castle as using thermal-imaging cameras and computer vision to locate and classify foods. Fortune (February 26, 2026) reports 14 Flippy units in White Castle and Insert Coin at the end of 2025, against 17 across White Castle, Jack in the Box and other partners that the company reported two years earlier. The 17 is company-reported; Fortune does not give the source of the 14.",
+      "url": "https://fortune.com/2026/02/26/robot-disruption-fast-food-short-order-cook-flippy-labor-shortage/"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Frying: loading baskets into the fryer, timing them and unloading cooked food",
+      "status": "not-yet",
+      "tool": "Miso Robotics Flippy",
+      "sourceUrl": "https://fortune.com/2026/02/26/robot-disruption-fast-food-short-order-cook-flippy-labor-shortage/"
+    },
+    {
+      "task": "Grilling and flipping burger patties",
+      "status": "not-yet",
+      "tool": "Miso Robotics Flippy (2018 CaliBurger trial)",
+      "sourceUrl": "https://www.deeplearning.ai/the-batch/deep-learning-for-deep-frying"
+    },
+    {
+      "task": "Assembling bowls and salads for digital orders (automated makeline; the sources do not describe it as AI)",
+      "status": "not-yet",
+      "tool": "Sweetgreen Infinite Kitchen",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1477815/000162828026071243/sg-20260927.htm"
+    },
+    {
+      "task": "Peeling, cutting and coring avocados (tested at one restaurant from September 2024, no later status found; the sources do not describe it as AI)",
+      "status": "not-yet",
+      "tool": "Chipotle Autocado",
+      "sourceUrl": "https://www.restaurantdive.com/news/chipotle-starts-in-store-test-for-avocado-robot-automated-makeline/727059/"
+    }
+  ],
+  "evidence": "This page covers fast food cooks (BLS code 35-2011), who prepare and cook food in a fast food restaurant with a limited menu. In May 2023, 652,220 of the 673,490 worked in restaurants and other eating places. Order-taking, including drive-thru voice AI, is covered on this site's cashier page, not here. Fast food and counter workers are a separate BLS occupation (3,854,050 jobs in May 2025).\n\nEmployment comes from the BLS Occupational Employment and Wage Statistics (OEWS) survey, national estimates for May of each year: 631,190 in 2005, 525,350 in 2010, 513,200 in 2016, 527,220 in 2019, 544,420 in 2020, 768,130 in 2021, 725,590 in 2022, 673,490 in 2023, 668,230 in 2024 and 641,070 in 2025. Two falls show up. The first, about 17% from 2005 to 2010, ended before Flippy's first restaurant job in 2018 (The Batch); May 2010 was also the first year based in part on the 2010 occupational classification. The second began in 2022: down 5.5% in 2022, 7.2% in 2023, 0.8% in 2024 and 4.1% in 2025, about 17% from 2021 to 2025. But the 2021 figure is 41% above 2020, and 2021 is exactly where the method changed: with the May 2021 estimates OEWS switched to a new model-based method called MB3, which BLS says affects comparability of estimates before and after the change, and May 2021 was the first year based entirely on the 2018 occupational classification (May 2019 and 2020 were a hybrid of the 2010 and 2018 versions). So the 2021 to 2025 fall is a fall within the new method only, and the 2025 count is still above the 2010, 2016, 2019 and 2020 figures. OEWS is a survey estimate, BLS does not encourage using it for time series, and 2020 includes the pandemic. The BLS Occupational Outlook Handbook, which uses a different count, gives 640,500 fast food cook jobs in 2025 and projects 644,100 in 2035, growth of 1% (3,600 jobs).\n\nBLS does not cite automation or AI. The Handbook's cooks page (last modified September 14, 2026) explains the outlook for cooks by consumer demand for eating out, and its only decline example is that short order cooks are being replaced by more versatile restaurant cooks. The page does not mention automation, robots or artificial intelligence; the only equipment it names is ordinary kitchen equipment such as broilers, grills, slicers, grinders and blenders.\n\nMost kitchen automation in the record is not AI by this site's rules. McDonald's tested what it called advanced kitchen equipment to automate repetitive tasks such as cooking fries and dispensing beverages at a handful of US stores in 2019 (Nation's Restaurant News, June 21, 2019); the article does not describe it as AI. Chipotle began in-store tests of the Autocado, a machine that peels, cuts and cores avocados in 26 seconds by the company's account, at one Huntington Beach restaurant, and of an automated makeline built with Hyphen at one Corona del Mar restaurant (Restaurant Dive, September 16, 2024). On its Q1 2025 earnings call Chipotle said the makeline was heading back to stores for testing that summer after enhancements (Restaurant Dive, August 12, 2025); I found no later count of restaurants using either machine. Sweetgreen says it used the Infinite Kitchen, which it calls a kitchen automation technology, in 36 of its 290 restaurants as of September 27, 2026 (its quarterly SEC filing), and its CEO said Infinite Kitchen restaurants realize approximately 700 basis points of labor savings (Restaurant Dive, November 13, 2025; a company claim). None of the sources I read says the Autocado, the makeline or the Infinite Kitchen uses machine learning, so this page counts them as automation, not AI.\n\nThe only kitchen robot I found with documented AI is Miso Robotics' Flippy. The Batch (November 24, 2021) described Flippy 2 at a Chicago White Castle as using thermal-imaging cameras and computer vision to locate and classify foods in fry baskets, and said its 2018 burger-flipping predecessor at a CaliBurger in Pasadena was taken out of service the next day. Its spread has been slow. White Castle said in 2022 it would deploy Flippy at 100 of its restaurants, but Miso had installed it in only 13 restaurants across White Castle and Jack in the Box as of 2025, according to an SEC filing (Restaurant Dive, January 29, 2025). Fortune (February 26, 2026) reported 14 Flippy units in White Castle and Insert Coin at the end of 2025, down from 17 across White Castle, Jack in the Box and other partners two years earlier, net revenue of about $385,000 in 2024, down from about $493,000 in 2023, and ended partnerships with CaliBurger and Panera. The 17 and the 13 are company-reported; Fortune does not say where its end-2025 figure of 14 comes from. Restaurant Dive questioned Miso's claim that its $5,400-a-month fry robot is cheaper than hiring a worker: run 12 hours a day, it costs about $14.51 an hour, slightly more than the $14.31 median wage for fast food cooks it cited from BLS.\n\nWages are a competing driver, and the evidence on jobs is split. California's AB 1228 raised the minimum wage for large fast-food chains to $20 per hour in April 2024. Michael Reich (UC Berkeley, February 23, 2025, data through mid-December 2024) found wage increases of 8 to 9 percent for covered workers and no negative effects on fast-food employment. Clemens, Edwards, Meer and Nguyen (NBER working paper 34033, revised October 2026) found median declines of 3 percent in the QCEW and 1.5 percent in the QWI after one year relative to the counterfactual, and about 3.5 percent after two years. Arindrajit Dube (NBER working paper 35171, May 2026) estimated a wage rise of about 7 percent and employment elasticities from -0.19 to -0.04 depending on method, ranging from -0.29 to +0.26 across 32 specifications, with a sharp fall in separations. A further paper by Clemens and coauthors (NBER 35931, October 2026) found over 96 percent of 1,440 synthetic-control estimates negative but the range vast. All of these cover California limited-service restaurant employment as a whole, not cooks, and none studies kitchen robots. A UC Santa Cruz field study of more than 100 outlets, reported in a CalMatters commentary by Dan Walters (March 19, 2026), says automation such as order kiosks, mobile apps and AI drive-through ordering is being tested and implemented to reduce labor needs; that is order-taking, not cooking, and the study is not peer reviewed.\n\nI found no headcount cut of fast food cooks that an employer or a news report tied to AI or robots.\n\nLimits: no source explains the OEWS fall from 2021 to 2025, and the size of the 2021 jump means part of it may be a method or classification artifact; I could not find a BLS statement on whether the 2018 classification moved workers into or out of this code. The state wage studies measure all fast-food employment in California, not cooks nationally. Robot counts come from Miso, Chipotle and Sweetgreen, not independent audits. Fast-casual line staff at Chipotle and Sweetgreen may be classed by BLS as fast food and counter workers or food preparation workers rather than fast food cooks. The only source I found describing how Flippy works dates from 2021.\n\nThe status is not yet. The only kitchen robot I found with documented AI ran in 14 units at the end of 2025, far short of White Castle's plan, BLS gives no automation reason for the outlook, and no source ties any loss of cook jobs to AI. Confidence is medium: BLS and independent trade press point the same way, but the OEWS series has a method break at 2021, and the robot counts are company-reported.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Cooks (current edition, last modified September 14, 2026)",
+      "url": "https://www.bls.gov/ooh/food-preparation-and-serving/cooks.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2025, Table 1 (national employment by occupation)",
+      "url": "https://www.bls.gov/news.release/ocwage.t01.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2024 news release (April 2, 2025)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_04022025.htm"
+    },
+    {
+      "title": "BLS OEWS: 35-2011 Cooks, Fast Food (May 2023)",
+      "url": "https://www.bls.gov/oes/2023/may/oes352011.htm"
+    },
+    {
+      "title": "BLS OEWS: 35-2011 Cooks, Fast Food (May 2022)",
+      "url": "https://www.bls.gov/oes/2022/may/oes352011.htm"
+    },
+    {
+      "title": "BLS OEWS: 35-2011 Cooks, Fast Food (May 2021)",
+      "url": "https://www.bls.gov/oes/2021/may/oes352011.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2021 news release (March 31, 2022)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_03312022.htm"
+    },
+    {
+      "title": "BLS OEWS: 35-2011 Cooks, Fast Food (May 2020)",
+      "url": "https://www.bls.gov/oes/2020/may/oes352011.htm"
+    },
+    {
+      "title": "BLS OEWS: 35-2011 Cooks, Fast Food (May 2019)",
+      "url": "https://www.bls.gov/oes/2019/may/oes352011.htm"
+    },
+    {
+      "title": "BLS OEWS: 35-2011 Cooks, Fast Food (May 2016)",
+      "url": "https://www.bls.gov/oes/2016/may/oes352011.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2010 news release (May 17, 2011)",
+      "url": "https://www.bls.gov/news.release/archives/ocwage_05172011.htm"
+    },
+    {
+      "title": "BLS: Occupational Employment and Wages, May 2005 news release (May 24, 2006)",
+      "url": "https://www.bls.gov/news.release/history/ocwage_05242006.txt"
+    },
+    {
+      "title": "BLS OEWS: Frequently asked questions (MB3 method, 2018 SOC, time series)",
+      "url": "https://www.bls.gov/oes/oes_ques.htm"
+    },
+    {
+      "title": "BLS OEWS: Implementing the 2018 SOC in OEWS (hybrid May 2019 and May 2020 estimates)",
+      "url": "https://www.bls.gov/oes/soc_2018.htm"
+    },
+    {
+      "title": "Nation's Restaurant News: Don't call it robots. McDonald's tests 'advanced kitchen equipment' (June 21, 2019)",
+      "url": "https://www.nrn.com/quick-service/don-t-call-it-robots-mcdonald-s-tests-advanced-kitchen-equipment-"
+    },
+    {
+      "title": "Restaurant Dive: Chipotle starts in-store testing for avocado, makeline robots (September 16, 2024)",
+      "url": "https://www.restaurantdive.com/news/chipotle-starts-in-store-test-for-avocado-robot-automated-makeline/727059/"
+    },
+    {
+      "title": "Restaurant Dive: Cava joins Chipotle in backing Hyphen with $10M (August 12, 2025)",
+      "url": "https://www.restaurantdive.com/news/cava-chipotle-invest-hyphen-automated-makeline/757450/"
+    },
+    {
+      "title": "Sweetgreen, Inc.: Form 10-Q for the quarter ended September 27, 2026 (filed November 6, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1477815/000162828026071243/sg-20260927.htm"
+    },
+    {
+      "title": "Restaurant Dive: Sweetgreen opens first drive-thru location with automated makeline (November 13, 2025)",
+      "url": "https://www.restaurantdive.com/news/sweetgreen-sweetlane-infinite-kitchen-california-combination/805445/"
+    },
+    {
+      "title": "The Batch (DeepLearning.AI): Deep Learning for Deep Frying: White Castle Uses Robots to Cook French Fries (November 24, 2021)",
+      "url": "https://www.deeplearning.ai/the-batch/deep-learning-for-deep-frying"
+    },
+    {
+      "title": "Restaurant Dive: Miso Robotics develops smaller, faster Flippy (January 29, 2025)",
+      "url": "https://www.restaurantdive.com/news/miso-robotics-develops-smaller-faster-flippy-white-castle-jack-in-the-box/738567/"
+    },
+    {
+      "title": "Fortune: Meet your new robot fry cooks: Inside the $28 billion race to disrupt White Castle and Jack in the Box (Sasha Rogelberg, February 26, 2026)",
+      "url": "https://fortune.com/2026/02/26/robot-disruption-fast-food-short-order-cook-flippy-labor-shortage/"
+    },
+    {
+      "title": "UC Berkeley IRLE: Effects of the $20 California Fast-Food Minimum Wage (Michael Reich, February 23, 2025)",
+      "url": "https://irle.berkeley.edu/publications/brief/effects-of-the-20-california-fast-food-minimum-wage"
+    },
+    {
+      "title": "NBER: Employment Effects of California's Fast Food Minimum Wage: Evidence from the QCEW and QWI (Clemens, Edwards, Meer and Nguyen, working paper 34033, July 2025, revised October 2026)",
+      "url": "https://www.nber.org/papers/w34033"
+    },
+    {
+      "title": "NBER: Labor Market Effects of California's $20 Fast-Food Minimum Wage (Arindrajit Dube, working paper 35171, May 2026)",
+      "url": "https://www.nber.org/papers/w35171"
+    },
+    {
+      "title": "NBER: We Just Created More Than 1,000 Synthetic Controls To Study California's $20 Fast Food Minimum Wage (Clemens, Edwards, Meer and Nguyen, working paper 35931, October 2026)",
+      "url": "https://www.nber.org/papers/w35931"
+    },
+    {
+      "title": "GV Wire: CA's $20 Fast Food Wage Yields Higher Prices, Fewer Jobs, More Automation (Dan Walters, CalMatters commentary, March 19, 2026)",
+      "url": "https://gvwire.com/2026/03/19/cas-20-fast-food-wage-yields-higher-prices-fewer-jobs-more-automation"
+    }
+  ]
+}
