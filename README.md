@@ -131,7 +131,7 @@ The site is built with [Next.js](https://nextjs.org), TypeScript, Tailwind CSS a
 
 The live site runs on [Cloudflare Workers](https://developers.cloudflare.com/workers/static-assets/) as static assets. The setup is in `wrangler.jsonc`.
 
-To deploy, run `npm run deploy` from a clean `main`. It builds the site, deploys it, purges Cloudflare's cache so no edge location keeps serving the old version, and then checks that every page and file on the live site loads. It needs `npx wrangler login` and three environment variables:
+The live site ships from the `production` branch. Work happens on `main`; to publish, fast-forward `production` (`git push origin main:production`), then run `npm run deploy` from a clean checkout of `production` that matches `origin/production`. It builds the site, deploys it, purges Cloudflare's cache so no edge location keeps serving the old version, and then checks that every page and file on the live site loads. It needs `npx wrangler login` and three environment variables:
 
 | Variable | What it is |
 |---|---|

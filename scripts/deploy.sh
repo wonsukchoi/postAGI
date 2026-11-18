@@ -7,25 +7,32 @@
 #   CLOUDFLARE_ZONE_ID     zone ID of the domain
 set -euo pipefail
 
-require_main() {
+# The live site ships from `production` (work happens on `main`; fast-forward
+# `production` to publish). Deploy only code that is committed and pushed there.
+require_production() {
   local branch
   branch="$(git branch --show-current)"
-  if [ "$branch" != "main" ]; then
-    echo "Refusing to deploy: on branch '$branch', not main." >&2
+  if [ "$branch" != "production" ]; then
+    echo "Refusing to deploy: on branch '$branch', not production." >&2
     exit 1
   fi
 }
 
-# Deploy only committed code from main. This folder can be shared with other tools
-# that switch branches, so check again after the build.
-require_main
+# This folder can be shared with other tools that switch branches, so check again
+# after the build.
+require_production
+git fetch --quiet origin production
+if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/production)" ]; then
+  echo "Refusing to deploy: local production is not the same commit as origin/production." >&2
+  exit 1
+fi
 if [ -n "$(git status --porcelain)" ]; then
   echo "Refusing to deploy: the working tree has uncommitted changes." >&2
   exit 1
 fi
 
 npm run build
-require_main
+require_production
 
 npx wrangler deploy
 npx tsx scripts/purge-cache.ts
