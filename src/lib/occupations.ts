@@ -60,3 +60,20 @@ export function getOccupations(): Occupation[] {
 export function getOccupation(slug: string): Occupation | undefined {
   return getOccupations().find((o) => o.slug === slug);
 }
+
+/**
+ * Other occupation pages to link from one occupation page, so the pages link to each other and
+ * not only through the /occupations hub (Search Console 2026-11-20: 24 of 36 sitemap URLs were
+ * "unknown" or "discovered, not indexed" two weeks after launch; the occupation pages had no
+ * links between them). Same sector first, then same status, then the rest; ties by slug, so the
+ * list never changes unless the data does. Drafts are never offered.
+ */
+export function getRelatedOccupations(slug: string, limit = 4): Occupation[] {
+  const all = getOccupations().filter((o) => !o.draft);
+  const self = all.find((o) => o.slug === slug);
+  const rank = (o: Occupation) => (self && o.sector === self.sector ? 0 : self && o.status === self.status ? 1 : 2);
+  return all
+    .filter((o) => o.slug !== slug)
+    .sort((a, b) => rank(a) - rank(b) || a.slug.localeCompare(b.slug))
+    .slice(0, limit);
+}

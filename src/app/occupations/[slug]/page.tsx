@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getOccupation, getOccupations } from "@/lib/occupations";
+import { getOccupation, getOccupations, getRelatedOccupations } from "@/lib/occupations";
 import type { Occupation } from "@/lib/schema";
 import { ConfidenceDots } from "@/components/ConfidenceDots";
 import { StatusBadge } from "@/components/StatusBadge";
@@ -47,6 +47,7 @@ const TOC: TocItem[] = [
   { id: "tools", label: "AI tools" },
   { id: "tasks", label: "Task breakdown" },
   { id: "evidence", label: "Evidence" },
+  { id: "more", label: "More occupations" },
   { id: "references", label: "References" },
 ];
 
@@ -75,6 +76,7 @@ export default async function OccupationPage(
   if (!occ) notFound();
 
   const paragraphs = occ.evidence.split(/\n\s*\n/);
+  const related = getRelatedOccupations(occ.slug);
 
   return (
     <main className="relative mx-auto flex w-full max-w-[700px] flex-col gap-8 px-6 pt-8 pb-16">
@@ -211,6 +213,23 @@ export default async function OccupationPage(
             {p}
           </p>
         ))}
+      </Section>
+
+      <Section id="more" title="More occupations">
+        <ul className="flex flex-col gap-2">
+          {related.map((r) => (
+            <li key={r.slug} className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+              <Link href={`/occupations/${r.slug}`} className="underline">
+                {r.title}
+              </Link>
+              <span className="text-neutral-600">{r.sector}</span>
+              <StatusBadge status={r.status} />
+            </li>
+          ))}
+        </ul>
+        <Link href="/occupations" className="text-[13px] text-neutral-600 hover:text-neutral-900">
+          All occupations →
+        </Link>
       </Section>
 
       <Section id="references" title="References">
