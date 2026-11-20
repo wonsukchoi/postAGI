@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { CONFIDENCE, CONFIDENCE_DEFINITION, STATUSES, STATUS_DEFINITION } from "@/lib/schema";
 import { ConfidenceDots } from "@/components/ConfidenceDots";
 import { JsonLd } from "@/components/JsonLd";
@@ -66,6 +67,12 @@ export default function MethodologyPage() {
           </div>
         ))}
       </dl>
+      <p className="text-[15px] text-neutral-600">
+        See the ratings in use:{" "}
+        <Link href="/what-jobs-has-ai-replaced" className="underline">
+          what jobs has AI already replaced?
+        </Link>
+      </p>
     </main>
   );
 }

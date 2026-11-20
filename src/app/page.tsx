@@ -46,6 +46,12 @@ export default function Home() {
           Browse occupations
         </Link>
       </div>
+      <p className="text-[15px] text-neutral-600">
+        Short answer:{" "}
+        <Link href="/what-jobs-has-ai-replaced" className="underline">
+          what jobs has AI already replaced?
+        </Link>
+      </p>
 
       <dl className="mt-8 grid grid-cols-3 gap-6">
         {stats.map((s) => (

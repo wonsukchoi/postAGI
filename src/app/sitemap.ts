@@ -28,6 +28,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     })),
     {
+      url: `${SITE_URL}/what-jobs-has-ai-replaced`,
+      lastModified: latest,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${SITE_URL}/methodology`,
       lastModified: latest,
       changeFrequency: "yearly",

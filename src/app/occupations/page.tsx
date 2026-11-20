@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getOccupations } from "@/lib/occupations";
 import { JsonLd } from "@/components/JsonLd";
 import { OccupationList } from "@/components/OccupationList";
@@ -25,6 +26,12 @@ export default function OccupationsPage() {
       <JsonLd data={occupationListJsonLd(getOccupations())} />
       <h1 className="sr-only">Occupations: what has AI already replaced?</h1>
       <OccupationList occupations={getOccupations()} />
+      <p className="mt-8 text-[15px] text-neutral-600">
+        <Link href="/what-jobs-has-ai-replaced" className="underline">
+          What jobs has AI already replaced?
+        </Link>{" "}
+        The count per level, with every occupation on it.
+      </p>
     </main>
   );
 }

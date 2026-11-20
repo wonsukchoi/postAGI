@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { OccupationSchema, type Occupation } from "./schema";
+import { OccupationSchema, STATUSES, type Occupation, type Status } from "./schema";
 
 const DIR = path.join(process.cwd(), "content", "occupations");
 
@@ -76,4 +76,12 @@ export function getRelatedOccupations(slug: string, limit = 4): Occupation[] {
     .filter((o) => o.slug !== slug)
     .sort((a, b) => rank(a) - rank(b) || a.slug.localeCompare(b.slug))
     .slice(0, limit);
+}
+
+/** The tracked occupations grouped by status, in the order the statuses are defined. Drafts are left out. */
+export function groupByStatus(occupations: Occupation[]): Record<Status, Occupation[]> {
+  const groups: Record<Status, Occupation[]> = { replaced: [], partial: [], augmented: [], "not-yet": [] };
+  for (const o of occupations) if (!o.draft) groups[o.status].push(o);
+  for (const s of STATUSES) groups[s].sort((a, b) => a.title.localeCompare(b.title));
+  return groups;
 }
