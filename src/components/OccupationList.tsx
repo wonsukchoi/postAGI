@@ -83,7 +83,7 @@ export function OccupationList({ occupations }: { occupations: Occupation[] }) {
 
   return (
     <div className="relative flex flex-col gap-5">
-      <div className="flex h-[52px] items-center gap-3 rounded-xl bg-neutral-100 px-4">
+      <div className="flex min-h-[52px] flex-wrap items-center gap-x-3 rounded-xl bg-neutral-100 px-4 sm:h-[52px] sm:flex-nowrap">
         <label htmlFor="q" className="sr-only">
           Search occupations
         </label>
@@ -93,12 +93,12 @@ export function OccupationList({ occupations }: { occupations: Occupation[] }) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search occupations"
-          className="min-w-0 flex-1 bg-transparent text-base outline-none"
+          className="min-w-0 basis-full bg-transparent py-3 text-base outline-none sm:flex-1 sm:basis-auto sm:py-0"
         />
         <label htmlFor="sort" className="sr-only">
           Sort by
         </label>
-        <div className="relative">
+        <div className="relative mb-2 ml-auto sm:mb-0 sm:ml-0">
           <select
             id="sort"
             value={sort}
