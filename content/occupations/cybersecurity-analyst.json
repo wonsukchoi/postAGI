@@ -1,0 +1,81 @@
+{
+  "slug": "cybersecurity-analyst",
+  "title": "Cybersecurity analyst",
+  "sector": "Software",
+  "status": "augmented",
+  "summary": "OEWS counts 190,650 information security analysts in 2025, up from 125,570 in 2019. BLS projects 21% growth to 2035. AI tools are in use, mostly to speed up humans.",
+  "metaDescription": "Has AI replaced cybersecurity analysts? Jobs rose to 190,650 in 2025; BLS projects 21% growth by 2035. AI is used in security work, mostly to speed up humans.",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "confidence": "medium",
+  "updatedAt": "2026-11-22",
+  "draft": false,
+  "aiTools": [
+    {
+      "name": "Microsoft Security Copilot",
+      "description": "Generative AI product for security and IT teams, first called Copilot for Security. Microsoft's March 13, 2024 announcement says it became generally available on April 1, 2024 and reports, from a randomized controlled trial by Microsoft's Office of the Chief Economist, that experienced security analysts were 22% faster and 7% more accurate with it. Company-reported; the post gives no count of customers or job effects.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2024/03/13/microsoft-copilot-for-security-is-generally-available-on-april-1-2024-with-new-capabilities/"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Monitoring for security breaches and investigating incidents with a generative AI assistant",
+      "status": "augmented",
+      "tool": "Microsoft Security Copilot",
+      "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2024/03/13/microsoft-copilot-for-security-is-generally-available-on-april-1-2024-with-new-capabilities/"
+    },
+    {
+      "task": "Security operations with AI security tools (30% of surveyed teams have integrated them)",
+      "status": "augmented",
+      "tool": "AI security tools (ISC2 pulse survey, 436 respondents)",
+      "sourceUrl": "https://www.isc2.org/Insights/2025/07/2025-isc2-ai-pulse-survey"
+    }
+  ],
+  "evidence": "This page covers information security analysts (BLS code 15-1212), the BLS category that includes cybersecurity analysts. The BLS Occupational Outlook Handbook lists their typical duties as monitoring an organization's networks for security breaches and investigating when one occurs, using and maintaining software such as firewalls and data encryption programs, checking for vulnerabilities in computer and network systems, preparing reports on metrics, attempted attacks and breaches, and developing security standards and best practices.\n\nEmployment has risen every year BLS published. BLS Occupational Employment and Wage Statistics (OEWS) national estimates put the occupation at 125,570 jobs in May 2019, 138,000 in 2020, 157,220 in 2021, 163,690 in 2022, 175,350 in 2023 and 190,650 in 2025. That is about 52% above 2019 and about 16% above 2022 and about 9% above 2023. The May 2018 release, under the older code 15-1122, gives 108,060. The 2019 page uses a new code, 15-1212, and adds a sentence to the definition (\"Assess system vulnerabilities for security risks and propose and implement risk mitigation strategies\"), so I did not treat 2018 as a like-for-like point. I could not use May 2024: the 2024 page address returned the OEWS home page, not an occupation page. OEWS is a survey estimate with sampling error, and it covers wage and salary jobs, not the self-employed. The Handbook gives its own count, 192,900 jobs in 2025.\n\nBLS projects further growth. The Handbook (last modified August 27, 2026) projects employment to grow 21% from 2025 to 2035, from 192,900 to 233,400 jobs (40,600 more), against 3% for all occupations, and reports a May 2025 median wage of $129,180. In its Job Outlook, BLS says that increased use of artificial intelligence and the rise of e-commerce have increased the need for enhanced security, contributing to the projected growth. This is a statement of expected demand, not a measurement of AI's effect.\n\nThe security profession itself reports pressure that is not tied to AI in the sources I read. The 2025 ISC2 Cybersecurity Workforce Study (16,029 professionals, surveyed online in May and June 2025) found 36% reported budget cuts and 24% layoffs at their organizations, each one point lower than the year before; 33% said their organization lacks the resources to staff its team adequately. ISC2 frames these as budget constraints. The page I read does not say AI caused them. It reports that 41% named AI as a top skill need, that 28% of respondents' organizations have integrated AI tools and 69% are integrating, testing or evaluating them, and quotes ISC2's acting CEO saying emerging technologies like AI are \"perceived as less of a threat to the workforce than anticipated\".\n\nA smaller ISC2 pulse survey (July 2025, 436 cybersecurity professionals; the page gives no fielding dates or sampling method) found 30% of respondents' teams had already integrated AI security tools and 42% were actively considering them. 44% agreed their organization's hiring had not yet been affected by AI tools and 21% disagreed. 52% said AI will significantly or somewhat reduce the need for entry-level staff, and ISC2 states there was clear consensus that AI security tools will affect entry-level hiring. These are expectations of practitioners, not measured job losses.\n\nOn the tool side, Microsoft made Security Copilot (first called Copilot for Security) generally available on April 1, 2024; its announcement describes it as a generative AI product to help security and IT professionals move faster and respond faster. Microsoft reports, from a randomized controlled trial run by its Office of the Chief Economist, that experienced security analysts were 22% faster and 7% more accurate with it. That figure is company-reported; I have not read the study itself, and the post gives no count of customers or deployments.\n\nStatus: augmented, medium confidence. Employment kept rising through the years generative AI tools spread, BLS projects strong growth, and the practitioner surveys describe AI as in use or being adopted, with the worry concentrated on entry-level roles. Gaps: no source I read measures what share of analysts' tasks AI now does, so the automated share is left blank; there is no May 2024 employment point; OEWS leaves out the self-employed; and rising employment does not show that entry-level hiring is unaffected, which is the concern ISC2 respondents raise.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Information Security Analysts (last modified August 27, 2026)",
+      "url": "https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm"
+    },
+    {
+      "title": "BLS OEWS: National employment for Information Security Analysts, May 2025 (Public Data API series OEUN000000000000015121201)",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUN000000000000015121201"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2023: 15-1212 Information Security Analysts",
+      "url": "https://www.bls.gov/oes/2023/may/oes151212.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2022: 15-1212 Information Security Analysts",
+      "url": "https://www.bls.gov/oes/2022/may/oes151212.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2021: 15-1212 Information Security Analysts",
+      "url": "https://www.bls.gov/oes/2021/may/oes151212.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2020: 15-1212 Information Security Analysts",
+      "url": "https://www.bls.gov/oes/2020/may/oes151212.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2019: 15-1212 Information Security Analysts",
+      "url": "https://www.bls.gov/oes/2019/may/oes151212.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2018: 15-1122 Information Security Analysts (older code)",
+      "url": "https://www.bls.gov/oes/2018/may/oes151122.htm"
+    },
+    {
+      "title": "ISC2: Study Finds Cybersecurity Budget Constraints Remain, But Do Not Worsen, While Skill Needs Grow (December 4, 2025)",
+      "url": "https://www.isc2.org/Insights/2025/12/ISC2-Publishes-2025-Cybersecurity-Workforce-Study"
+    },
+    {
+      "title": "ISC2: Survey: 30% of Cyber Pros Using AI Security Tools (July 16, 2025)",
+      "url": "https://www.isc2.org/Insights/2025/07/2025-isc2-ai-pulse-survey"
+    },
+    {
+      "title": "Microsoft Security blog: Microsoft Copilot for Security is generally available on April 1, 2024 (March 13, 2024)",
+      "url": "https://www.microsoft.com/en-us/security/blog/2024/03/13/microsoft-copilot-for-security-is-generally-available-on-april-1-2024-with-new-capabilities/"
+    }
+  ]
+}
