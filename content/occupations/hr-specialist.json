@@ -1,0 +1,91 @@
+{
+  "slug": "hr-specialist",
+  "title": "HR specialist",
+  "sector": "Administration",
+  "status": "augmented",
+  "summary": "OEWS counts 912,430 HR specialists in 2025, up from 633,040 in 2019. BLS projects 6% growth to 2035. AI is used mostly in recruiting, to speed up HR staff.",
+  "metaDescription": "Will AI replace HR jobs? HR specialist jobs rose to 912,430 in 2025; BLS projects 6% growth by 2035. AI is used mostly in recruiting, to speed up HR staff.",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "confidence": "medium",
+  "updatedAt": "2026-11-26",
+  "draft": false,
+  "aiTools": [
+    {
+      "name": "IBM AskHR",
+      "description": "IBM's internal AI agent for employee HR questions, integrated with its watsonx Orchestrate product in 2025. IBM's case study reports a 94% containment rate for common questions, more than 11.5 million employee interactions in 2024 and around 80 automated HR tasks, with human advisors handling more complex needs. Company-reported; the case study gives no HR headcount.",
+      "url": "https://www.ibm.com/case-studies/ibm-askhr"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Writing job descriptions and customizing job postings with AI (65% and 42% of HR staff who use AI for recruiting)",
+      "status": "augmented",
+      "tool": "Generative AI tools (SHRM survey, 2,366 respondents)",
+      "sourceUrl": "https://www.shrm.org/topics-tools/news/technology/ai-adoption-hr-is-growing"
+    },
+    {
+      "task": "Screening résumés and communicating with applicants with AI (about a third of HR staff who use AI for recruiting)",
+      "status": "augmented",
+      "tool": "AI recruiting tools (SHRM survey, 2,366 respondents)",
+      "sourceUrl": "https://www.shrm.org/topics-tools/news/technology/ai-adoption-hr-is-growing"
+    },
+    {
+      "task": "Answering routine employee HR questions (at IBM, company-reported)",
+      "status": "partial",
+      "tool": "IBM AskHR",
+      "sourceUrl": "https://www.ibm.com/case-studies/ibm-askhr"
+    }
+  ],
+  "evidence": "This page covers human resources specialists (BLS code 13-1071). OEWS defines them as workers who recruit, screen, interview or place individuals within an organization and may perform other activities in multiple human resources areas; compensation and benefits specialists and training and development specialists are separate BLS occupations and are not counted here. The BLS Occupational Outlook Handbook lists their typical duties as consulting with employers to identify hiring needs, interviewing job applicants, checking references and backgrounds, informing applicants about job details, hiring or referring qualified applicants, running or helping with new employee orientation, and keeping employment records and processing paperwork.\n\nEmployment has risen every year BLS published. BLS Occupational Employment and Wage Statistics (OEWS) national estimates put the occupation at 633,040 jobs in May 2019, 647,810 in 2020, 740,830 in 2021, 835,360 in 2022, 895,970 in 2023 and 912,430 in 2025. That is about 44% above 2019, about 9% above 2022 and about 2% above 2023, so growth has slowed recently but not reversed. The May 2018 release gives 593,790 under the same code, but its definition is worded differently (\"Perform activities in the human resource area\", including employment specialists who screen, recruit, interview and place workers), so I did not treat 2018 as a like-for-like point. I could not use May 2024: the 2024 page address returned the OEWS home page, not an occupation page. OEWS is a survey estimate (BLS gives relative standard errors of 0.5% to 1.6% for 2019 to 2023) and covers wage and salary jobs, not the self-employed. BLS says it does not encourage the use of OEWS data for time-series analysis, and its switch to a new estimation method (MB3) with the May 2021 estimates affects comparability before and after the change, which falls inside the steepest rise here. The Handbook gives its own count, 939,700 jobs in 2025.\n\nBLS projects further growth. The Handbook (last modified October 29, 2026) projects employment to grow 6% from 2025 to 2035, from 939,700 to 999,700 jobs (60,100 more), faster than the average for all occupations, with about 73,700 openings a year and a May 2025 median wage of $75,940. Its Job Outlook says demand is expected to be strong as more of these workers are needed to help meet strategic organizational priorities, that the HR-to-employee ratio is expected to be stable or increasing, and that firms specializing in HR services are likely to grow faster than in-house HR as some companies contract out those services. The Job Outlook does not mention artificial intelligence or automation.\n\nOn use, a SHRM survey of 2,366 HR respondents in organizations of all sizes across the US, conducted in January 2024 and reported by SHRM on February 15, 2024, found only about 1 in 4 employers use AI to support HR activities, most of them having started in the past year. Among those, talent acquisition was the top use (64%). Among HR professionals who use AI for recruiting, 65% use it to help write job descriptions, 42% to customize job postings, and about 33% to review or screen résumés, communicate with applicants or automate candidate searches. 24% of respondents were concerned that AI will lead to job displacement. This survey is nearly two years old, and adoption may have grown since.\n\nOne large employer reports cutting HR staff with AI. SHRM reported on May 12, 2025 that IBM CEO Arvind Krishna said the company had used AI agents to automate tasks previously handled by hundreds of HR professionals who have been replaced; IBM did not say when the reductions occurred, and Krishna told The Wall Street Journal that IBM's total employment had gone up. IBM's own case study for AskHR, its internal HR agent, reports a 94% containment rate for common questions, more than 11.5 million employee interactions in 2024, around 80 automated HR tasks and a 40% reduction in the HR team's operational costs over the past four years, with human advisors handling more complex needs. These are company-reported figures, and the IBM staff affected may have been in HR service roles rather than the recruiting work that defines 13-1071.\n\nStatus: augmented, medium confidence. Employment kept rising through the years generative AI tools spread, BLS projects faster-than-average growth without citing AI, and the independent SHRM survey shows AI in use at a minority of employers, mostly as an aid in recruiting. The IBM case shows that routine HR inquiry work can be largely automated at one large company, which is why that task is marked partial. Gaps: no source I read measures what share of HR specialists' tasks AI now does, so the automated share is left blank; the SHRM figures date from January 2024; there is no May 2024 employment point; the OEWS series spans a method change; and OEWS leaves out the self-employed.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Human Resources Specialists (last modified October 29, 2026)",
+      "url": "https://www.bls.gov/ooh/business-and-financial/human-resources-specialists.htm"
+    },
+    {
+      "title": "BLS OEWS: National employment for 13-1071 Human Resources Specialists, May 2025 (Public Data API series OEUN000000000000013107101)",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUN000000000000013107101"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2023: 13-1071 Human Resources Specialists",
+      "url": "https://www.bls.gov/oes/2023/may/oes131071.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2022: 13-1071 Human Resources Specialists",
+      "url": "https://www.bls.gov/oes/2022/may/oes131071.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2021: 13-1071 Human Resources Specialists",
+      "url": "https://www.bls.gov/oes/2021/may/oes131071.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2020: 13-1071 Human Resources Specialists",
+      "url": "https://www.bls.gov/oes/2020/may/oes131071.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2019: 13-1071 Human Resources Specialists",
+      "url": "https://www.bls.gov/oes/2019/may/oes131071.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2018: 13-1071 Human Resources Specialists (older definition)",
+      "url": "https://www.bls.gov/oes/2018/may/oes131071.htm"
+    },
+    {
+      "title": "BLS OEWS: Frequently asked questions (time-series use and the MB3 method)",
+      "url": "https://www.bls.gov/oes/oes_ques.htm"
+    },
+    {
+      "title": "SHRM: AI Adoption in HR Is Growing (February 15, 2024)",
+      "url": "https://www.shrm.org/topics-tools/news/technology/ai-adoption-hr-is-growing"
+    },
+    {
+      "title": "SHRM: IBM Embraces AI, Reduces HR Roles (May 12, 2025)",
+      "url": "https://www.shrm.org/in/topics-tools/flagships/ai-hi/ibm-embraces-ai--reduces-hr-roles"
+    },
+    {
+      "title": "IBM case study: Transforming HR support with agentic AI (IBM AskHR)",
+      "url": "https://www.ibm.com/case-studies/ibm-askhr"
+    }
+  ]
+}
