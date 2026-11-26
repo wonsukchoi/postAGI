@@ -1,0 +1,85 @@
+{
+  "slug": "sales-representative",
+  "title": "Sales representative",
+  "sector": "Sales",
+  "status": "augmented",
+  "summary": "OEWS counts 1,238,190 wholesale and manufacturing sales reps in 2025, down about 8% from 2019. BLS projects a 1% fall to 2035 and says AI may limit growth. AI mostly assists reps.",
+  "metaDescription": "Will AI replace sales reps? US jobs fell about 8% from 2019 to 1.24 million in 2025; BLS projects a 1% fall by 2035. AI is in use, mostly to assist reps.",
+  "tasksAutomatedPct": null,
+  "yearReplaced": null,
+  "confidence": "low",
+  "updatedAt": "2026-11-26",
+  "draft": false,
+  "aiTools": [
+    {
+      "name": "Agentforce SDR (formerly Einstein SDR Agent)",
+      "description": "Salesforce AI agent for sales development. Salesforce's August 22, 2024 announcement says it engages inbound prospects around the clock, answers product questions, handles objections and schedules meetings, then hands the lead to a human seller with a briefing; it was due to be generally available that October. Company-reported; the announcement gives no count of customers or job effects.",
+      "url": "https://www.salesforce.com/news/stories/einstein-sales-agents-announcement/"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Engaging inbound leads, answering their questions and booking meetings before handing them to a human rep",
+      "status": "augmented",
+      "tool": "Agentforce SDR",
+      "sourceUrl": "https://www.salesforce.com/news/stories/einstein-sales-agents-announcement/"
+    },
+    {
+      "task": "Prospecting with AI (55% of surveyed sales professionals use AI for it, and 38% more plan to)",
+      "status": "augmented",
+      "tool": "AI prospecting tools (Salesforce State of Sales survey, 4,050 respondents)",
+      "sourceUrl": "https://www.salesforce.com/news/stories/state-of-sales-report-announcement-2026/"
+    }
+  ],
+  "evidence": "This page covers sales representatives, wholesale and manufacturing, except technical and scientific products (BLS code 41-4012). I chose it because it is the largest BLS occupation whose title is \"sales representative\": its OEWS definition is to sell goods for wholesalers or manufacturers to businesses or groups of individuals. It leaves out the smaller technical and scientific products group (41-4011, 292,000 jobs in 2025 by the Handbook's count) and retail salespersons, who sell in stores and are a separate BLS occupation. The BLS Occupational Outlook Handbook says these reps find prospective customers, explain how products meet customers' needs, answer questions about prices and availability, negotiate prices and terms, prepare contracts and follow up after a sale.\n\nEmployment has fallen since before the pandemic. BLS Occupational Employment and Wage Statistics (OEWS) national estimates put the occupation at 1,350,180 jobs in May 2018, 1,344,530 in 2019, 1,278,670 in 2020, 1,242,490 in 2021, 1,273,400 in 2022, 1,288,920 in 2023 and 1,238,190 in 2025. That is about 8% below 2018 and 2019 and about 4% below 2023. Most of the fall came in 2020 and 2021, before generative AI tools were widely available; employment then recovered partly through 2023 and fell again by 2025. Every year uses the code 41-4012 and the same definition. I could not use May 2024: the 2024 page address returned the OEWS home page, not an occupation page. OEWS is a survey estimate (BLS gives relative standard errors of 0.5% to 0.7% for 2018 to 2023) and covers wage and salary jobs, not the self-employed. BLS says it does not encourage the use of OEWS data for time-series analysis, and its switch to a new estimation method (MB3) with the May 2021 estimates affects comparability before and after the change.\n\nBLS projects a small decline and names AI as one reason. The Handbook (last modified October 29, 2026) gives 1,279,400 jobs in 2025 and projects 1,268,200 in 2035, a 1% fall (11,200 fewer), with a May 2025 median wage of $72,080. For all wholesale and manufacturing sales reps together it projects little or no change and about 123,400 openings a year. In its Job Outlook, BLS says rising sales volume and a wider range of products will create demand, that growing online wholesale sales are expected mostly to complement face-to-face selling rather than replace it, and that advances in \"artificial intelligence (AI) and integration with automation technologies\" may limit employment growth. The BLS 2025 to 2035 projections release (August 27, 2026) says further growth of e-commerce and the \"incorporation of AI tools into the sales process\" are expected to keep contributing to job loss in the whole sales and related group, projected at -1.4%. These are expectations, not measurements of AI's effect so far.\n\nOn use, the evidence I found comes from Salesforce, a sales software vendor. Its 2026 State of Sales announcement (February 3, 2026) reports a double-anonymous survey of 4,050 sales professionals in 22 countries, the United States among them, run in August and September 2025. It found 87% of sales organizations use some form of AI, for example for prospecting, forecasting, lead scoring or drafting emails; 55% of sales professionals use AI for prospecting and 38% more plan to; and 54% of sellers say they have used AI agents. Sellers expect agents to cut prospect research time by 34% and email drafting time by 36% once fully implemented. The announcement says nothing about headcount or job cuts. Salesforce also sells an AI agent for sales development, launched in 2024 as Einstein SDR Agent and now called Agentforce SDR, which it says engages inbound leads, answers questions, handles objections and books meetings before a warm handoff to a human seller. These are company-reported figures from a company that sells the tools.\n\nStatus: augmented, low confidence. AI is widely used in selling according to the vendor survey, and BLS expects AI and e-commerce to hold employment down, but no source I read ties the 2019 to 2025 fall in sales rep jobs to AI, and most of that fall came before generative AI. Gaps: the use figures come from a vendor, not an independent survey; no source measures what share of reps' tasks AI does, so the automated share is left blank; there is no May 2024 employment point; and OEWS leaves out self-employed reps.",
+  "sources": [
+    {
+      "title": "BLS Occupational Outlook Handbook: Wholesale and Manufacturing Sales Representatives (last modified October 29, 2026)",
+      "url": "https://www.bls.gov/ooh/sales/wholesale-and-manufacturing-sales-representatives.htm"
+    },
+    {
+      "title": "BLS Employment Projections: 2025-2035 Summary (August 27, 2026)",
+      "url": "https://www.bls.gov/news.release/ecopro.nr0.htm"
+    },
+    {
+      "title": "BLS OEWS: National employment for 41-4012 Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products, May 2025 (Public Data API series OEUN000000000000041401201)",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/OEUN000000000000041401201"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2023: 41-4012",
+      "url": "https://www.bls.gov/oes/2023/may/oes414012.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2022: 41-4012",
+      "url": "https://www.bls.gov/oes/2022/may/oes414012.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2021: 41-4012",
+      "url": "https://www.bls.gov/oes/2021/may/oes414012.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2020: 41-4012",
+      "url": "https://www.bls.gov/oes/2020/may/oes414012.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2019: 41-4012",
+      "url": "https://www.bls.gov/oes/2019/may/oes414012.htm"
+    },
+    {
+      "title": "BLS OEWS: Occupational Employment and Wages, May 2018: 41-4012",
+      "url": "https://www.bls.gov/oes/2018/may/oes414012.htm"
+    },
+    {
+      "title": "BLS OEWS: Frequently asked questions (time-series use and the MB3 method)",
+      "url": "https://www.bls.gov/oes/oes_ques.htm"
+    },
+    {
+      "title": "Salesforce: The Productivity Gap: New Survey Shows 9 in 10 Sellers Are Betting on AI and Agents To Help (February 3, 2026)",
+      "url": "https://www.salesforce.com/news/stories/state-of-sales-report-announcement-2026/"
+    },
+    {
+      "title": "Salesforce: Meet Einstein SDR and Einstein Sales Coach: Two New Autonomous AI Sales Agents to Scale Your Sales Team (August 22, 2024)",
+      "url": "https://www.salesforce.com/news/stories/einstein-sales-agents-announcement/"
+    }
+  ]
+}
