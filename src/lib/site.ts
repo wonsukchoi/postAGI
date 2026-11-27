@@ -4,6 +4,8 @@ export const SITE_TAGLINE = "Which occupations AI has already replaced.";
 export const SITE_DESCRIPTION =
   "An open, sourced list of occupations and what AI has already replaced. Every claim links to a source.";
 export const REPO_URL = "https://github.com/wonsukchoi/postAGI";
+/** The person who maintains the data (owner, 2026-11-27: name me as maintainer). */
+export const MAINTAINER = { name: "Wonsuk Choi", url: "https://github.com/wonsukchoi" } as const;
 /** The occupation data files in the repo (MIT, like the code). */
 export const DATA_URL = `${REPO_URL}/tree/main/content/occupations`;
 export function rawDataUrl(slug: string): string {

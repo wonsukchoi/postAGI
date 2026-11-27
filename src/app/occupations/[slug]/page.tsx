@@ -10,7 +10,7 @@ import { StatusSpectrum } from "@/components/StatusSpectrum";
 import { JsonLd } from "@/components/JsonLd";
 import { TableOfContents, type TocItem } from "@/components/TableOfContents";
 import { breadcrumbJsonLd, occupationJsonLd } from "@/lib/jsonld";
-import { REPO_URL } from "@/lib/site";
+import { REPO_URL, MAINTAINER } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
 import { taskSourceName } from "@/lib/sources";
 
@@ -97,6 +97,12 @@ export default async function OccupationPage(
           <span>{occ.sources.length} sources</span>
           <span>Updated {occ.updatedAt}</span>
           <span>Sector: {occ.sector}</span>
+          <span>
+            Maintained by{" "}
+            <a href={MAINTAINER.url} rel="author" className="underline underline-offset-2 hover:text-neutral-900">
+              {MAINTAINER.name}
+            </a>
+          </span>
         </div>
         <p className="text-[17px] leading-normal text-neutral-800">{occ.summary}</p>
         <div className="flex flex-wrap gap-2">
