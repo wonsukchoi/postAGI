@@ -1,5 +1,5 @@
 import type { Occupation } from "./schema";
-import { DATA_URL, REPO_URL, SITE_DESCRIPTION, SITE_NAME, SITE_URL, rawDataUrl } from "./site";
+import { DATA_URL, MAINTAINER, REPO_URL, SITE_DESCRIPTION, SITE_NAME, SITE_URL, rawDataUrl } from "./site";
 
 /** schema.org JSON-LD builders. Only facts that are already on the page go in here. */
 
@@ -78,7 +78,8 @@ export function occupationJsonLd(occ: Occupation) {
     dateModified: occ.updatedAt,
     inLanguage: "en",
     image: [`${url}/opengraph-image`],
-    author: { "@id": `${SITE_URL}/#organization` },
+    // The maintainer is named on the page ("Maintained by …"), so the article credits that person.
+    author: { "@type": "Person", name: MAINTAINER.name, url: MAINTAINER.url },
     publisher: ORGANIZATION,
     about: { "@type": "Occupation", name: occ.title },
     citation: occ.sources.map((s) => ({ "@type": "CreativeWork", name: s.title, url: s.url })),
